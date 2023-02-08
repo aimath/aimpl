@@ -1,0 +1,60 @@
+
+
+<section>
+  <title>The Brauer group</title>
+  <openquestion>
+    <statement>
+      <p>
+        Fix $d \geq 3$. Assume that we know:<br /><br />$\operatorname{ind} (\alpha) |   \operatorname{Per}(\alpha)^{d-1}$, for all $\alpha \in \operatorname{Br}(X)$, for
+        all smooth, projective $X$ over $\overline{\mathbb{F}_p}$. (Here $d
+        = \dim (X)$.)<br /><br />Can we use this, by a boundedness argument, to show
+        the same thing for $\alpha \in \operatorname{Br}(Y)$, where $Y$ smooth, projective,
+        $\dim(Y) = d$ over $\C$?
+      </p>
+    </statement>
+  </openquestion>
+
+  <openquestion>
+    <statement>
+      <p>
+        Is every Brauer class over $\C(s,t)$ cyclic?
+      </p>
+    </statement>
+    <commentary>
+      <p>
+        This type of question does not reduce to the prime
+        case.
+      </p>
+    </commentary>
+  </openquestion>
+
+  <openproblem>
+
+    <introduction>
+      <p>
+        A variant of Problem 2.2:
+      </p>
+    </introduction>
+
+    <statement>
+      <p>
+        Higher cohomology $H^d(F, \pmb{\mu}_n^{\otimes d})$,
+        where $d = \dim (F)$.
+      </p>
+    </statement>
+  </openproblem>
+
+  <openquestion>
+    <statement>
+      <p>
+        When is $\operatorname{Br}(X) = \operatorname{Br'}(X)$?
+      </p>
+    </statement>
+    <status>
+      <p>
+        If $X$ is quasi-proj, then yes.
+      </p>
+    </status>
+  </openquestion>
+</section>
+

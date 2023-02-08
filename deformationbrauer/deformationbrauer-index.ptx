@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+  <docinfo>
+    <document-id>AimPL-deformationbrauer</document-id>
+<macros>
+\newcomand{\R}{\mathbb R}
+</macros>
+  </docinfo>
+
+  <article>
+    <title>Deformation theory and the Brauer group</title>
+    <frontmatter>
+      <titlepage>
+        <editor>
+          <person email="lieblich@math.washington.edu"/>
+        </editor>
+
+        <editor>
+          <person email="dkrashen@math.uga.edu"/>
+        </editor>
+
+        <editor>
+          <person email="mblunk@math.ubc.ca"/>
+        </editor>
+      </titlepage>
+
+      <abstract>
+      <p>
+        This problem list begin during discussions at the AIM workshop “Deformation theory, patching, quadratic forms, and the Brauer group” in January, 2011.
+      </p>
+
+      </abtract>
+    </frontmatter>
+
+    <xi:include href="./deformationbrauer-section1.ptx"/>
+    <xi:include href="./deformationbrauer-section2.ptx"/>
+  </article>
+</pretext>
+
