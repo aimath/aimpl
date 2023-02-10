@@ -24,12 +24,12 @@
         Is every Brauer class over <m>\C(s,t)</m> cyclic?
       </p>
     </statement>
-    <commentary>
+    <suggestion>
       <p>
         This type of question does not reduce to the prime
         case.
       </p>
-    </commentary>
+    </suggestion>
   </openquestion>
 
   <openproblem>

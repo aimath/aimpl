@@ -114,14 +114,14 @@
         <m>F'/F</m> finite?
       </p>
     </statement>
-    <commentary>
+    <suggestion>
       <p>
         <m>2^{\nu(F)} \lt u(F)</m>
       </p>
-    </commentary>
+    </suggestion>
     <context>
       <originator>
-      <person aimplid="org.aimpl.user:c"/>
+      <personname>aimplid org.aimpl.user:c</personname>
       </originator>
 
       <p>
