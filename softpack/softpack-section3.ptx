@@ -1,0 +1,74 @@
+
+
+<section>
+  <title>Delone Sets</title>
+  <p>
+    A Delone set is a subset of <m>\mathbb{R}^n</m> satisfying the following properties: There exists a pair of positive constants <m>(r,R)</m> such that every ball of radius r contains at most one point of <m>X</m> and ever ball of radius <m>R</m> contains at least one point of <m>X</m>.
+  </p>
+
+  <openproblem>
+    <title>Building skeletal complexes</title>
+    <originator>
+    <personname>Schulte</personname>
+    </originator>
+
+    <introduction>
+      <p>
+        The notion of a skeletal complex can be naturally extended to Delone sets.
+      </p>
+    </introduction>
+
+    <statement>
+      <p>
+        Study skeletal complexes based on Delone sets.
+      </p>
+    </statement>
+  </openproblem>
+
+  <openproblem>
+    <originator>
+    <personname>Dolbilin</personname>
+    </originator>
+    <statement>
+      <p>
+        For <m>d \ge 4</m>, given a Delone set <m>(R,r)</m> for which all <m>2R</m>- clusters are pairwise congruent, find upper bound on the order of the symmetry group of the clusters which does not depend on <m>R/r</m>.
+      </p>
+    </statement>
+  </openproblem>
+
+  <openquestion>
+    <originator>
+    <personname>Dolbilin</personname>
+    </originator>
+
+    <introduction>
+      <p>
+        In 3 dimensions, it is known that if all <m>10R</m> clusters are equivalent, the Delone set is regular.
+      </p>
+    </introduction>
+
+    <statement>
+      <p>
+        Can this result be improved for <m>\rho \lt 10R</m>, e.g. <m>\rho = 4R</m>?  Is it possible to show similar results for full dimensional <m>r</m>-sets with conditions weaker than the <m>R</m> condition?
+      </p>
+    </statement>
+    <status>
+      <p>
+        Example presented on Wed 9/21/2016 giving a construction of non-regular sets
+      </p>
+    </status>
+  </openquestion>
+
+  <openquestion>
+    <title>Cycles in skeletal complexes</title>
+    <originator>
+    <personname>Dolbilin</personname>
+    </originator>
+    <statement>
+      <p>
+        What are the applications and physical significance of the cycles in skeletal polygonal complexes?
+      </p>
+    </statement>
+  </openquestion>
+</section>
+

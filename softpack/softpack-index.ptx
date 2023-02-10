@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+  <docinfo>
+    <document-id>AimPL-softpack</document-id>
+<macros>
+\newcomand{\R}{\mathbb R}
+\newcomand{\C}{\mathbb C}
+\newcomand{\N}{\mathbb N}
+\newcomand{\Z}{\mathbb Z}
+\newcomand{\Q}{\mathbb Q}
+</macros>
+  </docinfo>
+
+  <article>
+    <title>Soft packings, nested clusters, and condensed matter</title>
+    <frontmatter>
+      <titlepage>
+        <editor>
+          <personname>email wkusner@gmail.com</personname>
+        </editor>
+      </titlepage>
+
+      <abstract>
+        <p>
+          This problem list was composed by the participants of the September 2016 workshop on Soft packings, nested clusters and condensed matter.
+
+          http://aimath.org/pastworkshops/softpack.html
+        </p>
+      </abstract>
+    </frontmatter>
+
+    <xi:include href="./softpack-section1.ptx"/>
+    <xi:include href="./softpack-section2.ptx"/>
+    <xi:include href="./softpack-section3.ptx"/>
+  </article>
+</pretext>
+

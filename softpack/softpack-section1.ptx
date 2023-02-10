@@ -1,0 +1,157 @@
+
+
+<section>
+  <title>Soft Packings</title>
+  <p>
+    A soft ball may be described as a pair of concentric balls in <m>\mathbb{R}^d</m>, one of radius <m>1</m> and one or radius <m>1+\lambda</m>, <m>\lambda\gt 0</m>.  A soft packing is a collection of congruent soft balls, where the associated balls of radius 1 form a packing, i.e. they have disjoint interiors.  In this setting, it is reasonable to ask about the densest packings of soft balls, where the density is the fraction of space covered by the associated balls of radius <m>1+\lambda</m>.   See for example Bezdek and Lángi <!--[<a href="#MR3485712" class="cite">MR3485712</a>]-->.
+  </p>
+
+  <openquestion>
+    <title>Stability</title>
+    <statement>
+      <p>
+        Do results for soft packings stabilize to results for hard packings as <m>\lambda \rightarrow 0</m>?
+      </p>
+    </statement>
+  </openquestion>
+
+  <openproblem>
+    <title>The soft dodecahedral conjecture</title>
+    <originator>
+    <personname>Bezdek</personname>
+    </originator>
+
+    <introduction>
+      <p>
+        The dodecahedral conjecture, now a theorem of Hales and McLaughlin <!--[<a href="#MR2601036" class="cite">MR2601036</a>]-->, states that the minimal volume of a Voronoi cell in a sphere packing is at least as great as the volume of a regular circumscribing dodecahedron.
+      </p>
+    </introduction>
+
+    <statement>
+      <p>
+        Prove the soft dodecahedral conjecture:  The density of a Voronoi cell in a soft packing is maximized when the Voronoi cell is a regular circumscribing dodecahedron.
+      </p>
+    </statement>
+  </openproblem>
+
+  <openproblem>
+    <title>Phase transitions</title>
+    <originator>
+    <personname>Bezdek</personname>
+    </originator>
+
+    <introduction>
+      <p>
+        The best packing of hard spheres in <m>\mathbb{R}^3</m> is known to be achieved by the FCC lattice, while the thinnest covering is conjectured to be given by the BCC lattice.  This implies that as <m>\lambda</m> is varied, for <m>0\lt \lambda \lt \sqrt{5/3} -1</m> we expect there to be an FCC - BCC transition.
+      </p>
+    </introduction>
+
+    <statement>
+      <p>
+        Describe the behavior of optimal arrangements of soft balls as <m>\lambda</m> varies.
+      </p>
+    </statement>
+  </openproblem>
+
+  <openquestion>
+    <title>Translative Packings</title>
+    <originator>
+    <personname>Kallus</personname>
+    </originator>
+    <statement>
+      <p>
+        What is the lowers dimension for which the densest translative packing of a convex body is denser than the densest lattice packing?
+      </p>
+    </statement>
+  </openquestion>
+
+  <openquestion>
+    <title>Lattice Packings</title>
+    <originator>
+    <personname>Kallus</personname>
+    </originator>
+
+    <introduction>
+      <p>
+        It is know that the problem of finding the densest lattice packing of spheres in a fixed dimension is a solvable by a finite algorithm (Voronoi, Minkowski).
+      </p>
+    </introduction>
+
+    <statement>
+      <p>
+        Can the lattice soft ball packing problem be solved by a finite algorithm?
+        Amongst lattice packings of unit balls, which maximizes the density with respect to soft balls?
+      </p>
+    </statement>
+  </openquestion>
+
+  <openquestion>
+    <title>Random packings</title>
+    <originator>
+    <personname>Kusner</personname>
+    </originator>
+
+    <introduction>
+      <p>
+        It is know from simulations and experiments that a <q>random</q>; packing of spheres that cannot be <q>locally improved</q>; achieves a density of 64%, well short of the maximal density of 74...%.
+      </p>
+    </introduction>
+
+    <statement>
+      <p>
+        What is a reasonable definition of a random jammed sphere packing?  Can the experimental density of 64% in <m>\mathbb{R}^3</m> be justified?  How is density related to contact number(is it)?
+      </p>
+    </statement>
+  </openquestion>
+
+  <openproblem>
+    <title>Aperiodic Jammed Packings</title>
+    <originator>
+    <personname>Musin</personname>
+    </originator>
+    <statement>
+      <p>
+        Find aperiodic jammed packings in <m>\mathbb{R}^2</m>.  In <m>\mathbb{R}^3,</m> find a saturated jammed maximal packing that is aperiodic in all directions.
+      </p>
+    </statement>
+  </openproblem>
+
+  <openquestion>
+    <title>Percolation</title>
+    <originator>
+    <personname>Boheh</personname>
+    </originator>
+    <statement>
+      <p>
+        Maximal density packings have connected interstices in dimensions greater than 2.  Is there a critical <m>\lambda</m> such that optimal soft packings have path connected interstices?  What about the existence of an infinite component?
+      </p>
+    </statement>
+    <status>
+      <p>
+        The path connected part of this question can be addressed by considering the circumcenters of the faces of the regular simplex of the appropriate dimension.
+      </p>
+    </status>
+  </openquestion>
+
+  <openquestion>
+    <title>Spherical and Hyperbolic Soft Packings</title>
+    <originator>
+    <personname>Bezdek</personname>
+    </originator>
+    <statement>
+      <p>
+        The methods of Rogers for hard spheres can be extended to curved space.  Can the soft Rogers bound also be extended?
+      </p>
+    </statement>
+  </openquestion>
+
+  <openquestion>
+    <title>Potentials</title>
+    <statement>
+      <p>
+        There are other potentials that could reasonably describe a <q>soft packing.</q>; Can we fit them into this framework?
+      </p>
+    </statement>
+  </openquestion>
+</section>
+

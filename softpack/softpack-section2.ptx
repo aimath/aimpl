@@ -1,0 +1,45 @@
+
+
+<section>
+  <title>Clusters</title>
+  <p>
+    Small clusters and their influence on crystal formation are not well understood.  This section lists some broad questions to guide further exploration of the subject.
+  </p>
+
+  <openquestion>
+    <title>Prime Clusters</title>
+    <statement>
+      <p>
+        Which clusters in complex crystals, periodic or aperiodic, are useful for understanding their growth?  Which are useful for  describing structure?
+      </p>
+    </statement>
+  </openquestion>
+
+  <openquestion>
+    <title>Crystal Growth From Clusters</title>
+    <statement>
+      <p>
+        Can connections be drawn between cluster structures that appear during complex crystal growth, and finite clusters that are optimal under other conditions? Are these finite clusters energy minimizers? Do they instead (or in addition) represent especially dense configurations under some packing constraints? Drawing these connections would help us build physical intuition for cluster growth mechanisms.
+      </p>
+    </statement>
+  </openquestion>
+
+  <openquestion>
+    <title>Frustration</title>
+    <statement>
+      <p>
+        What, precisely, is geometric frustration? More specifically, how does it manifest itself in the context of nested cluster growth models of complex crystals? While the concept makes intuitive sense, it has evaded attempts at formalization.
+      </p>
+    </statement>
+  </openquestion>
+
+  <openproblem>
+    <title>Exotic Order</title>
+    <statement>
+      <p>
+        Engineering structures by carefully designing the interactions of the particles making up the system, is seldom straightforward and often requires trial and error, as unintended crystal structures might still be favored. It is not clear which clusters frustrate the formation of simple crystals and favor exotic order. This mechanism for stabilization and growth of exotic order has recently been explored with some success in a lattice gas model, and we will work to explore the possibility of this scenario in off-lattice models of real materials.
+      </p>
+    </statement>
+  </openproblem>
+</section>
+
