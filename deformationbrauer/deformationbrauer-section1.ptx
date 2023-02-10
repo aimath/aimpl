@@ -1,12 +1,16 @@
 
 
 <section>
-  <title>The $u$-invariant problem</title>
+  <title>The <m>u</m>-invariant problem</title>
+  <p>
+    The problems in this section are related to the u-invariant problem on the maximal dimension of an anisotropic quadratic form.
+  </p>
+
   <openquestion>
     <statement>
       <p>
-        If $u(F) < \infty$, does there exist $B \in \N$ such that $u(F') <
-        \infty$ for all $F'/F$ finite? In particular, is $B = 2u(F)$
+        If <m>u(F) \lt \infty</m>, does there exist <m>B \in \N</m> such that <m>u(F') \lt 
+        \infty</m> for all <m>F'/F</m> finite? In particular, is <m>B = 2u(F)</m>
         sufficient?
       </p>
     </statement>
@@ -15,7 +19,7 @@
   <openquestion>
     <statement>
       <p>
-        When is $\tau_F$ finite?
+        When is <m>\tau_F</m> finite?
       </p>
     </statement>
   </openquestion>
@@ -23,17 +27,23 @@
   <openproblem>
     <statement>
       <p>
-        Find interesting classes $\mathcal F$ of fields such that for $F \in
-        \mathcal F$,
-        \[u(F) < \infty \Longrightarrow u(F(t)) < \infty.\]
+        Find interesting classes <m>\mathcal F</m> of fields such that for <m>F \in
+        \mathcal F</m>,
+        <men>
+          u(F) \lt \infty \Longrightarrow u(F(t)) \lt \infty.
+        </men>
       </p>
     </statement>
     <suggestion>
       <p>
-        Examples to try:<br /><br />\[ \mathcal F  = \{F \  \ :\ \   |F^{\times}/F^{\times 2}| < \infty \}
-        \]
+        Examples to try:
+        <men>
+          \mathcal F  = \{F \  \ :\ \   |F^{\times}/F^{\times 2}| \lt \infty \}
+        </men>
         and
-        \[  \mathcal F’ = \{F \ \ : \ \  F^{\times} = F^{\times 2} \}\]
+        <men>
+          \mathcal F' = \{F \ \ : \ \  F^{\times} = F^{\times 2} \}
+        </men>
       </p>
     </suggestion>
   </openproblem>
@@ -41,8 +51,8 @@
   <openquestion>
     <statement>
       <p>
-        When $F = \R$ , we have $u(F) = \infty$ but $\tau_F < \infty$. Is there
-        an example where this holds for $F$ not formally real?
+        When <m>F = \R</m> , we have <m>u(F) = \infty</m> but <m>\tau_F \lt \infty</m>. Is there
+        an example where this holds for <m>F</m> not formally real?
       </p>
     </statement>
   </openquestion>
@@ -51,20 +61,23 @@
 
     <introduction>
       <p>
-        Define \[u_k(F) = \max \{ \dim (q)\ \ |\ \ q \in I^k \}.\]
-        Then $u_0 = u$.
+        Define
+        <men>
+          u_k(F) = \max \{ \dim (q)\ \ |\ \ q \in I^k \}.
+        </men>
+        Then <m>u_0 = u</m>.
       </p>
     </introduction>
 
     <statement>
       <p>
-        Can we compute $u_k(F)$? How about $u_3(F)$?
+        Can we compute <m>u_k(F)</m>? How about <m>u_3(F)</m>?
       </p>
     </statement>
     <status>
       <p>
         Note that forms in
-        $I^3$ have trivial Clifford invariant.
+        <m>I^3</m> have trivial Clifford invariant.
       </p>
     </status>
   </openquestion>
@@ -72,14 +85,14 @@
   <openquestion>
     <statement>
       <p>
-        Find reasonable classes $\mathcal F$ of fields such that $u(F)$ is a
-        power of 2 for all $F \in \mathcal F$. For these fields, assume $k$ is the
-        period-index bound for $l=2$. Does this imply $u(F) = 2^{k+1}$?
+        Find reasonable classes <m>\mathcal F</m> of fields such that <m>u(F)</m> is a
+        power of 2 for all <m>F \in \mathcal F</m>. For these fields, assume <m>k</m> is the
+        period-index bound for <m>l=2</m>. Does this imply <m>u(F) = 2^{k+1}</m>?
       </p>
     </statement>
     <opinion>
       <p>
-        I think I’ve seen this somewhere before
+        I think I've seen this somewhere before
       </p>
     </opinion>
   </openquestion>
@@ -88,19 +101,22 @@
 
     <introduction>
       <p>
-        Let \[\nu(F) = \max \{n\ |\ I^n \neq 0 \}. \]
+        Let
+        <men>
+          \nu(F) = \max \{n\ |\ I^n \neq 0 \}.
+        </men>
       </p>
     </introduction>
 
     <statement>
       <p>
-        If $\nu(F) < \infty$, is it true that $\nu(F') < \nu(F) +1$ for all
-        $F'/F$ finite?
+        If <m>\nu(F) \lt \infty</m>, is it true that <m>\nu(F') \lt \nu(F) +1</m> for all
+        <m>F'/F</m> finite?
       </p>
     </statement>
     <commentary>
       <p>
-        $2^{\nu(F)} < u(F)$
+        <m>2^{\nu(F)} \lt u(F)</m>
       </p>
     </commentary>
     <context>
@@ -119,17 +135,19 @@
 
     <introduction>
       <p>
-        For a quadratic form $q$ over $F$, we define
-        \[\textrm{splitting degree} = \min\{[L:F]\ :\ q_{L}\ \textrm{is a
-        direct sum of hyperbolics}\}.\]
-        The <term>torsion index</term> of $F$, denoted $\tau_F$ is the maximum
-        splitting degree, taken over all even dimensional $q$.
+        For a quadratic form <m>q</m> over <m>F</m>, we define
+        <men>
+          \textrm{splitting degree} = \min\{[L:F]\ :\ q_{L}\ \textrm{is a
+          direct sum of hyperbolics}\}.
+        </men>
+        The <term>torsion index</term> of <m>F</m>, denoted <m>\tau_F</m> is the maximum
+        splitting degree, taken over all even dimensional <m>q</m>.
       </p>
     </introduction>
 
     <statement>
       <p>
-        Is $\tau_F < 2^{(\frac{u(F)}{2} -1)}$?
+        Is <m>\tau_F \lt 2^{(\frac{u(F)}{2} -1)}</m>?
       </p>
     </statement>
   </openquestion>

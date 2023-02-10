@@ -5,6 +5,10 @@
     <document-id>AimPL-deformationbrauer</document-id>
 <macros>
 \newcomand{\R}{\mathbb R}
+\newcomand{\C}{\mathbb C}
+\newcomand{\N}{\mathbb N}
+\newcomand{\Z}{\mathbb Z}
+\newcomand{\Q}{\mathbb Q}
 </macros>
   </docinfo>
 
@@ -13,24 +17,23 @@
     <frontmatter>
       <titlepage>
         <editor>
-          <person email="lieblich@math.washington.edu"/>
+          <personname>email lieblich@math.washington.edu</personname>
         </editor>
 
         <editor>
-          <person email="dkrashen@math.uga.edu"/>
+          <personname>email dkrashen@math.uga.edu</personname>
         </editor>
 
         <editor>
-          <person email="mblunk@math.ubc.ca"/>
+          <personname>email mblunk@math.ubc.ca</personname>
         </editor>
       </titlepage>
 
       <abstract>
-      <p>
-        This problem list begin during discussions at the AIM workshop “Deformation theory, patching, quadratic forms, and the Brauer group” in January, 2011.
-      </p>
-
-      </abtract>
+        <p>
+          This problem list begin during discussions at the AIM workshop <q>Deformation theory, patching, quadratic forms, and the Brauer group</q> in January, 2011.
+        </p>
+      </abstract>
     </frontmatter>
 
     <xi:include href="./deformationbrauer-section1.ptx"/>

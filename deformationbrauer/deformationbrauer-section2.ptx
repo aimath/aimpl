@@ -5,11 +5,15 @@
   <openquestion>
     <statement>
       <p>
-        Fix $d \geq 3$. Assume that we know:<br /><br />$\operatorname{ind} (\alpha) |   \operatorname{Per}(\alpha)^{d-1}$, for all $\alpha \in \operatorname{Br}(X)$, for
-        all smooth, projective $X$ over $\overline{\mathbb{F}_p}$. (Here $d
-        = \dim (X)$.)<br /><br />Can we use this, by a boundedness argument, to show
-        the same thing for $\alpha \in \operatorname{Br}(Y)$, where $Y$ smooth, projective,
-        $\dim(Y) = d$ over $\C$?
+        Fix <m>d \geq 3</m>. Assume that we know:
+
+        <m>\operatorname{ind} (\alpha) |   \operatorname{Per}(\alpha)^{d-1}</m>, for all <m>\alpha \in \operatorname{Br}(X)</m>, for
+        all smooth, projective <m>X</m> over <m>\overline{\mathbb{F}_p}</m>. (Here <m>d
+        = \dim (X)</m>.)
+
+        Can we use this, by a boundedness argument, to show
+        the same thing for <m>\alpha \in \operatorname{Br}(Y)</m>, where <m>Y</m> smooth, projective,
+        <m>\dim(Y) = d</m> over <m>\C</m>?
       </p>
     </statement>
   </openquestion>
@@ -17,7 +21,7 @@
   <openquestion>
     <statement>
       <p>
-        Is every Brauer class over $\C(s,t)$ cyclic?
+        Is every Brauer class over <m>\C(s,t)</m> cyclic?
       </p>
     </statement>
     <commentary>
@@ -38,8 +42,8 @@
 
     <statement>
       <p>
-        Higher cohomology $H^d(F, \pmb{\mu}_n^{\otimes d})$,
-        where $d = \dim (F)$.
+        Higher cohomology <m>H^d(F, \pmb{\mu}_n^{\otimes d})</m>,
+        where <m>d = \dim (F)</m>.
       </p>
     </statement>
   </openproblem>
@@ -47,12 +51,12 @@
   <openquestion>
     <statement>
       <p>
-        When is $\operatorname{Br}(X) = \operatorname{Br'}(X)$?
+        When is <m>\operatorname{Br}(X) = \operatorname{Br'}(X)</m>?
       </p>
     </statement>
     <status>
       <p>
-        If $X$ is quasi-proj, then yes.
+        If <m>X</m> is quasi-proj, then yes.
       </p>
     </status>
   </openquestion>
