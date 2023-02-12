@@ -12,9 +12,12 @@
     <personname>Schulte</personname>
     </originator>
 
-    <p>
-      The notion of a skeletal complex can be naturally extended to Delone sets.
-    </p>
+    <prelude>
+      <p>
+        The notion of a skeletal complex can be naturally extended to Delone sets.
+      </p>
+    </prelude>
+
     <statement>
       <p>
         Study skeletal complexes based on Delone sets.
@@ -38,9 +41,12 @@
     <personname>Dolbilin</personname>
     </originator>
 
-    <p>
-      In 3 dimensions, it is known that if all <m>10R</m> clusters are equivalent, the Delone set is regular.
-    </p>
+    <prelude>
+      <p>
+        In 3 dimensions, it is known that if all <m>10R</m> clusters are equivalent, the Delone set is regular.
+      </p>
+    </prelude>
+
     <statement>
       <p>
         Can this result be improved for <m>\rho \lt 10R</m>, e.g. <m>\rho = 4R</m>?  Is it possible to show similar results for full dimensional <m>r</m>-sets with conditions weaker than the <m>R</m> condition?
