@@ -21,12 +21,9 @@
     <personname>Bezdek</personname>
     </originator>
 
-    <introduction>
-      <p>
-        The dodecahedral conjecture, now a theorem of Hales and McLaughlin <!--[<a href="#MR2601036" class="cite">MR2601036</a>]-->, states that the minimal volume of a Voronoi cell in a sphere packing is at least as great as the volume of a regular circumscribing dodecahedron.
-      </p>
-    </introduction>
-
+    <p>
+      The dodecahedral conjecture, now a theorem of Hales and McLaughlin <!--[<a href="#MR2601036" class="cite">MR2601036</a>]-->, states that the minimal volume of a Voronoi cell in a sphere packing is at least as great as the volume of a regular circumscribing dodecahedron.
+    </p>
     <statement>
       <p>
         Prove the soft dodecahedral conjecture:  The density of a Voronoi cell in a soft packing is maximized when the Voronoi cell is a regular circumscribing dodecahedron.
@@ -40,12 +37,9 @@
     <personname>Bezdek</personname>
     </originator>
 
-    <introduction>
-      <p>
-        The best packing of hard spheres in <m>\mathbb{R}^3</m> is known to be achieved by the FCC lattice, while the thinnest covering is conjectured to be given by the BCC lattice.  This implies that as <m>\lambda</m> is varied, for <m>0\lt \lambda \lt \sqrt{5/3} -1</m> we expect there to be an FCC - BCC transition.
-      </p>
-    </introduction>
-
+    <p>
+      The best packing of hard spheres in <m>\mathbb{R}^3</m> is known to be achieved by the FCC lattice, while the thinnest covering is conjectured to be given by the BCC lattice.  This implies that as <m>\lambda</m> is varied, for <m>0\lt \lambda \lt \sqrt{5/3} -1</m> we expect there to be an FCC - BCC transition.
+    </p>
     <statement>
       <p>
         Describe the behavior of optimal arrangements of soft balls as <m>\lambda</m> varies.
@@ -71,12 +65,9 @@
     <personname>Kallus</personname>
     </originator>
 
-    <introduction>
-      <p>
-        It is know that the problem of finding the densest lattice packing of spheres in a fixed dimension is a solvable by a finite algorithm (Voronoi, Minkowski).
-      </p>
-    </introduction>
-
+    <p>
+      It is know that the problem of finding the densest lattice packing of spheres in a fixed dimension is a solvable by a finite algorithm (Voronoi, Minkowski).
+    </p>
     <statement>
       <p>
         Can the lattice soft ball packing problem be solved by a finite algorithm?
@@ -91,12 +82,9 @@
     <personname>Kusner</personname>
     </originator>
 
-    <introduction>
-      <p>
-        It is know from simulations and experiments that a <q>random</q>; packing of spheres that cannot be <q>locally improved</q>; achieves a density of 64%, well short of the maximal density of 74...%.
-      </p>
-    </introduction>
-
+    <p>
+      It is know from simulations and experiments that a <q>random</q>; packing of spheres that cannot be <q>locally improved</q>; achieves a density of 64%, well short of the maximal density of 74...%.
+    </p>
     <statement>
       <p>
         What is a reasonable definition of a random jammed sphere packing?  Can the experimental density of 64% in <m>\mathbb{R}^3</m> be justified?  How is density related to contact number(is it)?

@@ -58,17 +58,13 @@
   </openquestion>
 
   <openquestion>
-
-    <introduction>
-      <p>
-        Define
-        <men>
-          u_k(F) = \max \{ \dim (q)\ \ |\ \ q \in I^k \}.
-        </men>
-        Then <m>u_0 = u</m>.
-      </p>
-    </introduction>
-
+    <p>
+      Define
+      <men>
+        u_k(F) = \max \{ \dim (q)\ \ |\ \ q \in I^k \}.
+      </men>
+      Then <m>u_0 = u</m>.
+    </p>
     <statement>
       <p>
         Can we compute <m>u_k(F)</m>? How about <m>u_3(F)</m>?
@@ -98,16 +94,12 @@
   </openquestion>
 
   <openquestion>
-
-    <introduction>
-      <p>
-        Let
-        <men>
-          \nu(F) = \max \{n\ |\ I^n \neq 0 \}.
-        </men>
-      </p>
-    </introduction>
-
+    <p>
+      Let
+      <men>
+        \nu(F) = \max \{n\ |\ I^n \neq 0 \}.
+      </men>
+    </p>
     <statement>
       <p>
         If <m>\nu(F) \lt \infty</m>, is it true that <m>\nu(F') \lt \nu(F) +1</m> for all
@@ -132,19 +124,15 @@
   </openquestion>
 
   <openquestion>
-
-    <introduction>
-      <p>
-        For a quadratic form <m>q</m> over <m>F</m>, we define
-        <men>
-          \textrm{splitting degree} = \min\{[L:F]\ :\ q_{L}\ \textrm{is a
-          direct sum of hyperbolics}\}.
-        </men>
-        The <term>torsion index</term> of <m>F</m>, denoted <m>\tau_F</m> is the maximum
-        splitting degree, taken over all even dimensional <m>q</m>.
-      </p>
-    </introduction>
-
+    <p>
+      For a quadratic form <m>q</m> over <m>F</m>, we define
+      <men>
+        \textrm{splitting degree} = \min\{[L:F]\ :\ q_{L}\ \textrm{is a
+        direct sum of hyperbolics}\}.
+      </men>
+      The <term>torsion index</term> of <m>F</m>, denoted <m>\tau_F</m> is the maximum
+      splitting degree, taken over all even dimensional <m>q</m>.
+    </p>
     <statement>
       <p>
         Is <m>\tau_F \lt 2^{(\frac{u(F)}{2} -1)}</m>?

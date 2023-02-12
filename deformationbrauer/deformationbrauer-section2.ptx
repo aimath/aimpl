@@ -33,13 +33,9 @@
   </openquestion>
 
   <openproblem>
-
-    <introduction>
-      <p>
-        A variant of Problem 2.2:
-      </p>
-    </introduction>
-
+    <p>
+      A variant of Problem 2.2:
+    </p>
     <statement>
       <p>
         Higher cohomology <m>H^d(F, \pmb{\mu}_n^{\otimes d})</m>,
