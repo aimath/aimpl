@@ -10,6 +10,8 @@
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
 </macros>
+    <rename element="openproblem">Problem</rename>
+    <rename element="openquestion">Question</rename>
   </docinfo>
 
   <article>
