@@ -4,11 +4,11 @@
   <docinfo>
     <document-id>AimPL-deformationbrauer</document-id>
 <macros>
-\newcomand{\R}{\mathbb R}
-\newcomand{\C}{\mathbb C}
-\newcomand{\N}{\mathbb N}
-\newcomand{\Z}{\mathbb Z}
-\newcomand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
 </macros>
   </docinfo>
 
