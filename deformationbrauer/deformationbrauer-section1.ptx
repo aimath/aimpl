@@ -6,7 +6,7 @@
     The problems in this section are related to the u-invariant problem on the maximal dimension of an anisotropic quadratic form.
   </p>
 
-  <openquestion>
+  <openquestion xml:id="deformationbrauerebe">
     <statement>
       <p>
         If <m>u(F) \lt \infty</m>, does there exist <m>B \in \N</m> such that <m>u(F') \lt 
@@ -16,7 +16,7 @@
     </statement>
   </openquestion>
 
-  <openquestion>
+  <openquestion xml:id="deformationbrauerebj">
     <statement>
       <p>
         When is <m>\tau_F</m> finite?
@@ -24,7 +24,7 @@
     </statement>
   </openquestion>
 
-  <openproblem>
+  <openproblem xml:id="deformationbrauerebf">
     <statement>
       <p>
         Find interesting classes <m>\mathcal F</m> of fields such that for <m>F \in
@@ -48,7 +48,7 @@
     </suggestion>
   </openproblem>
 
-  <openquestion>
+  <openquestion xml:id="deformationbrauerebk">
     <statement>
       <p>
         When <m>F = \R</m> , we have <m>u(F) = \infty</m> but <m>\tau_F \lt \infty</m>. Is there
@@ -57,7 +57,7 @@
     </statement>
   </openquestion>
 
-  <openquestion>
+  <openquestion xml:id="deformationbrauerebg">
 
     <prelude>
       <p>
@@ -82,7 +82,7 @@
     </status>
   </openquestion>
 
-  <openquestion>
+  <openquestion xml:id="deformationbrauerebl">
     <statement>
       <p>
         Find reasonable classes <m>\mathcal F</m> of fields such that <m>u(F)</m> is a
@@ -97,7 +97,7 @@
     </opinion>
   </openquestion>
 
-  <openquestion>
+  <openquestion xml:id="deformationbrauerebh">
 
     <prelude>
       <p>
@@ -131,7 +131,7 @@
     </context>
   </openquestion>
 
-  <openquestion>
+  <openquestion xml:id="deformationbrauerebi">
 
     <prelude>
       <p>

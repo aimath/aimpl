@@ -6,7 +6,7 @@
     A soft ball may be described as a pair of concentric balls in <m>\mathbb{R}^d</m>, one of radius <m>1</m> and one or radius <m>1+\lambda</m>, <m>\lambda\gt 0</m>.  A soft packing is a collection of congruent soft balls, where the associated balls of radius 1 form a packing, i.e. they have disjoint interiors.  In this setting, it is reasonable to ask about the densest packings of soft balls, where the density is the fraction of space covered by the associated balls of radius <m>1+\lambda</m>.   See for example Bezdek and Lángi <!--[<a href="#MR3485712" class="cite">MR3485712</a>]-->.
   </p>
 
-  <openquestion>
+  <openquestion xml:id="softpackebdi">
     <title>Stability</title>
     <statement>
       <p>
@@ -15,7 +15,7 @@
     </statement>
   </openquestion>
 
-  <openproblem>
+  <openproblem xml:id="softpackebe">
     <title>The soft dodecahedral conjecture</title>
     <originator>
     <personname>Bezdek</personname>
@@ -34,7 +34,7 @@
     </statement>
   </openproblem>
 
-  <openproblem>
+  <openproblem xml:id="softpackebei">
     <title>Phase transitions</title>
     <originator>
     <personname>Bezdek</personname>
@@ -53,7 +53,7 @@
     </statement>
   </openproblem>
 
-  <openquestion>
+  <openquestion xml:id="softpackebf">
     <title>Translative Packings</title>
     <originator>
     <personname>Kallus</personname>
@@ -65,7 +65,7 @@
     </statement>
   </openquestion>
 
-  <openquestion>
+  <openquestion xml:id="softpackebfi">
     <title>Lattice Packings</title>
     <originator>
     <personname>Kallus</personname>
@@ -85,7 +85,7 @@
     </statement>
   </openquestion>
 
-  <openquestion>
+  <openquestion xml:id="softpackebg">
     <title>Random packings</title>
     <originator>
     <personname>Kusner</personname>
@@ -104,7 +104,7 @@
     </statement>
   </openquestion>
 
-  <openproblem>
+  <openproblem xml:id="softpackebgi">
     <title>Aperiodic Jammed Packings</title>
     <originator>
     <personname>Musin</personname>
@@ -116,7 +116,7 @@
     </statement>
   </openproblem>
 
-  <openquestion>
+  <openquestion xml:id="softpackebh">
     <title>Percolation</title>
     <originator>
     <personname>Boheh</personname>
@@ -133,7 +133,7 @@
     </status>
   </openquestion>
 
-  <openquestion>
+  <openquestion xml:id="softpackebhi">
     <title>Spherical and Hyperbolic Soft Packings</title>
     <originator>
     <personname>Bezdek</personname>
@@ -145,7 +145,7 @@
     </statement>
   </openquestion>
 
-  <openquestion>
+  <openquestion xml:id="softpackebi">
     <title>Potentials</title>
     <statement>
       <p>

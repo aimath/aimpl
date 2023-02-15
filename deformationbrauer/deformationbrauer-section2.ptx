@@ -2,7 +2,7 @@
 
 <section>
   <title>The Brauer group</title>
-  <openquestion>
+  <openquestion xml:id="deformationbrauerfbe">
     <statement>
       <p>
         Fix <m>d \geq 3</m>. Assume that we know:
@@ -18,7 +18,7 @@
     </statement>
   </openquestion>
 
-  <openquestion>
+  <openquestion xml:id="deformationbrauerfbf">
     <statement>
       <p>
         Is every Brauer class over <m>\C(s,t)</m> cyclic?
@@ -32,11 +32,11 @@
     </suggestion>
   </openquestion>
 
-  <openproblem>
+  <openproblem xml:id="deformationbrauerfbg">
 
     <prelude>
       <p>
-        A variant of Problem 2.2:
+        A variant of <xref ref="deformationbrauerfbf"/>:
       </p>
     </prelude>
 
@@ -48,7 +48,7 @@
     </statement>
   </openproblem>
 
-  <openquestion>
+  <openquestion xml:id="deformationbrauerfbh">
     <statement>
       <p>
         When is <m>\operatorname{Br}(X) = \operatorname{Br'}(X)</m>?

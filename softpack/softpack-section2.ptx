@@ -6,7 +6,7 @@
     Small clusters and their influence on crystal formation are not well understood.  This section lists some broad questions to guide further exploration of the subject.
   </p>
 
-  <openquestion>
+  <openquestion xml:id="softpackfbe">
     <title>Prime Clusters</title>
     <statement>
       <p>
@@ -15,7 +15,7 @@
     </statement>
   </openquestion>
 
-  <openquestion>
+  <openquestion xml:id="softpackfbf">
     <title>Crystal Growth From Clusters</title>
     <statement>
       <p>
@@ -24,7 +24,7 @@
     </statement>
   </openquestion>
 
-  <openquestion>
+  <openquestion xml:id="softpackfbg">
     <title>Frustration</title>
     <statement>
       <p>
@@ -33,7 +33,7 @@
     </statement>
   </openquestion>
 
-  <openproblem>
+  <openproblem xml:id="softpackfbh">
     <title>Exotic Order</title>
     <statement>
       <p>

@@ -6,7 +6,7 @@
     A Delone set is a subset of <m>\mathbb{R}^n</m> satisfying the following properties: There exists a pair of positive constants <m>(r,R)</m> such that every ball of radius r contains at most one point of <m>X</m> and ever ball of radius <m>R</m> contains at least one point of <m>X</m>.
   </p>
 
-  <openproblem>
+  <openproblem xml:id="softpackgbe">
     <title>Building skeletal complexes</title>
     <originator>
     <personname>Schulte</personname>
@@ -25,7 +25,7 @@
     </statement>
   </openproblem>
 
-  <openproblem>
+  <openproblem xml:id="softpackgbf">
     <originator>
     <personname>Dolbilin</personname>
     </originator>
@@ -36,7 +36,7 @@
     </statement>
   </openproblem>
 
-  <openquestion>
+  <openquestion xml:id="softpackgbg">
     <originator>
     <personname>Dolbilin</personname>
     </originator>
@@ -59,7 +59,7 @@
     </status>
   </openquestion>
 
-  <openquestion>
+  <openquestion xml:id="softpackgbh">
     <title>Cycles in skeletal complexes</title>
     <originator>
     <personname>Dolbilin</personname>
