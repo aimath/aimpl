@@ -1,0 +1,63 @@
+<section xml:id="stationary">
+  <title>Stationary  nets (Communicated by Rotman)</title>
+  <introduction>
+    <p>
+      A graph <m>G</m> in a Riemannian surface <m>(S,g)</m> is called a \knownterminology{ stationary net,} if every edge is a geodesic and if at every vertex the sum of diverging unit vectors is zero.
+      Vertices must have valence at least <m>3</m>.
+    </p>
+    <p>
+      {<image width="35%" source="images/stationarydia.png"/> }
+    </p>
+  </introduction>
+  <subsection>
+    <title>Stationary <m>\Theta</m>-nets</title>
+    <p>
+      A <m>\Theta</m>-graph is a graph that looks like the Greek letter ``Theta'': two vertices connected by three edges,
+      see the picture below.
+    </p>
+    <openquestion>
+      <title>\cite{Has-Mor1996}</title>
+      <statement>
+        <p>
+          Does every metric on <m>S^2</m> admit a stationary <m>\Theta</m>-graph?
+        </p>
+      </statement>
+      <discussion>
+        <p>
+          Partial results in this direction were obtained in<nbsp/><xref ref="Has-Mor1996"/>:
+          they showed that on every sphere of positive curvature there exists a stationary <m>\Theta</m>-net,
+          or a stationary {eight curve} net,
+          or a stationary eyeglasses net.
+        </p>
+        <p>
+          {<image width="35%" source="images/morganhass.png"/> }
+        </p>
+      </discussion>
+    </openquestion>
+  </subsection>
+  <subsection>
+    <title>Density of stationary nets and of closed geodesics</title>
+    <p>
+      We call a stationary net non-trivial if it has at least one vertex of valency <m>\ge 3</m>,
+      in other words if it is not a disjoint union of simple closed geodesics.
+    </p>
+    <openquestion>
+      <title>Gromov</title>
+      <statement>
+        <p>
+          Are non-trivial stationary nets dense on any closed Riemannian surface?
+          In other words, for each non-empty open subset <m>U</m>,
+          is there a stationary net intersecting <m>U</m>?
+        </p>
+      </statement>
+      <context>
+        <p>
+          The answer is evidently positive for every surface of constant curvature.
+          Indeed, in this case tangent vectors to closed geodesics are dense in the unit tangent bundle and we can take a finite union of closed intersecting geodesics as a stationary net.
+          On other manifolds, the answer is less trivial,
+          for example because in higher dimensions periodic geodesics may not intersect.
+        </p>
+      </context>
+    </openquestion>
+  </subsection>
+</section>

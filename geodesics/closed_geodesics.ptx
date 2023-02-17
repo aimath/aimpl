@@ -1,0 +1,347 @@
+<section xml:id="closed_geodesics">
+  <title>Closed geodesics</title>
+  <introduction>
+    <p>
+      Given a Riemannian manifold, does there exist a closed geodesic?
+      If yes, how many
+      (geometrically different)
+      closed geodesics must exist?
+      Existence is known if the manifold is closed.
+      For surfaces
+      (and certain manifolds of higher dimension, e.g.\ <m>S^n</m>),
+      the result is essentially due to Birkhoff<nbsp/><xref ref="Birkhoff1927"/>.
+      He used two arguments.
+      The first is a variational argument in the free loop space <m>\Lambda M</m>.
+      From the subspace of <m>\Lambda M</m> consisting of all loops homotopic to a given loop,
+      one selects a sequence of loops whose lengths converge to the infimum of the length function on the subspace.
+      If the loops from this sequence lie in a compact region of the manifold
+      (for example, if the manifold itself is compact),
+      then by the Arzel\`a-Ascoli theorem there exists a loop where the infimum is achieved;
+      if the infimum is not zero,
+      this loop is automatically a non-trivial closed geodesic.
+      These arguments show the existence of closed geodesics in many cases,
+      in particular for compact manifolds with non-trivial fundamental group.
+    </p>
+    <p>
+      If the infimum of the length of the loops homotopic to a given loop is zero, Birkhoff suggested another procedure (actually,
+      a trick) to prove the existence of closed geodesics,
+      which is explained for example in<nbsp/><xref ref="Birkhoff1927"/>.
+      This trick is nowadays called the \knownterminology{Birkhoff minimax procedure}, and was used for example to show the existence of closed geodesics on any Riemannian sphere with dimension <m>\ge 2</m>.
+    </p>
+    <p>
+      Let us recall this procedure in the simplest case,
+      when the manifold is <m>S^2</m>.
+      We consider the foliation of the sphere without two points
+      (north and south poles)
+      as in the picture:
+      if we think of the standard embedding in <m>\Real^3</m>,
+      the fibers are the intersections of the sphere with the planes <m>\{x_3=\mathrm{const}\}</m>.
+    </p>
+    <sidebyside>
+      {<image width="70%" source="images/birkhoff.png"/> }
+    </sidebyside>
+    <p>
+      Now apply a curve shortening procedure to every curve of this foliation,
+      there are many options for such a procedure.
+      We need that the evolution of the curves in this procedure depends continuously on the curve.
+      We obtain a sequence <m>F_i</m> of the foliations of the sphere without two points into curves.
+      For each foliation <m>F_i</m> of the sequence,
+      let <m>\gamma_i</m> be a leaf of maximal length.
+      Because of topology, the lengths of the circles
+      <m>\gamma_i</m> are bounded from below by a certain positive number.
+      By the Arzel\`a-Ascoli theorem,
+      the sequence of curves <m>\gamma_i</m> has a convergent subsequence.
+      The limit of this subsequence is a stable point of the shortening procedure,
+      and is therefore a geodesic.
+    </p>
+    <p>
+      For arbitrary closed manifolds,
+      the existence of a closed geodesic is due to Lyusternik and Fet (\cite{Lyu-Fet1951} and<nbsp/><xref ref="Fet1952"/>).
+      They considered the energy functional on the loop space
+      <m>\Lambda M</m> and showed that the topology of
+      <m>\Lambda M</m> is complicated enough so that the energy functional must have critical points with non-zero energy
+      (which are non-trivial closed geodesics).
+      Lyusternik and Schnirelmann<nbsp/><xref ref="Lyu-Sch1929a"/> and<nbsp/><xref ref="Lyu-Sch1929b"/> had earlier used a related argument to show that any Riemannian metric on <m>S^2</m> has at least <m>3</m> simple closed geodesics.
+    </p>
+    <p>
+      How many closed geodesics must exist on a closed manifold?
+      For surfaces, the answer is known:
+      there are always infinitely many geometrically different closed geodesics.
+      This is easily proved using Birkhoff's first argument when the fundamantal group is infinite.
+      The remaining cases of the sphere and the projective plane were settled by<nbsp/><xref ref="Bangert1993"/> and<nbsp/><xref ref="Franks1992"/>.
+      In higher dimensions Rademacher has shown that a closed manifold with a generic Riemannian metric admits infinitely many geometrically different closed geodesics<nbsp/><xref ref="Rademacher1989"/>.
+    </p>
+    <p>
+      The main approach to proving the existence of infinitely many closed geodesics has been to apply Morse theory to the energy functional on the free loop space <m>\Lambda M</m>.
+      The critical points of this functional are precisely the closed geodesics.
+      But it has to be remembered that each closed geodesic can be traversed an arbitrary number of times.
+      It is thus important to distinguish geometrically different geodesics from repetitions of the same geodesic.
+      This distinction is difficult to make and so far,
+      despite some published claims,
+      the existence of infinitely many closed geodesics on a general compact Riemannian manifold has not been proven.
+      Nor have the resources of the Morse theory approach been fully exhausted.
+    </p>
+    <p>
+      One can modify these classical questions in different directions;
+      this will be done below.
+    </p>
+  </introduction>
+  <subsection>
+    <title>Riemannian metrics on spheres</title>
+    <p>
+      Except in dimension 2, all that is currently known for a general Riemannian metric on a sphere are the results that hold for all compact Riemannian manifolds.
+      <em>Is there an extension of Lyusternik and Schnirelmann's result to higher dimensions,
+      in particular to <m>S^3</m></em>?
+    </p>
+  </subsection>
+  <subsection xml:id="exkatok">
+    <title>Finsler metrics on <m>S^2</m></title>
+    <p>
+      The arguments of Fet
+      (and Morse)
+      can be adapted to the Finsler setting:
+      one can show the existence of at least one closed geodesic on every compact manifold.
+      Moreover, if the Finsler metric is reversible,
+      or if the manifold is a surface other than the sphere or the projective plane,
+      one can show the existence of infinitely many geometrically different closed geodesics.
+    </p>
+    <p>
+      The following example constructed in<nbsp/><xref ref="Katok1973"/> shows that the number of closed geodesics on a 2-sphere with an irreversible metric can be~<m>2</m>.
+    </p>
+    <p>
+      Consider the sphere <m>S^2</m> with the standard metric <m>g_0</m> of constant curvature <m>1</m> and the Killing field <m>V</m> induced by the one parameter group of rotations about the north and south poles.
+      Define a one parameter family of functions on <m>T^*M</m> by
+      <me>
+        F_\alpha(\xi) = \sqrt{g^*_0(\xi,\xi)} + \alpha \xi(V)
+      </me>,
+      where <m>g^*_0</m> is the dual metric of <m>g_0</m>.
+      For small enough <m>\alpha \in \mathbb R</m> there is a Randers Finsler metric,
+      <m>F_\alpha</m> such that
+      <me>
+        \|v\|_\alpha = F_\alpha \circ L^{-1}_\alpha(v)
+      </me>,
+      where <m>L_\alpha: T^*M \to T^M</m> is the Legendre transformation induced by the function <m>\frac12 F^2_\alpha</m>.
+      If <m>V</m> is scaled so that its integral curves have the same period as the geodesics of <m>g_0</m>,
+      then <m>g_\alpha</m> has precisely two closed geodesics for each irrational <m>\alpha</m>.
+      They are the equator
+      (the unique great circle tangent to <m>V</m>)
+      traversed in both directions.
+      See<nbsp/><xref ref="Ziller1982"/> and<nbsp/><xref ref="Rademacher2004"/> for more details.
+    </p>
+    <p>
+      This example can be generalized to higher dimensions:
+      one obtains a Finsler metric on <m>S^n</m> with precisely
+      <m>2[(n+1)/2]</m> distinct prime closed geodesics;
+      see<nbsp/><xref ref="Katok1973"/>.
+    </p>
+    <p>
+      V.~Bangert and Y.~Long in<nbsp/><xref ref="Ban-Lon2010"/> and<nbsp/><xref ref="Long2006"/> proved that there are always at least 2 distinct prime closed geodesics for every irreversible Finsler metric on <m>S^2</m>.
+    </p>
+    <openconjecture>
+      <title>Long, Bangert,   Problem 15 from<nbsp/><xref ref="Alvarez2006"/></title>
+      <statement>
+        <p>
+          Every irreversible Finsler metric on <m>S^2</m> has either exactly <m>2</m> or infinitely many distinct prime closed geodesics.
+        </p>
+      </statement>
+      <context>
+        <p>
+          There exist results supporting this conjecture.
+          In particular, H.~Hofer, K.~Wysocki and E.~Zehnder in<nbsp/><xref ref="Ho-Wy-Ze2003"/> studied Reeb orbits on contact <m>S^3</m>.
+          Their result can be projected down to <m>S^2</m>,
+          and implies that the total number of distinct prime closed geodesics for a bumpy Finsler metric on <m>S^2</m> is either 2 or infinite,
+          provided the stable and unstable manifolds of every hyperbolic closed geodesics intersect transversally.
+          See also<nbsp/>[<a knowl="Har-Pat2008.knowl">Har-Pat2008</a>,
+          <a knowl="Rademacher2016.knowl">Rademacher2016</a>].
+        </p>
+      </context>
+      <suggestion>
+        <p>
+          The closed geodesics in Katok's example are elliptic.
+        </p>
+      </suggestion>
+    </openconjecture>
+    <openconjecture>
+      <title>Long</title>
+      <statement>
+        <p>
+          The existence of one hyperbolic prime closed geodesic on a Finsler <m>S^2</m> implies the existence of infinitely many distinct prime closed geodesics.
+        </p>
+      </statement>
+    </openconjecture>
+    <openconjecture>
+      <title>Long</title>
+      <statement>
+        <p>
+          Every Finsler <m>S^2</m> has at least one elliptic prime closed geodesic.
+        </p>
+      </statement>
+      <context>
+        <p>
+          The conjecture agrees with a result of Y.~Long and W.~Wang who proved that there are always at least 2 elliptic prime closed geodesics on every irreversible Finsler <m>S^2</m>,
+          if the total number of prime closed geodesics is finite~<nbsp/><xref ref="Lon-Wan2008"/>.
+          The conjecture does not contradict<nbsp/><xref ref="Grjuntal1979"/> where an example of a metric such that all closed simple geodesics are hyperbolic is constructed.
+          Indeed, for certain metrics on the sphere
+          (and even for the metric of certain ellipsoids)
+          most prime closed geodesics are not simple.
+        </p>
+      </context>
+    </openconjecture>
+  </subsection>
+  <subsection>
+    <title>Of complete Riemannian metrics  with finite volume</title>
+    <openquestion>
+      <title>Bangert</title>
+      <statement>
+        <p>
+          Does every complete Riemannian manifold with finite volume have at least one closed geodesic?
+        </p>
+      </statement>
+      <context>
+        <p>
+          The question was answered affirmatively for dimension 2.
+          Moreover, in dimension 2 a complete Riemannian manifold of finite volume even has infinitely many geometrically different geodesics<nbsp/><xref ref="Bangert1980"/>.
+          The argument that was used in the proof is based on the Birkhoff minimax procedure we recalled in the beginning of <xref ref="closed_geodesics">\S</xref>,
+          and does not work in dimensions <m>\ge 3</m>.
+          One can even hope to construct counterexamples in the class of Liouville-integrable geodesic flows.
+          In this case,
+          most orbits of the geodesic flow are rational or irrational windings on the Liouville tori;
+          they are closed,
+          if all of the corresponding frequencies are rational.
+          Since there are essentially <m>(n-1)</m> frequencies in dimension <m>n</m>,
+          one can hope that if <m>n > 2</m> it would be possible to ensure that there is always at least one irrational frequency.
+          Initial attempts to find a counterexample on
+          <m>T^2\times \Real</m> with the metric of the form
+          <m>a(r)d\phi^2 + b(r) d\psi^2+ dr^2</m> were, however,
+          unsuccessful.
+        </p>
+        <p>
+          A more difficult problem would be to prove that on any complete Riemannian manifold of finite volume there exist infinitely many closed geodesics.
+        </p>
+      </context>
+    </openquestion>
+    <openquestion>
+      <preamble>
+        <p>
+          Questions of this nature are also interesting in the realm of Finsler geometry.
+          One would expect the results for reversible Finsler metrics to be very similar to those for Riemannian metrics.
+          For irreversible Finsler metrics, Katok's example shows that there are compact Finsler manifolds with only finitely many closed geodesics,
+          but it is still possible that all non-compact Finsler manifolds with finite volume might have infinitely many closed geodesics.
+          On the other hand, the following question is completely open:
+        </p>
+      </preamble>
+      <title>Bangert</title>
+      <statement>
+        <p>
+          Does there exist an irreversible Finsler metric of finite volume on
+          <m>\Real\times S^1</m> with no closed geodesics?
+        </p>
+      </statement>
+    </openquestion>
+  </subsection>
+  <subsection>
+    <title>Of  magnetic flows  on closed surfaces</title>
+    <p>
+      It is known that the trajectory of a charged particle in the presence of magnetic forces (=``magnetic geodesic'') is described by a Hamiltonian system with the ``kinetic'' Hamiltonian of the form
+      <m>\sum_{i,j} p_ip_jg^{ij}</m> on <m>T^*M</m> with the symplectic form <m>dp\wedge dx +\pi^* \omega</m>,
+      where <m>\omega</m> is a closed
+      (but not necessarily exact)
+      form on <m>M</m> and <m>\pi:T^*M\to M</m> is the canonical projection.
+    </p>
+    <p>
+      We assume that our surface <m>M^2</m> is closed.
+    </p>
+    <openquestion>
+      <title>Paternain</title>
+      <statement>
+        <p>
+          Is there at least one closed magnetic geodesic in every positive energy level?
+        </p>
+      </statement>
+      <context>
+        <p>
+          The only known case in which the answer is negative is when <m>\omega</m> is the area form for a hyperbolic surface and the magnetic flow is the horocycle flow.
+          On the other hand Ginzburg showed that there is always a closed orbit if the magnetic field is weak enough<nbsp/>[<a knowl="Ginzburg1989.knowl">Ginzburg1989</a>,
+          <a knowl="Ginzburg1996.knowl">Ginzburg1996</a>].
+        </p>
+        <p>
+          If <m>\omega</m> is exact,
+          the affirmative answer for all closed orientable surfaces and all energy levels was obtained in<nbsp/><xref ref="Co-Ma-Pa2004"/>,
+          which is partially based on<nbsp/><xref ref="Taimanov1992"/>.
+          Actually, by<nbsp/>[<a knowl="Ab-Ma-Pa2015.knowl">Ab-Ma-Pa2015</a>,
+          <a knowl="AMMP2017.knowl">AMMP2017</a>], in this case there are at least two closed geodesics on almost every energy level.
+          We give some details.
+        </p>
+      </context>
+      <suggestion>
+        <p>
+          If the energy is greater than Ma\~n\'e's critical value <m>c_u</m>,
+          then the magnetic flow is conjugate to a Finsler geodesic flow,
+          which has <m>\geq 2</m> closed orbits in the case of <m>S^2</m> (by<nbsp/><xref ref="Ban-Lon2010"/>) and infinitely many closed orbits if the genus of the surface is positive
+          (at least two for each free homotopy class).
+          The lower bound of 2 is sharp because of the Katok example mentioned above.
+        </p>
+      </suggestion>
+      <discussion>
+        <p>
+          For energy less than <m>c_u</m>,
+          the results about more than one closed geodesic are only for almost every energy level.
+          Contreras obtained at least 2 closed geodesics<nbsp/><xref ref="Contreras2006"/>.
+          In<nbsp/><xref ref="Ab-Ma-Pa2015"/> this was improved to at least 3, and in fact infinitely many under a non-degeneracy assumption,
+          which was removed in<nbsp/><xref ref="AMMP2017"/>.
+        </p>
+      </discussion>
+      <context>
+        <p>
+          In the case of magnetic monopoles (i.e.\ when <m>\omega</m> is not exact),
+          the answer is affirmative if the energy level is contact;
+          this is an immediate corollary of the proof of the Weinstein conjecture in dimension 3 by Taubes<nbsp/><xref ref="Taubes2007"/>.
+          On the other hand, Benedetti has given examples of magnetic monopoles on <m>S^2</m> with energy levels that are not contact;
+          see Proposition 4.9 in<nbsp/><xref ref="Benedetti2016"/>.
+          On <m>S^2</m>, if the form <m>\omega</m> is nowhere vanishing,
+          the existence of a closed magnetic geodesic on sufficiently big energy level is established in<nbsp/><xref ref="Ass-Ben2016"/>;
+          see also<nbsp/>[<a knowl="Ginzburg1989.knowl">Ginzburg1989</a>,
+          <a knowl="Ginzburg1996.knowl">Ginzburg1996</a>].
+        </p>
+      </context>
+    </openquestion>
+  </subsection>
+  <subsection>
+    <title>Kropina metrics with  nonintegrable distribution</title>
+    <p>
+      A Kropina metric on a Riemannian manifold <m>(M,g)</m> is the function on the tangent bundle given by <m>F(\xi)= \tfrac{g(\xi, \xi)}{\omega(\xi)}</m>,
+      where <m>\omega</m> is a nowhere vanishing 1-form.
+      We will assume that <m>\omega\wedge d\omega</m> nowhere vanishes;
+      this assumption implies that the distribution <m>\textrm{Ker} (\omega)</m> is not integrable.
+      A Kropina metric is not a Finsler metric,
+      since it is not defined on the kernel of <m>\omega</m>,
+      but still the function <m>F</m> is one-homogeneous and strictly convex at <m>\xi\not\in \textrm{Ker} (\omega)</m>;
+      one can use it to define the distance on <m>M</m> and geodesics on <m>M</m>.
+    </p>
+    <p>
+      Recent interest in Kropina metrics is due to their relations to the so-called chains in CR geometry,
+      see<nbsp/><xref ref="CMMM2019"/>.
+    </p>
+    <openquestion xml:id="kr1">
+      <statement>
+        <p>
+          Does every Kropina metric on a closed manifold have a closed geodesic?
+        </p>
+      </statement>
+      <context>
+        <p>
+          If the fundamental group is nontrivial,
+          the answer is positive and the proof is essentially the same as in the Riemannian case.
+          But the Birkhoff-Morse-Fett approaches that were used to prove the existence of closed geodesics for simply-connected Riemannian manifolds can not be generalized directly,
+          in particular because of the existence of examples of Kropina metrics whose geodesics of length <m>1</m> lie in an arbitrarily small neighborhood.
+        </p>
+      </context>
+      <discussion>
+        <p>
+          As a simple special case of <xref ref="kr1">Question</xref>
+          we suggest considering <m>M= S^3= \textrm{Spin} (3)</m> equipped with arbitrary <m>g</m> and a 1-form <m>\omega</m> that is homogeneous with respect to the left action of <m>\textrm{Spin} (3)</m>.
+        </p>
+      </discussion>
+    </openquestion>
+  </subsection>
+</section>

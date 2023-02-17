@@ -1,0 +1,168 @@
+<section xml:id="curvature_conditions">
+  <title>Curvature conditions and hyperbolicity of the geodesic flow</title>
+  <introduction>
+    <p>
+      Many results about geodesics and the geodesic flow assume that all sectional curvatures are negative or one of the following increasingly weaker properties:
+      <ol>
+        <li>all sectional curvatures are non-positive,</li>
+        <li>no focal points,</li>
+        <li>no conjugate points.</li>
+      </ol>
+    </p>
+    <p>
+      These properties can be characterized by the behaviour of Jacobi fields:
+      <ol>
+        <li>
+          Negative curvature:
+          the length of any (non-trivial) Jacobi field orthogonal to a geodesic is a strictly convex function.
+        </li>
+        <li>
+          Non-positive curvature:
+          the length of any Jacobi field is a convex function.
+        </li>
+        <li>
+          No focal points:
+          the length of an initially vanishing Jacobi field is a non-decreasing function along a geodesic ray.
+        </li>
+        <li>
+          No conjugate points:
+          a (non-trivial) Jacobi field can vanish at most once.
+        </li>
+      </ol>
+    </p>
+    <p>
+      The no focal point property is equivalent to convexity of spheres in the universal cover.
+      Most interesting results about manifolds with non-positive curvature extend readily to manifolds with no focal points.
+    </p>
+    <p>
+      For a compact manifold,
+      negative curvature implies that the geodesic flow is uniformly hyperbolic,
+      in other words an Anosov flow.
+      This means that there is a <m>D\phi_t</m>-invariant splitting of the tangent bundle of the unit tangent bundle <m>SM</m>,
+      <me>
+        TSM = E^s \oplus E^0 \oplus E^u
+      </me>,
+      in which <m>E^0</m> is the one dimensional subbundle tangent to the orbits of the geodesic flow,
+      and there are constants <m>C \geq 1</m> and
+      <m>\lambda > 0</m> such that for any <m>t \geq 0</m> and any vectors
+      <m>\xi \in E^s</m> and <m>\eta \in E^u</m> we have
+      <men xml:id="hyp">
+        \|D\phi_t(\xi)\| \leq Ce^{-\lambda t}\|\xi\| \text{ and } \|D\phi_{-t}(\eta)\| \leq Ce^{-\lambda t}\|\eta\|
+      </men>.
+    </p>
+    <p>
+      (Here we have in mind the usual Sasaki metric;
+      the same property would also hold for any equivalent metric with different constants <m>C</m> and <m>\lambda</m>.) This splitting is H\"older-continuous,
+      but usually not smooth.
+    </p>
+    <p>
+      The bundles <m>E^s</m> and <m>E^u</m> for an Anosov geodesic flow are integrable;
+      their integral foliations are usually denoted by <m>W^s</m> and <m>W^u</m>.
+      The lifts to the universal cover of the leaves of <m>W^s</m> and <m>W^u</m> are closely related to horospheres.
+      If <m>\widetilde v</m> is the lift to <m>S\widetilde M</m> of <m>v \in SM</m>,
+      the lifts to <m>S\widetilde M</m> of <m>W^s(v)</m> and <m>W^u(v)</m> are formed by the unit vectors that are normal to the appropriate horospheres orthogonal to
+      <m>\widetilde v</m> and are on the same side of the horosphere as <m>\widetilde v</m>;
+      see the picture below.
+    </p>
+    <p>
+      {<image width="50%" source="images/curvature.png"/> }
+    </p>
+  </introduction>
+  <subsection xml:id="relationsbetween">
+    <title>Relations between these concepts</title>
+    <p>
+      The notions introduced above are related as follows:
+    </p>
+    <image source="images/33341199e4fd10aa799470dcce5309ac9770e83a.png"/>
+    <p>
+      That Anosov geodesic flow implies no conjugate points is proved in part B of<nbsp/><xref ref="Mane1987"/>.
+    </p>
+    <p>
+      The class of compact manifolds that support metrics with variable negative curvature is much larger than the class that support hyperbolic metrics
+      (of constant negative curvature).
+      The earliest examples of manifolds that support variable but not constant negative curvature were given by Mostow-Siu<nbsp/><xref ref="Mos-Siu1980"/> and Gromov-Thurston<nbsp/><xref ref="Gro-Thu1987"/>.
+      Recent work of Ontaneda has vastly increased the supply of examples<nbsp/>[<a knowl="Ontaneda2011.knowl">Ontaneda2011</a>,
+      <a knowl="Ontaneda2014.knowl">Ontaneda2014</a>].
+    </p>
+    <openconjecture>
+      <title>Klingenberg</title>
+      <statement>
+        <p>
+          If a closed manifold admits a metric with Anosov geodesic flow,
+          then it admits a metric with negative sectional curvature.
+        </p>
+      </statement>
+      <suggestion>
+        <p>
+          All known examples of metrics with Anosov geodesic flow are perturbations of metrics with negative curvature.
+          It is not difficult to show using the uniformization theorem and the Thurston geometerization theorem that conjecture is true in dimensions 2 and 3.
+          Klingenberg<nbsp/><xref ref="Klingenberg1974"/> showed that seven properties of Riemannian manifolds with negative curvature extend to those with Anosov geodesic flow.
+          One of these is Preissman's theorem<nbsp/><xref ref="Preissman1943"/> that the fundamental group of a manifold with negative sectional curvatures cannot contain a copy of <m>{\mathbb Z} \times {\mathbb Z}</m>.
+        </p>
+      </suggestion>
+      <context>
+        <p>
+          Several examples of manifolds that admit metrics of non-positive curvature but cannot support a metric of negative curvature
+          (or with Anosov geodesic flow)
+          can be found in the introduction to<nbsp/><xref ref="Ba-Br-Eb1985"/>.
+          These examples have a copy of
+          <m>{\mathbb Z} \times {\mathbb Z}</m> in their fundamental group.
+          The simplest of them is due to Heintze who took two cusped hyperbolic 3-manifolds,
+          cut off the cusps,
+          glued the two pieces together along their boundary tori and then smoothed out the metric to obtain a manifold with non-positive curvature.
+        </p>
+      </context>
+    </openconjecture>
+    <openquestion>
+      <statement>
+        <p>
+          If <m>(M,g)</m> has no conjugate points,
+          does <m>M</m> carry a metric with non-positive sectional curvature?
+        </p>
+      </statement>
+    </openquestion>
+    <openquestion>
+      <preamble>
+        <p>
+          Again it is not difficult to use the uniformization theorem to show that the answer is affirmative in dimension 2.
+          But the problem is still open even in dimension 3.
+          See<nbsp/><xref ref="Cro-Sch1986"/>,
+          <xref ref="Lebedeva2002"/> and<nbsp/><xref ref="Iva-Kap2014"/> for results of the nature that the fundamental groups of manifolds with no conjugate points share properties with those of non-positive curvature.
+          Section 8 of<nbsp/><xref ref="Iva-Kap2014"/> contains a number of open problems of which we mention:
+        </p>
+      </preamble>
+      <statement>
+        <p>
+          Is the fundamental group of a closed manifold without conjugate points semihyperbolic?
+        </p>
+      </statement>
+      <discussion>
+        <p>
+          Semihyperbolicity is a condition introduced by Alonso and Bridson<nbsp/><xref ref="Alo-Bri1995"/> to describe non-positive curvature in the large for an arbitrary metric space.
+        </p>
+        <p>
+          The geodesic flow is partially hyperbolic if there are a <m>D\phi_t</m>-invariant splitting
+          <me>
+            TSM = E^s \oplus E^c \oplus E^u
+          </me>
+          and constants <m>C \geq 1</m> and
+          <m>\lambda > \mu > 0</m> such that <xref ref="hyp"/> holds and in addition for all <m>t</m> and all <m>\zeta \in E^c</m> we have
+          <me>
+            C^{-1}e^{-\mu|t|}\|\zeta\| \leq \|D\phi_t(\zeta)\| \leq Ce^{\mu|t|}\|\zeta\|
+          </me>.
+        </p>
+      </discussion>
+      <context>
+        <p>
+          Anosov geodesic flows are degenerate examples of partially hyperbolic geodesic flows.
+          Genuine examples
+          (with <m>\dim E^c \geq 2</m>)
+          have been constructed by Carneiro and Pujals;
+          see<nbsp/><xref ref="Car-Puj2011"/> and<nbsp/><xref ref="Car-Puj2013"/>.
+          They deformed a higher rank locally symmetric space of non-compact type.
+          This answered a question raised by Herman in emails to many dynamicists.
+        </p>
+      </context>
+    </openquestion>
+  </subsection>
+</section>

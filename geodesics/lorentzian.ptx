@@ -1,0 +1,197 @@
+<section xml:id="lorentzian">
+  <title>Lorentzian metrics  and metrics of arbitrary signature</title>
+  <subsection>
+    <title>Closed geodesics</title>
+    <p>
+      Most of the questions we asked about the Riemannian and Finsler metric can be modified such that they are also interesting in the semi-Riemannian metrics (i.e.~of arbitrary signature) and in particular when the signature is Lorentzian.
+      It appears though that the answers in the Lorentzian case are sometimes very different from those in the Riemannian case.
+      Many methods that were effectively used in the Riemannian case,
+      for example the variational methods,
+      do not work in the case of general signature.
+    </p>
+    <p>
+      Let us consider as an example the question analogous to the one we considered in Section 2:
+      how many geometrically different closed geodesics must there be for a Lorenzian metric on a closed manifold.
+    </p>
+    <p>
+      First let us note that there are two possible natural notions of closed geodesic in the Lorentzian setting:
+      one may define a closed geodesic as an inmmersion
+      <m>\gamma:S^1 \to M</m> such that <m>\nabla_{\dot \gamma} \dot \gamma=0</m>,
+      or as a curve <m>\gamma:S^1 \to M</m> that can be locally reparameterized in such a way that it satisfies the equation <m>\nabla_{\dot \gamma} \dot \gamma=0</m>.
+    </p>
+    <p>
+      In the Riemannian case, these definitions are essentially equivalent,
+      since this reparameterization can always be made ``global''. If the signature is indefinite,
+      it is easy to construct examples of an embedding
+      <m>\gamma:S^1 \to M</m> such that locally <m>\gamma</m> can be reparameterized so that it becomes an affinely-parameterized geodesic,
+      but globally such reparameterization is impossible:
+      the velocity vector of the geodesic after returning to the same point is proportional but not equal to the initial velocity vector.
+      Of course, this is possible only if the velocity vector is light-like.
+    </p>
+    <p>
+      We will follow most publications and define a closed geodesic as an embedding
+      <m>\gamma:S^1 \to M</m> such that <m>\nabla_{\dot \gamma} \dot \gamma=0</m>.
+    </p>
+    <p>
+      To the best of our knowledge,
+      the existence of a closed geodesic on a Lorentzian manifold is a quite complicated problem and nothing is known in dimensions <m>\ge 3</m>.
+      In dimension 2, a closed orientable manifold with a metric of signature <m>(+,-)</m> is homeomorphic to the torus.
+      By<nbsp/><xref ref="Suhr2013a"/>,
+      every Lorentzian 2-dimensional torus has at least two simple closed geodesics one of which is definite,
+      i.e. timelike or spacelike.
+      Moreover, explicit examples show the optimality of this claim.
+    </p>
+    <p>
+      We therefore ask the following
+    </p>
+    <openquestion>
+      <statement>
+        <p>
+          Does every closed Lorentzian manifold have at least one closed geodesic?
+        </p>
+      </statement>
+      <discussion>
+        <p>
+          One of course can ask this question about manifolds of arbitrary signature and also about complete
+          (note that in the Lorentzian setting there are many different non-equivalent notions of completeness)
+          manifolds of finite volume.
+        </p>
+      </discussion>
+      <status>
+        <p>
+          See the introduction to the paper<nbsp/><xref ref="Fl-Ja-Pi2011"/> for a list of known results about the existence of closed time-like geodesics under additional assumptions.
+        </p>
+      </status>
+    </openquestion>
+  </subsection>
+  <subsection>
+    <title>Light-like geodesics of semi-Riemannian metrics</title>
+    <p>
+      Let <m>M</m> be a closed manifold with semi-Riemannian metric <m>g</m> of indefinite signature.
+    </p>
+    <openquestion xml:id="qst_ab">
+      <statement>
+        <p>
+          Can there exist a complete semi-Riemannian metric <m>g</m> and a non-trivial 1-form <m>\eta</m> on a closed manifold such that for every light-like geodesic <m>\gamma(t)</m> the function
+          <m>\eta(\dot\gamma(t))</m> grows linearly in both directions:
+          i.e.~ for every light-like geodesic there exist
+          <m>C_1 \neq 0, C_2</m> such that <m>\eta(\dot\gamma(t))= C_1\cdot t + C_2</m>?
+        </p>
+      </statement>
+      <context>
+        <p>
+          A negative answer to this question would give an easy proof of the semi-Riemannian version of the projective Lichnerowicz-Obata conjecture:
+        </p>
+      </context>
+      <discussion>
+        <p>
+          Let a connected Lie group <m>G</m> act on a closed manifold
+          (of dimension at least <m>2</m>)
+          by projective transformations
+          (diffeomorphisms that take geodesics to geodesics without necessarily preserving the parameterization).
+          Then <m>G</m> acts by isometries,
+          or <m>g</m> has constant sectional curvature.
+        </p>
+      </discussion>
+      <context>
+        <p>
+          If <m>g</m> is Riemannian,
+          the conjecture was proved in<nbsp/>[<a knowl="Matveev2005.knowl">Matveev2005</a>,
+          <a knowl="Matveev2007.knowl">Matveev2007</a>]. For metrics of Lorentzian signature,
+          the conjecture was proved in dimension 2 in<nbsp/><xref ref="Matveev2012b"/> and for all other dimensions in<nbsp/><xref ref="Bo-Ma-Ro2015"/>.
+          The proof is complicated, and does not generalize for other signatures.
+          In the semi-Riemannian case the following argument gives a proof for closed manifolds provided that the answer to the <xref ref="qst_ab">Question</xref> above is positive.
+        </p>
+      </context>
+      <suggestion>
+        <p>
+          It is known (see, for example,
+          <xref ref="Matveev2007"/>) that a 1-form <m>\eta_i</m> generates a one-parameter group of projective transformations,
+          if and only if
+          <me>
+            \eta_{i,jk}+ \eta_{j,ik} - \frac{2}{(n+1)} \eta^\ell_{\ ,\ell k} g_{ij}   = \lambda_i g_{jk} + \lambda_j g_{ik}
+          </me>
+        </p>
+      </suggestion>
+      <context>
+        <p>
+          (for a certain 1-form <m>\lambda_i</m>).
+          We take a light line geodesic <m>\gamma(t)</m>,
+          multiply the above equation by <m>\dot\gamma^i\dot\gamma^j\dot\gamma^k</m>
+          (and sum with respect to repeating indexes)
+          at every point <m>\gamma(t)</m> of the geodesic.
+          The terms with the metric <m>g</m> disappear since <m>g_{ij} \dot\gamma^i\dot\gamma^j=0</m>,
+          so we obtain the equation <m>\frac{d^2}{dt^2}\eta(\dot\gamma(t)) =0</m> implying that <m>\eta(\dot\gamma(t)) = t\cdot C_1 + C_2</m>.
+          A negative answer to the question above implies that <m>C_1=0</m>.
+          Hence <m>\eta(\dot\gamma(t))</m> is constant,
+          which in turn implies that
+          <m>\eta_{i,j}+ \eta_{j,i}</m> is proportional to <m>g_{ij}</m>.
+          Then the covector field <m>\eta_i</m> generates a one-parameter group of conformal transformations.
+          Finally, the proof of the conjecture follows from a classical observation of H. Weyl<nbsp/><xref ref="Weyl1921"/> that every transformation that is projective and conformal is a homothety.
+        </p>
+        <p>
+          A version of the question above is whether,
+          for a complete semi-Riemannian metric on a closed manifold <m>M</m>,
+          the tangent vector of almost every geodesic remains in a bounded set of <m>TM</m>.
+          A positive answer to this question immediately implies that the answer to the initial question is negative,
+          thereby proving the projective Lichnerowicz-Obata conjecture on closed manifolds.
+        </p>
+      </context>
+    </openquestion>
+  </subsection>
+  <subsection>
+    <title>Completeness of closed manifolds of arbitrary signature (communicated by H. Baum)</title>
+    <p>
+      It is well-known that a closed Riemannian manifold is geodesically complete,
+      in the sense that every geodesic
+      <m>\gamma:(a,b)\to {M}</m> can be extended to a geodesic
+      <m>\tilde \gamma:\mathbb{R} \to M</m> such that <m>\tilde \gamma|_{(a,b)}= \gamma</m>.
+      It is also well known that for any indefinite signature there exist metrics on closed manifolds that are not geodesically complete.
+    </p>
+    <openquestion>
+      <statement>
+        <p>
+          What geometric assumptions imply that a metric (possibly,
+          of a fixed signature) on a closed manifold is geodesically complete?
+        </p>
+      </statement>
+      <opinion>
+        <p>
+          We of course are interested in geometric assumptions that are easy to check or which are fulfilled for many interesting metrics.
+        </p>
+      </opinion>
+      <discussion>
+        <p>
+          Let us mention a few classical results.
+          For compact homogeneous manifolds,
+          geodesic completeness was established in<nbsp/><xref ref="Marsden1972"/>.
+          For compact Lorentz manifolds of constant curvature geodesic completeness was proved in<nbsp/><xref ref="Carriere1989"/>
+          (flat case)
+          and<nbsp/><xref ref="Klingler1996"/>
+          (general case).
+        </p>
+      </discussion>
+    </openquestion>
+    <openquestion>
+      <preamble>
+        <p>
+          We refer to the paper<nbsp/><xref ref="Sanchez2015"/> for a list of interesting results on this topic and for a list of open questions from which we repeat here only:
+        </p>
+      </preamble>
+      <title>\cite{Sanchez2015}</title>
+      <statement>
+        <p>
+          Assume that a compact Lorentzian manifold is globally conformal to a manifold of constant curvature.
+          Must it be geodesically complete?
+        </p>
+      </statement>
+      <suggestion>
+        <p>
+          Note also that in the non-compact case homogeneous manifolds of indefinite signature are not necessary geodesically complete;
+          see for example<nbsp/><xref ref="Sanchez2015"/>.
+          It is interesting to understand whether completeness of a homogeneous manifold can follow from algebraic properties of the isometry group.
+        </p>
+      </suggestion>
+    </openquestion>
+  </subsection>
+</section>

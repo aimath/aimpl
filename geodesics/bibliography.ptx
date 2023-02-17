@@ -1,0 +1,882 @@
+<references>
+  <title>Bibliography</title>
+  <biblio type="raw" xml:id="Ab-Ma-Pa2015">
+    A. Abbondandolo, L. Macarini, G. P. Paternain, \emph{
+    On the existence of three closed magnetic geodesics for subcritical energies.}
+    Comment. Math. Helv. \textbf{ 90}(2015), 155--193.   \url{arXiv:1305.1871}
+  </biblio>
+  <biblio type="raw" xml:id="AMMP2017">
+    A. Abbondandolo, L. Macarini, M. Mazzucchelli, G. P. Paternain, \emph{
+    Infinitely many periodic orbits of exact magnetic flows on surfaces for almost every subcritical energy level.}  Journal of the European Mathematical Society \textbf{19}(2017), no. 2, 551--579.    \url{ arXiv:1404.7641}
+  </biblio>
+  <biblio type="raw" xml:id="ABHS2017">
+    A. Abbondandolo, B. Bramham, U. L. Hryniewicz, P. A. S. Salom\~{a}o, \emph{
+    A systolic inequality for geodesic flows on the two-sphere.}   Math. Ann. \textbf{367}(2017),  no.  1--2,  701--753.
+    \url{arXiv:1410.7790}.
+  </biblio>
+  <biblio type="raw" xml:id="ABHS2018">
+    A. Abbondandolo, B. Bramham, U. L. Hryniewicz, P. A. S. Salom\~{a}o, \emph{
+    Sharp systolic inequalities for Reeb flows on the three-sphere}. Inventiones mathematicae
+    \textbf{211}(2018), no  2,  687--778.    \url{arXiv:1504.05258}.
+  </biblio>
+  <biblio type="raw" xml:id="Akbar-Zadeh1988">
+    H. Akbar-Zadeh, \emph{Sur les espaces de Finsler \`a courbures sectionnelles constantes.} Bull. Acad.
+    Roy. Bel. Cl. Sci, 5e S\'erie (5) \textbf{74}(1988), 281--322.
+  </biblio>
+  <biblio type="raw" xml:id="Alo-Bri1995">
+    J.M.~Alonso, M.R. Bridson, \emph{Semihyperbolic groups.} Proc. London Math. Soc. (3) \textbf{70}(1995), no. 1, 56--114.
+  </biblio>
+  <biblio type="raw" xml:id="Alvarez2006">
+    J. C.
+    \'Alvarez Paiva, \emph{
+    Some problems on Finsler geometry. }  Handbook of Differential Geometry. Vol. II, 1--33, Elsevier/North-Holland, Amsterdam, 2006.
+  </biblio>
+  <biblio type="raw" xml:id="Alv-Bal2014">
+    J. C. \'Alvarez Paiva and F. Balacheff, \emph{Contact geometry and isosystolic inequalities.}
+    Geom. Funct. Anal. \textbf{24}(2014), 648--669.
+  </biblio>
+  <biblio type="raw" xml:id="Alv-Ber2010">
+    J. C. \'Alvarez Paiva, G. Berck, \emph{
+    Finsler surfaces with prescribed geodesics.} preprint \url{arXiv:1002.0243v1}.
+  </biblio>
+  <biblio type="raw" xml:id="Ass-Ben2016">
+    L. Asselle and
+    G. Benedetti,
+    \emph{The Lusternik-Fet theorem for autonomous Tonelli Hamiltonian systems on twisted cotangent bundles}. Journal of Topology and Analysis \textbf{8}(2016),  545--570. \url{arXiv:1412.0531}.
+  </biblio>
+  <biblio type="raw" xml:id="Av-Si-Ka2016">
+    A. Avila, J. De Simoi, V. Kaloshin, \emph{
+    An integrable deformation of an ellipse of small eccentricity is an ellipse.} Annals of Mathematics \textbf{184}(2016),  527--558.     \url{arXiv:1412.2853} .
+  </biblio>
+  <biblio type="raw" xml:id="Balacheff2006">
+    F. Balacheff,  \emph{Sur la systole de la sph\`{e}re au voisinage de la m\'{e}trique standard. }(French)  Geom. Dedicata \textbf{121}(2006), 61--71.
+  </biblio>
+  <biblio type="raw" xml:id="Bal-Sab2010">
+    F. Balacheff, S. Sabourau, \emph{Diastolic inequalities and isoperimetric inequalities on surfaces.}       Ann. Sci. \'Ecole Norm. Sup.,  \textbf{ 43}(2010), no. 4, 579--605.
+  </biblio>
+  <biblio type="raw" xml:id="Ballmann1982">
+    W.~Ballmann,
+    \emph{Axial isometries of manifolds of nonpositive curvature.}
+    Math. Ann. \textbf{259}(1982),  131--144.
+  </biblio>
+  <biblio type="raw" xml:id="Bal-Bri1982">
+    W.~Ballmann, M. ~Brin,
+    \emph{On the ergodicity of geodesic flows.}  Ergodic Theory Dynam. Systems \textbf{2}(1982), 311--315.
+  </biblio>
+  <biblio type="raw" xml:id="Ba-Br-Eb1985">
+    W. Ballmann, M.  Brin, P.  Eberlein, \emph{
+    Structure of manifolds of nonpositive curvature. I.}
+    Ann. of Math. (2) \textbf{122}(1985), no. 1, 171--203.
+  </biblio>
+  <biblio type="raw" xml:id="Bangert1980">
+    V. Bangert, \emph{
+    Closed geodesics on complete surfaces.}
+    Math. Ann.  \textbf{251}(1980), no. 1, 83--96.
+  </biblio>
+  <biblio type="raw" xml:id="Bangert1993">
+    V. Bangert, \emph{
+    On the existence of closed geodesics on two-spheres.}
+    Internat. J. Math. \textbf{4}(1993), no. 1, 1--10.
+  </biblio>
+  <biblio type="raw" xml:id="Ban-Emm2011">
+    V. Bangert, P. Emmerich, \emph{On the flatness of Riemannian cylinders without conjugate points}.  Comm. Anal. Geom. \textbf{19}(2011), 773--805.
+  </biblio>
+  <biblio type="raw" xml:id="Ban-Emm2013">
+    V. Bangert, P. Emmerich, \emph{Area growth and rigidity of surfaces without conjugate points}. J. Diff. Geom. \textbf{94}(2013), 367--385.
+  </biblio>
+  <biblio type="raw" xml:id="Ban-Lon2010">
+    V. Bangert, Y. Long,   \emph{ The existence of two closed geodesics on every Finsler
+    2-sphere. }  Math. Ann. \textbf{346}(2010),   no. 2, 335--366.
+  </biblio>
+  <biblio type="raw" xml:id="Ban-Sch1991">
+    V.~Bangert, V.~ Schroeder,  \emph{Existence of flat tori in analytic manifolds of nonpositive curvature.} Ann. Sci. \'Ecole Norm. Sup. (4) \textbf{24} (1991),  605--634.
+  </biblio>
+  <biblio type="raw" xml:id="Bao2007">
+    D.  Bao, \emph{On two curvature-driven problems in Riemann-Finsler geometry.} Finsler geometry, Sapporo 2005 , in memory of Makoto Matsumoto, 1971, Adv. Stud. Pure Math., \textbf{48}(2007), Math. Soc. Japan, Tokyo.
+  </biblio>
+  <biblio type="raw" xml:id="Bav-Mou2013">
+    Ch. Bavard, P. Mounoud,  \emph{Sur les surfaces lorentziennes compactes sans points conjugu\'es.} (French) [On compact Lorentzian surfaces without conjugate points] Geom. Topol. \textbf{17}(2013), no. 1, 469--492.
+  </biblio>
+  <biblio type="raw" xml:id="Benedetti2016">
+    G. Benedetti, \emph{The contact property for symplectic magnetic fields on $S^2$}. Ergodic Theory and Dynam. Systems, \textbf{36}(2016), 682--713.
+  </biblio>
+  <biblio type="raw" xml:id="Be-Fo-La1992">
+    Y. Benoist, P. Foulon, F. Labourie. \emph{Flots d'Anosov a distributions stable et instable
+    diff\'erentiables.} J. Amer. Math. Soc. \textbf{5}(1992), 33--74.
+  </biblio>
+  <biblio type="raw" xml:id="Berger2000">
+    M.~Berger, \emph{Riemannian geometry during the second half of the twentieth century.} Amer. Math. Soc.
+    University Lecture Series \textbf{17}(2000).
+  </biblio>
+  <biblio type="raw" xml:id="Berger2003">
+    M.~Berger, \emph{A panoramic view of Riemannian geometry.} Springer-Verlag, Berlin, 2003.
+  </biblio>
+  <biblio type="raw" xml:id="Bernard2010">
+    P.
+    Bernard, \emph{
+    On the Conley decomposition of Mather sets.}
+    Rev. Mat. Iberoam.  \textbf{26}(2010), no. 1, 115--132.
+  </biblio>
+  <biblio type="raw" xml:id="Besse1978">
+    A.L. Besse,  \emph{Manifolds all of whose geodesics are closed.}
+    Ergebnisse der Mathematik und ihrer Grenzgebiete [Results in Mathematics and Related Areas], \textbf{93}. Springer-Verlag, Berlin-New York, 1978.
+  </biblio>
+  <biblio type="raw" xml:id="Be-Co-Ga1995">
+    G.~Besson, G.~Courtois, S.~Gallot, \emph{Entropies et rigidit\'es des espaces localement sym\'etriques de courbure strictement n\'egative.}  Geom. Funct. Anal. \textbf{5} (1995),  731--799.
+  </biblio>
+  <biblio type="raw" xml:id="Bia-Pol1986">
+    M.  Bialy, L.Polterovich, \emph{ Geodesic flows on the two-dimensional torus and  ``commensurability-incommensurability''  phase transitions.}   Funktsional. Anal. i Prilozhen. \textbf{20 }(1986), no. 4, 9--16, 96.
+  </biblio>
+  <biblio type="raw" xml:id="Bialy1987">
+    M. Bialy, \emph{ First integrals that are polynomial in the momenta for a mechanical system on the two-dimensional torus.}    Funktsional. Anal. i Prilozhen.  \textbf{21}(1987),  no. 4, 64--65.
+  </biblio>
+  <biblio type="raw" xml:id="Bialy1993">
+    M. Bialy, \emph{ Convex billiards and a theorem by E. Hopf.} Math. Z., \textbf{214}(1993) 147--154.
+  </biblio>
+  <biblio type="raw" xml:id="Bialy2000">
+    M. Bialy, \emph{ Rigidity for periodic magnetic fields.} Ergodic Theory  Dynam. Systems \textbf{20}(2000),  1619 -- 1626.
+  </biblio>
+  <biblio type="raw" xml:id="Bialy2010">
+    M.~Bialy, \emph{Integrable geodesic flows on surfaces.  }  Geom. Funct. Anal. \textbf{20}(2010)
+    357--367.
+  </biblio>
+  <biblio type="raw" xml:id="Bia-Mir2017">
+    M. Bialy, A. E. Mironov, \emph{
+    Angular Billiard and Algebraic Birkhoff conjecture.} Adv. Math \textbf{313}(2017),  102---126.  \url{arXiv:1601.03196}.
+  </biblio>
+  <biblio type="raw" xml:id="Birkhoff1927">
+    G. D.  Birkhoff, \emph{ Dynamical systems.}  Am. Math. Soc. Colloq. Publ., \textbf{9},  Providence R.I., 1927.
+  </biblio>
+  <biblio type="raw" xml:id="Bolotin1990">
+    S. V. Bolotin, Integrable Birkhoff billiards.  Vestnik Moskov. Univ. Ser. I Mat. Mekh. \textbf{2}(1990),
+    33--36, 105 (in Russian); translated in Mosc. Univ. Mech. Bull. \textbf{45}(1990), 10--13.
+  </biblio>
+  <biblio type="raw" xml:id="Bo-Ko-Fo1995">
+    {A. V. Bolsinov, V. V. Kozlov, A. T. Fomenko, }
+    \emph{ The   Maupertuis' principle and geodesic flows on $S^2$ arising from
+    integrable cases in the dynamics of rigid body motion.} Russ.
+    Math. Surv. \textbf{50}(1995),   473--501.
+  </biblio>
+  <biblio type="raw" xml:id="Bo-Ma-Fo1998">
+    A. V. Bolsinov, V. S.  Matveev,  A. T.  Fomenko,
+    \emph{  Two-dimensional Riemannian metrics with an integrable
+    geodesic flow. Local and global geometries.} Sb. Math. \textbf{189}(1998), no. 9-10, 1441--1466.
+  </biblio>
+  <biblio type="raw" xml:id="Bol-Mat2015">
+    A. V. Bolsinov, V. S.  Matveev, \emph{Local normal forms for geodesically equivalent pseudo-Riemannian metrics.}
+    Trans. Amer. Math. Soc. \textbf{367}(2015), 6719--6749. \url{arXiv:1301.2492}.
+  </biblio>
+  <biblio type="raw" xml:id="Bo-Ma-Ro2015">
+    A. V. Bolsinov, V. S.  Matveev, S. Rosemann,  \emph{
+    Local normal forms for c-projectively equivalent metrics and proof of the Yano-Obata conjecture in arbitrary signature. Proof of the projective Lichnerowicz conjecture for Lorentzian metrics.}    preprint \url{arXiv:1510.00275}.
+  </biblio>
+  <biblio type="raw" xml:id="BMMT2018">
+    A. Bolsinov, E. Miranda, V. Matveev,  S. Tabachnikov,   \emph{Open Problems, Questions, and Challenges in Finite-Dimensional Integrable Systems.}  Philosophical Transactions A. \textbf{376}(2018), 20170430.     \url{arXiv:1804.03737}.
+  </biblio>
+  <biblio type="raw" xml:id="Boubel2015a">
+    Ch. Boubel, \emph{
+    The algebra of the parallel endomorphisms of a germ of pseudo-Riemannian metric.}      J. Differential Geom.
+    Volume \textbf{99}(2015), 77--123.  \url{arXiv:1207.6544}.
+  </biblio>
+  <biblio type="raw" xml:id="Boubel2015b">
+    Ch. Boubel, \emph{
+    The algebra of the parallel endomorphisms of a pseudo-Riemannian metric: semi-simple part.}  Mathematical Proceedings of the Cambridge Philosophical Society.
+    \textbf{159}(2015), no 2,  219--237
+    \url{arXiv:1402.6642}.
+  </biblio>
+  <biblio type="raw" xml:id="Bryant1996">
+    R. L. Bryant, \emph{Finsler structures on the 2-sphere satisfying K =
+    1.} Cont. Math. \textbf{196}(1996) 27--41.
+  </biblio>
+  <biblio type="raw" xml:id="Bryant1997">
+    R. L. Bryant, \emph{
+    Projectively flat Finsler 2-spheres of constant curvature. }
+    Selecta Math. (N.S.) \textbf{3}(1997), no. 2, 161--203.
+  </biblio>
+  <biblio type="raw" xml:id="Bryant2002">
+    R. L. Bryant,  \emph{ Some remarks on Finsler manifolds with constant
+    flag curvature.} Houston J. Math. \textbf{28}(2002) 221--262.
+  </biblio>
+  <biblio type="raw" xml:id="Bryant2006">
+    R. L. Bryant,  \emph{Geodesically reversible Finsler 2-spheres of constant curvature.}
+    Inspired by S. S. Chern -- A Memorial Volume in Honor of a Great Mathematician, Nankai Tracts in Mathematics, edited by P. A. Griffiths, vol. \textbf{11}(2006), World Scientific.
+  </biblio>
+  <biblio type="raw" xml:id="Br-Du-Eas2009">
+    R. L. Bryant, M. Dunajski, M. Eastwood,
+    \emph{ Metrisability of two-dimensional projective structures. }    J. Diff. Geom.
+    \textbf{ 83}(2009) no.3,   465--500.   \url{arXiv:0801.0300}.
+  </biblio>
+  <biblio type="raw" xml:id="Bry-Thu2011">
+    R. L. Bryant and B. Thurston,  \url{mathoverflow.net/questions/54434/} \  .
+  </biblio>
+  <biblio type="raw" xml:id="Br-Ma-Ma2008">
+    R. L. Bryant, G. Manno, V. S. Matveev, \emph{A
+    solution of a problem of Sophus Lie: Normal forms of 2-dim metrics
+    admitting two projective vector fields}. Math. Ann. \textbf{340}(2008),  437--463.
+  </biblio>
+  <biblio type="raw" xml:id="BFIMZ2019">
+    P. Foulon, S. Ivanov, V. S. Matveev, W.
+    Ziller,  \emph{Geodesic behavior for   Finsler metrics of constant positive flag curvature on $S^2$.} to appear in J. Diff. Geom.      \url{arXiv:1710.03736}
+  </biblio>
+  <biblio type="raw" xml:id="Bur-Iva1994">
+    D.~Burago, S.~ Ivanov, \emph{Riemannian tori without conjugate points are flat}. Geom. Funct. Anal. \textbf{4}(1994),  259--269.
+  </biblio>
+  <biblio type="raw" xml:id="Bur-Iva2010">
+    D. Burago, S.  Ivanov, \emph{ Boundary rigidity and filling volume minimality of metrics close to a flat one.}  Ann. of Math. (2)  \textbf{171}(2010),  1183--1211.
+  </biblio>
+  <biblio type="raw" xml:id="Bur-Iva2013">
+    D. Burago, S.  Ivanov, \emph{
+    Area minimizers and boundary rigidity of almost hyperbolic metrics.}
+    Duke Math. J. \textbf{162}(2013), 1205--1248.
+  </biblio>
+  <biblio type="raw" xml:id="Bur-Iva2016">
+    D. Burago, S.  Ivanov, \emph{
+    Boundary distance, lens maps and entropy of geodesic flows of Finsler metrics.}
+    Geom. Topol. \textbf{20} (2016), 469--490.
+  </biblio>
+  <biblio type="raw" xml:id="Burns1983">
+    K.~Burns,
+    \emph{Hyperbolic behaviour of geodesic flows on manifolds with no focal points}. Ergodic Theory Dynam. Systems \textbf{3} (1983),  1--12.
+  </biblio>
+  <biblio type="raw" xml:id="Burns1992">
+    K.~Burns,
+    \emph{The flat strip theorem fails for surfaces with no conjugate points.}
+    Proc. Amer. Math. Soc. \textbf{115} (1992), 199--206.
+  </biblio>
+  <biblio type="raw" xml:id="Bur-Ged">
+    K.~Burns, T.~Gedeon, \emph{Metrics with ergodic geodesic flow on spheres}. unpublished.
+  </biblio>
+  <biblio type="raw" xml:id="Bur-Ger1994">
+    K.~Burns, M.~Gerber, \emph{Ergodic geodesic flows on product manifolds with low-dimensional factors}. J. Reine Angew. Math. \textbf{450} (1994), 1--35.
+  </biblio>
+  <biblio type="raw" xml:id="Bur-Kat1985">
+    K. Burns, A.  Katok,  \emph{ Manifolds with nonpositive curvature.}
+    Ergodic Theory Dynam. Systems  \textbf{5}(1985), no. 2, 307--317.
+  </biblio>
+  <biblio type="raw" xml:id="Bur-Kni1991">
+    K.
+    Burns, G. Knieper,
+    \emph{Rigidity of surfaces with no conjugate points.}
+    J. Diff. Geom. \textbf{34}(1991), no. 3, 623--650.
+  </biblio>
+  <biblio type="raw" xml:id="Buser1992">
+    P. Buser, \emph{Geometry and spectra of compact Riemann surfaces.}  Progress in Mathematics, \textbf{106}. Birkh\"auser Boston, Inc.,  1992.
+  </biblio>
+  <biblio type="raw" xml:id="Busemann1955">
+    H. Busemann, The Geometry of Geodesics. Academic Press, New York, 1955. 422 p.
+  </biblio>
+  <biblio type="raw" xml:id="Cao-Xav">
+    J.~Cao, F.~Xavier,
+    \emph{A closing lemma for flat strips in compact surfaces of non-positive curvature.} Preprint.
+  </biblio>
+  <biblio type="raw" xml:id="Car-Puj2011">
+    F. Carneiro, E. Pujals, \emph{Partially hyperbolic geodesic flows.}
+    Annales de l'Institut Henri Poincare (C) Non Linear Analysis, \textbf{31}(2014),  985--1014. \url{arXiv:1110.1050}.
+  </biblio>
+  <biblio type="raw" xml:id="Car-Puj2013">
+    F. Carneiro, E. Pujals, \emph{Curvature and partial hyperbolicity.} preprint   \url{arXiv:1305.0678}.
+  </biblio>
+  <biblio type="raw" xml:id="Carriere1989">
+    Y. Carri\`ere, \emph{ Autour de la conjecture de L.~Markus sur les vari\'et\'es affines.}
+    Invent. Math. \textbf{95}(1989), 615--628.
+  </biblio>
+  <biblio type="raw" xml:id="Cha-Lio2014">
+    G. R. Chambers, Ye. Liokumovich, \emph{
+    Optimal sweepouts of a Riemannian 2-sphere.}    JEMS \textbf{ 21}(2019) no 5,   1361--1377.  \url{arXiv:1411.6349} .
+  </biblio>
+  <biblio type="raw" xml:id="CMMM2019">
+    J.-H. Cheng, T. Marugame, V. Matveev  and R.  Montgomery, \emph{ Chains in CR geometry as geodesics of a Kropina metric,}  Advances in Mathematics \textbf{350}(2019), 973--999.
+  </biblio>
+  <biblio type="raw" xml:id="Con-Far2003a">
+    C. Connell,  B. Farb,  \emph{Minimal entropy rigidity for lattices in products of rank one symmetric spaces.} Comm. Anal. Geom. \textbf{11} (2003), no. 5, 1001--1026.
+  </biblio>
+  <biblio type="raw" xml:id="Con-Far2003b">
+    C. Connell, B. Farb,  \emph{The degree theorem in higher rank.} J. Diff. Geom. \textbf{65} (2003), no. 1, 19--59.
+  </biblio>
+  <biblio type="raw" xml:id="Con-Far2003c">
+    C. Connell,  B. Farb,  \emph{Some recent applications of the barycenter method in geometry.} Topology and geometry of manifolds (Athens, GA, 2001), 19--50, Proc. Sympos. Pure Math., \textbf{71} Amer. Math. Soc., Providence, RI, (2003).
+  </biblio>
+  <biblio type="raw" xml:id="Contreras2006">
+    G. Contreras, \emph{ The Palais-Smale condition on contact type energy levels for convex Lagrangian systems.}   Calc. Var. Partial Differential Equations \textbf{27}(2006), 321--395.    \url{arXiv:math/0304238}.
+  </biblio>
+  <biblio type="raw" xml:id="Contreras2010">
+    G. Contreras,  \emph{Geodesic flows with positive topological entropy, twist maps and hyperbolicity.} Ann. of Math. (2) \textbf{172}(2010),  761--808.
+  </biblio>
+  <biblio type="raw" xml:id="Con-Itu1999">
+    G. Contreras, R.  Iturriaga, \emph{
+    Global minimizers of autonomous Lagrangians.}
+    22$^{ o}$ Col\'oquio Brasileiro de Matem\'atica.  Instituto de Matem\'atica Pura e Aplicada (IMPA), 1999.
+  </biblio>
+  <biblio type="raw" xml:id="Co-Ma-Pa2004">
+    G.  Contreras, L. Macarini,  G. P.  Paternain, \emph{
+    Periodic orbits for exact magnetic flows on surfaces.}
+    Int. Math. Res. Not. \textbf{2004}, no. 8, 361--387.
+  </biblio>
+  <biblio type="raw" xml:id="Con-Pat2002">
+    G. Contreras, G. P. Paternain, \emph{Genericity of geodesic flows with positive topological entropy on $S^2$.} J. Diff. Geom. \textbf{61}(2002), no. 1, 1--49.
+  </biblio>
+  <biblio type="raw" xml:id="Coo-Del2010">
+    D. Cooper,  K. Delp, \emph{
+    The marked length spectrum of a projective manifold or orbifold. }
+    Proc. Amer. Math. Soc. \textbf{138}(2010),  3361--3376.
+  </biblio>
+  <biblio type="raw" xml:id="Cra-Mes2014">
+    M.
+    Crampin,  T. Mestdag, \emph{ A class of Finsler surfaces whose geodesics are circles.} Publ. Math. Debrecen \textbf{84}(2014),  3--16.
+  </biblio>
+  <biblio type="raw" xml:id="Croke1988">
+    C.  Croke, \emph{ Area and the length of the shortest closed geodesic.}
+    J. Diff. Geom.
+    \textbf{27}(1988), no. 1, 1--21.
+  </biblio>
+  <biblio type="raw" xml:id="Croke1990">
+    C. Croke, \emph{ Rigidity for surfaces of nonpositive curvature. }  Comment. Math. Helv.  \textbf{ 65}(1990),  no. 1, 150--169.
+  </biblio>
+  <biblio type="raw" xml:id="Cr-Da-Sh2000">
+    C. Croke,  N. Dairbekov, V. Sharafutdinov, \emph{
+    Local boundary rigidity of a compact Riemannian manifold with curvature bounded above.}
+    Trans. Amer. Math. Soc. \textbf{352}(2000),  3937--3956.
+  </biblio>
+  <biblio type="raw" xml:id="Cr-Fa-Fe1992">
+    C. Croke, A. Fathi, J. Feldman,  \emph{The marked length-spectrum of a surface of nonpositive curvature.} Topology \textbf{31}(1992), no. 4, 847--855.
+  </biblio>
+  <biblio type="raw" xml:id="Cro-Klei1994">
+    C. Croke, B. Kleiner, \emph{
+    Conjugacy and rigidity for manifolds with a parallel vector field.}
+    J. Diff. Geom. \textbf{39}(1994),  659--680.
+  </biblio>
+  <biblio type="raw" xml:id="Cro-Klei1998">
+    C. Croke, B. Kleiner,
+    \emph{A rigidity theorem for simply connected manifolds without conjugate points. }
+    Ergodic Theory Dynam. Systems  \textbf{18}(1998), no. 4, 807--812.
+  </biblio>
+  <biblio type="raw" xml:id="Cro-Sch1986">
+    Ch. Croke, V.  Schroeder,  \emph{The fundamental group of compact manifolds without conjugate points. } Comment. Math. Helv. \textbf{61}(1986), no. 1, 161--175.
+  </biblio>
+  <biblio type="raw" xml:id="De-Ko-Tr2012">
+    N. V.
+    Denisova, V. V. Kozlov, D. V.  Treshchev, \emph{ Remarks on polynomial integrals of higher degree for reversible systems with a toral configuration space.}  (Russian) Izv. Ross. Akad. Nauk Ser. Mat. \textbf{76}(2012), no. 5, 57--72; translation in Izv. Math. \textbf{76} (2012), no. 5, 907--921.
+  </biblio>
+  <biblio type="raw" xml:id="DeRham1952">
+    G. De Rham, \emph{
+    Sur la reductibilit\'e d'un espace de Riemann.} (French)
+    Comment. Math. Helv. \textbf{26}(1952),   328--344.
+  </biblio>
+  <biblio type="raw" xml:id="Donnay1988I">
+    V. ~Donnay,
+    \emph{Geodesic flow on the two-sphere. I. Positive measure entropy}. Ergodic Theory Dynam. Systems  \textbf{8} (1988),  531--553.
+  </biblio>
+  <biblio type="raw" xml:id="Donnay1988II">
+    V. ~Donnay,
+    \emph{Geodesic flow on the two-sphere. II. Ergodicity.} Dynamical systems (College Park, MD, 1986/87), 112--153, Lecture Notes in Math., \textbf{1342} Springer, Berlin (1988).
+  </biblio>
+  <biblio type="raw" xml:id="Don-Pugh2004">
+    V.~Donnay, C.~ Pugh,  \emph{Finite horizon Riemann structures and ergodicity}. Ergodic Theory Dynam. Systems \textbf{24} (2004),  89--106.
+  </biblio>
+  <biblio type="raw" xml:id="Dun-Eas2014">
+    M. Dunajski, M. Eastwood, \emph{Metrisability of three-dimensional path geometries.}  European Journal of Mathematics  \textbf{2}(2016), 809--834.    \url{arXiv:1408.2170}.
+  </biblio>
+  <biblio type="raw" xml:id="Douglas1941">
+    J.
+    Douglas, \emph{Solution of the inverse problem of the calculus of variations.} Trans. Amer. Math. Soc. \textbf{50}(1941), 71--128.
+  </biblio>
+  <biblio type="raw" xml:id="Eas-Mat2008">
+    M. Eastwood,  V. S. Matveev,  \emph{ Metric connections in projective differential geometry,}
+    Symmetries and Overdetermined Systems of Partial Differential Equations (Minneapolis, MN, 2006), 339--351,
+    IMA Vol. Math. Appl.,    \textbf{144}(2007),   Springer, New York.   \url{arXiv:0806.3998}.
+  </biblio>
+  <biblio type="raw" xml:id="Eberlein2001">
+    P. Eberlein, \emph{Geodesic flows in manifolds of nonpositive curvature.} in  Smooth ergodic theory and its applications (Seattle, WA, 1999), 525--571, Proc. Sympos. Pure Math., \textbf{69}, Amer. Math. Soc., Providence, RI, (2001).
+  </biblio>
+  <biblio type="raw" xml:id="Eisenhart1923">
+    L. P. Eisenhart, \emph{
+    Symmetric tensors of the second order whose first covariant derivatives are zero.}
+    Trans. Amer. Math. Soc. \textbf{25}(1923), no. 2, 297--306.
+  </biblio>
+  <biblio type="raw" xml:id="Eschenburg1977">
+    J.-H.~Eschenburg, \emph{Horospheres and the stable part of the geodesic flow}. Math. Z. \textbf{153}(1977),  237--251.
+  </biblio>
+  <biblio type="raw" xml:id="Fet1952">
+    A.
+    I. Fet,  \emph{Variational Problems on Closed Manifolds.} Mat. Sbornik \textbf{30}(1952). English translation in  Amer. Math. Society, Translation No. 90 (1953).
+  </biblio>
+  <biblio type="raw" xml:id="Flaminio1995">
+    L. Flaminio,
+    \emph{Local entropy rigidity for hyperbolic manifolds.}
+    Comm. Anal. Geom. \textbf{3} (1995), no. 3-4, 555--596.
+  </biblio>
+  <biblio type="raw" xml:id="Fl-Ja-Pi2011">
+    J. L. Flores, M. A. Javaloyes, P. Piccione, \emph{Periodic geodesics and geometry of compact Lorentzian manifolds with a Killing vector field.}  Math. Zeit. \textbf{267} (2011), 221--233.
+  </biblio>
+  <biblio type="raw" xml:id="Foulon1997">
+    P. Foulon,  \emph{Locally symmetric Finsler spaces in negative curvature.}
+    C. R. Acad. Sci.  \textbf{324}(1997), no. 10, 1127--1132.
+  </biblio>
+  <biblio type="raw" xml:id="Fou-Mat2018">
+    P. Foulon,  \emph{ Zermelo deformation of Finsler metrics by Killing vector fields.}   Electron. Res. Announc. Math. Sci. \textbf{ 25}(2018), 1 -- 7.
+  </biblio>
+  <biblio type="raw" xml:id="Frankel1961">
+    T. Frankel, \emph{Manifolds of positive curvature.} Pacific J. Math. \textbf{ 11}(1961) 165--174.
+  </biblio>
+  <biblio type="raw" xml:id="Franks1992">
+    J. Franks, \emph{Geodesics on $S^2$ and periodic points of annulus homeomorphisms.}
+    Invent. Math. \textbf{108}(1992), no. 2, 403--418.
+  </biblio>
+  <biblio type="raw" xml:id="Fre-Man1982">
+    A. Freire, R. Ma\~n\'e, \emph{On the entropy of the geodesic flow in manifolds without conjugate points.} Invent. Math. \textbf{69} (1982), no. 3, 375--392.
+  </biblio>
+  <biblio type="raw" xml:id="Gaidukov1966">
+    E. V. Gaidukov,
+    \emph{Asymptotic geodesics on a Riemannian manifold non-homeomorphic to a sphere. }
+    Dokl. Akad. Nauk SSSR \textbf{169}(1966),  999--1001.
+  </biblio>
+  <biblio type="raw" xml:id="Ginzburg1989">
+    V. Ginzburg, \emph{New generalizations of Poincar\'e's geometric theorem}.
+    Funct. Anal. Appl. \textbf{21}(1989), 575--611.
+  </biblio>
+  <biblio type="raw" xml:id="Ginzburg1996">
+    V. Ginzburg, \emph{On closed trajectories of a charge in a magnetic field.} An application of symplectic geometry.
+    Contact and Symplectic Geometry, Vol. \textbf{8}. Ed. C. B. Thomas. Newton Institute, 1996,  131--148.
+  </biblio>
+  <biblio type="raw" xml:id="Gom-Rug2013">
+    J. B.
+    Gomes, R. O.  Ruggiero,  \emph{On Finsler surfaces without conjugate points.}  Ergodic Theory Dynam. Systems \textbf{33}(2013), no. 2, 455--474.
+  </biblio>
+  <biblio type="raw" xml:id="Green1954">
+    L. W. Green, \emph{Surfaces without conjugate points.}
+    Trans. Amer. Math. Soc. \textbf{76}(1954),  529--546.
+  </biblio>
+  <biblio type="raw" xml:id="Green1956">
+    L. W. Green, \emph{ Geodesic instability. }  Proc. Amer. Math. Soc.  \textbf{7}(1956), 438--448.
+  </biblio>
+  <biblio type="raw" xml:id="Grjuntal1979">
+    A. I. Grjuntal,  \emph{The existence of convex spherical metrics all of whose closed nonselfintersecting geodesics are hyperbolic. }
+    Izv. Akad. Nauk SSSR Ser. Mat. \textbf{ 43}(1979), 3--18, 237.
+  </biblio>
+  <biblio type="raw" xml:id="Gro-Gro1981">
+    D.  Gromoll, K.  Grove,  \emph{ On metrics on $S^2$ all of whose geodesics are closed.}  Inv.
+    math. \textbf{65}(1981), 175--177.
+  </biblio>
+  <biblio type="raw" xml:id="Gromov1978">
+    M. Gromov, \emph{   Homotopical effects of dilatation.}
+    J. Diff. Geom. \textbf{13}(1978), 303--310.
+  </biblio>
+  <biblio type="raw" xml:id="Gromov1983">
+    M. Gromov, \emph{ Filling Riemannian manifolds}.
+    J. Diff. Geom. \textbf{18}(1983), 1--147.
+  </biblio>
+  <biblio type="raw" xml:id="Gromov2001">
+    M. Gromov, \emph{  Metric structures for Riemannian and non-Riemannian spaces.}   With appendices by M. Katz, P. Pansu and S. Semmes. Translated from the French by Sean Michael Bates. Progress in Mathematics, \textbf{ 152}. Birkh\"auser Boston, Inc., Boston, MA, 1999.
+  </biblio>
+  <biblio type="raw" xml:id="Gro-Thu1987">
+    M. Gromov, W. Thurston,  \emph{Pinching constants for hyperbolic manifolds.} Invent. Math. \textbf{89} (1987), 1--12.
+  </biblio>
+  <biblio type="raw" xml:id="Gui-Lef2018">
+    C. Guillarmou, T. Lefeuvre \emph{The marked length spectrum of Anosov manifolds. }\url{arXiv:1806.04218}.
+  </biblio>
+  <biblio type="raw" xml:id="Gutkin2012">
+    E. Gutkin,  \emph{ Billiard dynamics: an updated survey with the emphasis on open problems.}  Chaos,
+    \textbf{22}(2012), 026116, 13 pages.
+    \url{arXiv:1301.2547}.
+  </biblio>
+  <biblio type="raw" xml:id="Hamenstadt1991">
+    U. Hamenst\"adt,  \emph{A geometric characterization of negatively curved locally symmetric spaces.} J. Diff. Geom.  \textbf{34} (1991), no. 1, 193--221.
+  </biblio>
+  <biblio type="raw" xml:id="Har-Pat2008">
+    A. Harris,  G. Paternain, \emph{ Dynamically convex Finsler metrics and
+    $J$-holomorphic embedding of asymptotic cylinders.}
+    { Ann. Global Anal. Geom.} \textbf{34}(2008), no. 2, 115--134.
+  </biblio>
+  <biblio type="raw" xml:id="Has-Mor1996">
+    J. Hass,  F. Morgan,  \emph{Geodesic nets on the 2-sphere.}  Proc. Amer. Math. Soc. \textbf{124}(1996), 3843--3850.
+  </biblio>
+  <biblio type="raw" xml:id="Hasselblatt1994">
+    B. Hasselblatt, \emph{Regularity of the Anosov splitting and of
+    horospheric foliations} Ergodic Theory Dynam. Systems  \textbf{14}(1994), 645--666.
+  </biblio>
+  <biblio type="raw" xml:id="Has-Wil1999">
+    B. Hasselblatt and A. Wilkinson, \emph{Prevalence of non-Lipschitz Anosov foliations.}
+    Ergodic Theory Dynam. Systems  \textbf{19} (1999), no. 3,  643--656.
+  </biblio>
+  <biblio type="raw" xml:id="Hedlund1932">
+    G. Hedlund, \emph{Geodesics on a two-dimensional Riemmnnian manifold with periodic coefficients.}
+    Ann. of Math. (2) \textbf{33}(1932),  719--739.
+  </biblio>
+  <biblio type="raw" xml:id="Her-Pau1997">
+    S. Hersonsky and F. Paulin, \emph{On the rigidity of discrete isometry groups of negatively curved spaces.}  Comment. Math. Helv.
+    \textbf{72}(1997), 349--388.
+  </biblio>
+  <biblio type="raw" xml:id="Hin-Rad2013">
+    N. Hingston, H.-B. Rademacher, \emph{Resonance for loop homology of spheres.} J. Diff. Geom. \textbf{93} (2013), 133--174.
+  </biblio>
+  <biblio type="raw" xml:id="Hirsch1976">
+    M. W.  Hirsch, Differential topology. Graduate Texts in Mathematics, No. 33. Springer-Verlag, New York-Heidelberg, 1976. x+221 pp.
+  </biblio>
+  <biblio type="raw" xml:id="Ho-Wy-Ze1993">
+    H. Hofer, K. Wysocki, E. Zehnder,  \emph{  Pseudoholomorphic curves in symplectizations with applications to the Weinstein conjecture in dimension three. } Invent. Math. \textbf{114}(1993), no. 3, 515--563.
+  </biblio>
+  <biblio type="raw" xml:id="Ho-Wy-Ze2003">
+    H. Hofer, K. Wysocki, E. Zehnder,  \emph{ Finite energy foliations of tight
+    three-spheres and Hamiltonian dynamics.}    Ann.
+    of Math. (2)  \textbf{ 157}(2003), no. 1,  125--257.
+  </biblio>
+  <biblio type="raw" xml:id="Hopf1948">
+    E. Hopf,
+    \emph{ Closed surfaces without conjugate points. }
+    Proc. Nat. Acad. Sci. U.S.A. \textbf{34}(1948),  47--51.
+  </biblio>
+  <biblio type="raw" xml:id="Hur-Kat1990">
+    S. Hurder, A. Katok,  \emph{Differentiability, rigidity and Godbillon-Vey classes for Anosov
+    flows.} Publ. Math. de l'I.H.E.S. \textbf{72} (1990), 5--61.
+  </biblio>
+  <biblio type="raw" xml:id="Iva-Kap2014">
+    S. Ivanov, V. Kapovich, \emph{Manifolds without conjugate points and their fundamental groups}.  J. Diff. Geom. \textbf{96}(2014),  223--240.   \url{arXiv:1205.4455}.
+  </biblio>
+  <biblio type="raw" xml:id="Katok1973">
+    A. B. Katok,  \emph{  Ergodic properties of degenerate integrable
+    Hamiltonian systems.}   Izv. Akad. Nauk SSSR.  \textbf{37} (1973),775--778,   English translation in
+    {Math. USSR-Isv.} \textbf{7} (1973), 535--571.
+  </biblio>
+  <biblio type="raw" xml:id="Katok1982">
+    A. B. Katok,  \emph{Entropy and closed geodesics.} Ergodic Theory Dynam. Systems \textbf{2} (1982), no. 3-4, 339--365.
+  </biblio>
+  <biblio type="raw" xml:id="Katok1994">
+    A.B. Katok, \emph{Infinitesimal Lyapunov functions, invariant cone families and stochastic properties of smooth dynamical systems}. Ergodic Theory Dynam. Systems \textbf{14} (1994),  757--785.
+  </biblio>
+  <biblio type="raw" xml:id="Ka-Kn-We1991">
+    A. ~Katok, G. Knieper, H. Weiss, \emph{Formulas for the derivative and critical points of topological entropy for Anosov
+    and geodesic flows.} Comm. Math. Phys. \textbf{138} (1991), no. 1, 19--31.
+  </biblio>
+  <biblio type="raw" xml:id="Klingenberg1974">
+    W. Klingenberg, \emph{Riemannian manifolds with
+    geodesic flow of Anosov type}. Ann. of Math. (2)  \textbf{99} (1974), 1--13.
+  </biblio>
+  <biblio type="raw" xml:id="Klingler1996">
+    B. Klingler, \emph{  Compl\'etude des vari\'et\'es lorentziennes \`a courbure constante.}  Math. Ann. \textbf{306}(1996) 353--370.
+  </biblio>
+  <biblio type="raw" xml:id="Knieper1998">
+    G.~Knieper,
+    \emph{The uniqueness of the measure of maximal entropy for geodesic flows on rank 1 manifolds}. Ann. of Math.  \textbf{148}(1998), 291--314.
+  </biblio>
+  <biblio type="raw" xml:id="Kni-Wei2002">
+    G. Knieper,  H. N. Weiss, \emph{ $C^\infty$-genericity of positive topological entropy for geodesic flows on $S^2$.} J. Diff. Geom. \textbf{62}(2002), no. 1, 127--141.
+  </biblio>
+  <biblio type="raw" xml:id="Koz-Pet2000">
+    L. Kozma, I. R. Peter, \emph{Intersection theorems for Finsler manifolds.}  Publ. Math. Debrecen \textbf{57}(2000), 193--201.
+  </biblio>
+  <biblio type="raw" xml:id="Kolokoltsov1983">
+    {V. N. Kolokoltsov,  }
+    \emph{  Geodesic flows on two-dimensional manifolds with an additional
+    first integral that is polynomial with respect to velocities. }
+    Math. USSR-Izv. \textbf{21}(1983), no.~2, 291--306.
+  </biblio>
+  <biblio type="raw" xml:id="Kru-Mat2016">
+    B. Kruglikov, V. S. Matveev, \emph{
+    The geodesic flow of a generic metric does not admit nontrivial integrals polynomial in momenta.}  Nonlinearity \textbf{29}(2016) 1755--1768.     \url{arXiv:1510.01493}.
+  </biblio>
+  <biblio type="raw" xml:id="Lang2019">
+    J. Lang, \emph{Projectively equivalent Finsler metrics on surfaces of negative Euler characteristic.} \url{ arXiv:1908.02701}
+  </biblio>
+  <biblio type="raw" xml:id="Lan-Met2018">
+    C. Lange, T. Mettler, \emph{
+    On a duality between certain Finsler 2-spheres and Weyl orbifolds}. \url{ arXiv:1812.00827}
+  </biblio>
+  <biblio type="raw" xml:id="Lebedeva2002">
+    N. Lebedeva, \emph{On the fundamental group of a compact space without conjugate points.} PDMI Preperint 5/2002,
+    \url{http://www.pdmi.ras.ru/preprint/2002/02-05.html}, (2002).
+  </biblio>
+  <biblio type="raw" xml:id="Levi-Civita1896">
+    T. Levi-Civita, \emph{\ Sulle trasformazioni delle equazioni
+    dinamiche.} Ann. di Mat., serie $2^a$, \textbf{24}(1896), 255--300.
+  </biblio>
+  <biblio type="raw" xml:id="Long2006">
+    Y. Long, \emph{ Multiplicity and stability of closed geodesics on Finsler 2-spheres.}
+    J. Euro. Math. Soc. \textbf{8}(2006), no 2,  341--353.
+  </biblio>
+  <biblio type="raw" xml:id="Lon-Wan2008">
+    Y. Long and W. Wang,  \emph{Stability of closed geodesics on Finsler 2-spheres.}  {
+    J. Funct. Anal.} \textbf{255}(2008), no. 3,  620--641.
+  </biblio>
+  <biblio type="raw" xml:id="Lyu-Fet1951">
+    L. A. Lyusternik,   A. I. Fet,   \emph{Variational problems on closed manifolds}.   Dokl. Akad. Nauk. SSSR, \textbf{81}(1951),  17--18.
+  </biblio>
+  <biblio type="raw" xml:id="Lyu-Sch1929a">
+    L. Lusternik and L. Schnirelmann,
+    \emph{Existence de trois g\'eod\'esiques ferm\'ees sur toute surface de genre 0}.
+    C. R. Acad. Sci. Paris \textbf{188}(1929), 269--271.
+  </biblio>
+  <biblio type="raw" xml:id="Lyu-Sch1929b">
+    L. Lusternik and L. Schnirelmann,
+    \emph{Sur le probl\`eme de trois g\'eod\'esiques ferm\'ees sur toute surface de genre 0}.
+    C. R. Acad. Sci. Paris \textbf{189}(1929), 534--536.
+  </biblio>
+  <biblio type="raw" xml:id="Mane1987">
+    R.~Ma\~n\'e, \emph{On a theorem of Klingenberg.} Dynamical systems and bifurcation theory (Rio de Janeiro, 1985), 319--345, Pitman Res. Notes Math. Ser., \textbf{160} Longman Sci. Tech., Harlow, 1987.
+  </biblio>
+  <biblio type="raw" xml:id="Mane1996">
+    R.~Ma\~n\'e, \emph{The Lyapunov exponents of generic area preserving diffeomorphisms. } International Conference on Dynamical Systems (Montevideo, 1995),  110--119,
+    Pitman Res. Notes Math. Ser., \textbf{ 362}, Longman, Harlow, 1996.
+  </biblio>
+  <biblio type="raw" xml:id="Manning1979">
+    A. Manning, \emph{Topological entropy for geodesic flows.} Ann. of Math. (2) \textbf{110} (1979), no. 3, 567--573.
+  </biblio>
+  <biblio type="raw" xml:id="Margulis2004">
+    G. Margulis, {On some aspects of the theory of Anosov systems. With a survey by Richard Sharp: Periodic orbits of hyperbolic flows.}
+    Translated from the Russian by Valentina Vladimirovna Szulikowska. Springer Monographs in Mathematics. Springer-Verlag, Berlin, 2004. vi+139 pp.
+  </biblio>
+  <biblio type="raw" xml:id="Marsden1972">
+    J. E. Marsden, \emph{ On completeness of homogeneous pseudo-Riemannian manifolds.}
+    Indiana Univ. J. \textbf{22}(1973/74)  1065--1066.
+  </biblio>
+  <biblio type="raw" xml:id="Masur1975">
+    H. Masur, \emph{On a class of geodesics in Teichm\"uller space}. Ann. of Math. \textbf{102}(1975), 205--221.
+  </biblio>
+  <biblio type="raw" xml:id="Mather1991">
+    J. N. Mather, \emph{Action minimizing invariant measures for positive definite Lagrangian systems.}   Math. Z.  \textbf{207}(1991),  no. 2, 169--207.
+  </biblio>
+  <biblio type="raw" xml:id="Mather2004">
+    J. N. Mather,
+    \emph{
+    Examples of Aubry sets. }
+    Ergodic Theory Dynam. Systems  \textbf{ 24}(2004), no. 5, 1667--1723.
+  </biblio>
+  <biblio type="raw" xml:id="Matveev2003a">
+    V. S. Matveev,
+    \emph{ Hyperbolic manifolds are geodesically rigid.}
+    Invent. math. \textbf{151}(2003), 579--609.
+  </biblio>
+  <biblio type="raw" xml:id="Matveev2003b">
+    V. S. Matveev,
+    \emph{ Three-dimensional manifolds having metrics with the same geodesics.}  Topology \textbf{42}(2003) no. 6, 1371--1395.
+  </biblio>
+  <biblio type="raw" xml:id="Matveev2005">
+    V. S. Matveev,
+    \emph{Lichnerowicz-Obata conjecture in dimension two.}
+    Comm. Math. Helv. \textbf{81}(2005) no. 3,  541--570.
+  </biblio>
+  <biblio type="raw" xml:id="Matveev2007">
+    V. S. Matveev, \emph{Proof of projective Lichnerowicz-Obata conjecture}.
+    J. Diff. Geom.  \textbf{75}(2007),  459--502.
+  </biblio>
+  <biblio type="raw" xml:id="Matveev2012a">
+    V. S. Matveev, \emph{ Geodesically equivalent metrics in general relativity.}  J. Geom. Phys. \textbf{62}(2012)   675--691.
+  </biblio>
+  <biblio type="raw" xml:id="Matveev2012b">
+    V. S. Matveev, \emph{ Pseudo-Riemannian metrics on closed surfaces whose geodesic flows admit nontrivial integrals quadratic in momenta, and proof of the projective Obata conjecture for two-dimensional pseudo-Riemannian metrics. }  J. Math. Soc. Japan. \textbf{64} (2012), 107--152.
+  </biblio>
+  <biblio type="raw" xml:id="Matveev2013">
+    V. S. Matveev, \emph{ Can we make a Finsler metric complete by a trivial projective change? } Proceedings of the VI International Meeting on Lorentzian Geometry (Granada, September 6--9, 2011), Springer Proceedings in Mathematics &amp; Statistics, \textbf{26}(2013), 231--243. \url{arXiv:1112.5060}.
+  </biblio>
+  <biblio type="raw" xml:id="Mat-Top1998">
+    V. S. Matveev, P. J. Topalov,
+    \emph{Trajectory equivalence and corresponding integrals}.
+    Regular and Chaotic Dynamics,
+    \textbf{3} (1998), no. 2, 30--45.
+  </biblio>
+  <biblio type="raw" xml:id="Mat-Top2000">
+    V. S. Matveev and  P. J. Topalov, \textit{Metric with ergodic geodesic flow is completely determined by
+    unparameterized geodesics.} ERA-AMS, \textbf{6}(2000), 98--104.
+  </biblio>
+  <biblio type="raw" xml:id="Mat-Tra2014">
+    V.S. Matveev, A. Trautman, \emph{
+    A criterion for compatibility of conformal and projective structures.}    Comm. Math. Phys. \textbf{329}(2014), 821--825.
+  </biblio>
+  <biblio type="raw" xml:id="Merlin2016">
+    L. Merlin, \emph{Minimal entropy for uniform lattices in $PSL(\mathbb{R}) \times PSL(\mathbb{R})$.}  Comment. Math. Helv. \textbf{91}(2016), no. 1, 107--129.   \url{arXiv:1406.44281}.
+  </biblio>
+  <biblio type="raw" xml:id="Michel1981">
+    R. Michel, \emph{
+    Sur la rigidit\'e impos\'ee par la longueur des g\'eod\'esiques.} Invent. Math. \textbf{65}(1981/82), 71--83.
+  </biblio>
+  <biblio type="raw" xml:id="Miller2001">
+    S.  Miller,
+    Geodesic knots in the figure-eight knot complement.
+    Experiment. Math. \textbf{10}(2001), no. 3, 419--436.
+  </biblio>
+  <biblio type="raw" xml:id="Milnor1963">
+    J.  Milnor, {  Morse theory.} Based on lecture notes by M. Spivak and R. Wells. Annals of Mathematics Studies, No. 51 Princeton University Press,  1963.
+  </biblio>
+  <biblio type="raw" xml:id="Mirzakhani2008">
+    M.
+    Mirzakhani,  \emph{
+    Growth of the number of simple closed geodesics on hyperbolic surfaces.}
+    Ann. of Math. (2) \textbf{168}(2008), 97--125.
+  </biblio>
+  <biblio type="raw" xml:id="Mironov2010">
+    A. E.
+    Mironov,  \emph{Polynomial integrals of a mechanical system on a two-dimensional torus.} (Russian) Izv. Ross. Akad. Nauk Ser. Mat. \textbf{74}(2010), no. 4, 145--156; translation in Izv. Math. \textbf{74}(2010), no. 4, 805--817.
+  </biblio>
+  <biblio type="raw" xml:id="Mos-Siu1980">
+    G. D. ~Mostow, Y. T.~Siu,
+    \emph{ A compact K\"ahler surface of negative curvature not covered by the ball}. Ann. of Math. \textbf{112} (1980), 321--360.
+  </biblio>
+  <biblio type="raw" xml:id="Morse1924">
+    H. M. Morse, \emph{A fundamental class of geodesics on any closed surface of genus greater
+    than one.}  Trans. Am. Math. Soc. \textbf{ 26}(1924) 25--60.
+  </biblio>
+  <biblio type="raw" xml:id="Mou-Suh2013">
+    P.
+    Mounoud,  S. Suhr, \emph{
+    Pseudo-Riemannian geodesic foliations by circles.}
+    Math. Z. \textbf{274}(2013), no. 1-2, 225--238.
+  </biblio>
+  <biblio type="raw" xml:id="Nab-Rot2002">
+    A. Nabutovsky, R.  Rotman,  \emph{ The length of the shortest closed geodesic on a
+    2-dimensional sphere.}  Int. Math. Res. Not. \textbf{23}(2002), 1211--1222.
+  </biblio>
+  <biblio type="raw" xml:id="Nab-Rot2007">
+    A.   Nabutovsky, R.  Rotman,
+    \emph{Shapes of geodesic nets. }
+    Geom. Topol. \textbf{11}(2007), 1225--1254.
+  </biblio>
+  <biblio type="raw" xml:id="Ontaneda2011">
+    P.~Ontaneda,
+    \emph{Pinched smooth hyperbolization.} preprint    \url{arXiv:1110.6374}.
+  </biblio>
+  <biblio type="raw" xml:id="Ontaneda2014">
+    P.~Ontaneda,
+    \emph{Riemannian hyperbolization.} preprint    \url{arXiv:1406.1730}.
+  </biblio>
+  <biblio type="raw" xml:id="Otal1990">
+    J.-P. Otal,
+    \emph{Le spectre marqu\'e  des longueurs des surfaces \`a  courbure n\'egative.}
+    Ann. of Math. (2) \textbf{131}(1990), no. 1, 151--162.
+  </biblio>
+  <biblio type="raw" xml:id="Paternain1997">
+    G. P.    Paternain, \emph{
+    Finsler structures on surfaces with negative Euler characteristic.}
+    Houston J. Math. \textbf{23}(1997), no. 3, 421--426.
+  </biblio>
+  <biblio type="raw" xml:id="Paternain2006">
+    G. P.    Paternain, \emph{ Magnetic rigidity of horocycle flows.}  Pacific J. Math.  \textbf{225}(2006),  no. 2, 301--323.
+  </biblio>
+  <biblio type="raw" xml:id="Pesin1977">
+    Ya.  Pesin, \emph{ Geodesic flows in closed Riemannian manifolds without focal points.}   Izv. Akad. Nauk SSSR Ser. Mat.  \textbf{41}(1977), no. 6, 1252--1288, 1447.
+  </biblio>
+  <biblio type="raw" xml:id="Pes-Uhl2005">
+    L. Pestov and G. Uhlmann, \emph{Two dimensional compact simple Riemannian manifolds are boundary distance rigid}. Ann. of Math.  \textbf{161}(2005),
+    1093--1110.
+  </biblio>
+  <biblio type="raw" xml:id="Preissman1943">
+    A. Preissman,
+    \emph{Quelques propri\'et\'es globales des espaces de Riemann.} (French)
+    Comment. Math. Helv. \textbf{15} (1943), 175--216.
+  </biblio>
+  <biblio type="raw" xml:id="Poritsky1950">
+    H. Poritsky, \emph{ The billiard ball problem on a table with a convex boundary -- an illustrative
+    dynamical problem.}  Ann. of Math. (2), \textbf{51}(1950), 446--470.
+  </biblio>
+  <biblio type="raw" xml:id="Rademacher1989">
+    H.-B. Rademacher, \emph{
+    On the average indices of closed geodesics.}
+    J. Diff. Geom. \textbf{29} (1989), no. 1, 65--83.
+  </biblio>
+  <biblio type="raw" xml:id="Rademacher2004">
+    H.-B. Rademacher, \emph{A sphere theorem for non-reversible Finsler metrics}. Math. Ann. \textbf{328}(2004),  373--387.
+  </biblio>
+  <biblio type="raw" xml:id="Rademacher2016">
+    H.-B. Rademacher, \emph{  Bumpy metrics on spheres and minimal index growth}.  preprint   arXiv:1608.01937
+  </biblio>
+  <biblio type="raw" xml:id="Rad-Wil2015">
+    M. Radeschi, B. Wilking, \emph{
+    On the Berger conjecture for manifolds all of whose geodesics are closed.}  preprint   arXiv:1511.07852
+  </biblio>
+  <biblio type="raw" xml:id="Reid1993">
+    A. Reid, \emph{Closed hyperbolic $3$-manifolds whose closed geodesics all are simple.}   J. Diff. Geom.  \textbf{38}(1993),  no. 3, 545--558.
+  </biblio>
+  <biblio type="raw" xml:id="Rivin2001">
+    I. Rivin, \emph{
+    Simple curves on surfaces.}  Geom. Dedicata \textbf{87}(2001), 345--360.    \url{arXiv:math/9907041}.
+  </biblio>
+  <biblio type="raw" xml:id="Rodriguez_Hertz2003">
+    F. Rodriguez Hertz,
+    \emph{On the geodesic flow of surfaces of nonpositive curvature.} preprint \url{arXiv:0301010}.
+  </biblio>
+  <biblio type="raw" xml:id="Rotman2006">
+    R.  Rotman, \emph{ The length of a shortest closed geodesic and the area of a
+    2-dimensional sphere.}  Proc. Amer. Math. Soc. \textbf{134}(2006), 3041--3047.
+  </biblio>
+  <biblio type="raw" xml:id="Ruggiero1998">
+    R. O. Ruggiero, ~\emph{On non-hyperbolic quasi-convex spaces.} Trans. Amer. Math. Soc. \textbf{350}(1998), 665--687.
+  </biblio>
+  <biblio type="raw" xml:id="Sabourau2004">
+    S.  Sabourau, \emph{ Filling radius and short closed geodesic of the sphere. } Bull. SMF
+    \textbf{132}(2004), 105--136.
+  </biblio>
+  <biblio type="raw" xml:id="Sanchez2015">
+    M. Sanchez, \emph{
+    On the completeness of trajectories for some
+    mechanical systems.} Geometry, mechanics, and dynamics, 343--372,
+    Fields Inst. Commun., \textbf{73}(2015), Springer, New York.
+    \url{ arXiv:1303.6150}
+  </biblio>
+  <biblio type="raw" xml:id="Sha-Uhl2000">
+    V.  Sharafutdinov, G.  Uhlmann,  \emph{
+    On deformation boundary rigidity and spectral rigidity of Riemannian surfaces with no focal points.}
+    J. Diff. Geom. \textbf{56}(2000), 93--110.
+  </biblio>
+  <biblio type="raw" xml:id="Schmidt1973">
+    B.G. Schmidt, \emph{ Conditions on a connection to be a metric connection.}
+    Comm.  Math. Phys. \textbf{29}(1973)  55--59.
+  </biblio>
+  <biblio type="raw" xml:id="Suhr2013a">
+    S. Suhr, \emph{ Closed geodesics in Lorentzian surfaces}.
+    Trans. Amer. Math. Soc. \textbf{365}(2013), 1469--1486.
+  </biblio>
+  <biblio type="raw" xml:id="Suhr2013b">
+    S. Suhr, \emph{
+    A Counterexample to Guillemin's Zollfrei Conjecture.}  J. Topol. Anal., \textbf{5}(2013),  251--261,  \url{arXiv:1302.2496}.
+  </biblio>
+  <biblio type="raw" xml:id="Tabachnikov2005">
+    S. Tabachnikov,   { Geometry and billiards.}  Volume \textbf{30} of Student Mathematical Library. American
+    Mathematical Society, Providence, RI; Mathematics Advanced Study Semesters, University
+    Park, PA, 2005.
+  </biblio>
+  <biblio type="raw" xml:id="Taimanov1992">
+    I. A. Taimanov, \emph{ Closed extremals on two-dimensional manifolds. }  Russian Math. Surveys \textbf{47}(1992), no. 2, 163--211.
+  </biblio>
+  <biblio type="raw" xml:id="Tao2010">
+    T. Tao,  \url{
+    http://mathoverflow.net/questions/37651}
+  </biblio>
+  <biblio type="raw" xml:id="Taubes2007">
+    C. H. Taubes, \emph{The Seiberg-Witten equations and the Weinstein conjecture}. Geom. Topol. \textbf{11}(2007),
+    2117--2202.
+  </biblio>
+  <biblio type="raw" xml:id="Thomas1925">
+    T.Y. Thomas, \emph{ On the projective and equi-projective geometries of paths.}  Proc. Natl. Acad.
+    Sci. USA \textbf{11}(1925), 199--203.
+  </biblio>
+  <biblio type="raw" xml:id="Vigneras1980">
+    M. F. Vign\'eras, \emph{Vari\'et\'es Riemanniennes isopectrales et non isom\'etriques.} Ann. Math. \textbf{112}(1980)
+    21--32.
+  </biblio>
+  <biblio type="raw" xml:id="Weinstein1970">
+    A. ~Weinstein,  \emph{Sur la non-densit\'e des g\'eod\'esiques ferm\'ees.}
+    C. R. Acad. Sci. Paris S\'er. A-B \textbf{271} (1970), A504.
+  </biblio>
+  <biblio type="raw" xml:id="Weyl1921">
+    H. Weyl, Zur Infinitesimalgeometrie: Einordnung der projektiven
+    und der  konformen Auffassung, Nachrichten von der K. Gesellschaft
+    der Wissenschaften zu G\"ottingen, Mathematisch-Physikalische
+    Klasse, 1921;
+    ``Selecta Hermann Weyl'', Birkh\"auser Verlag,
+    Basel und Stuttgart,
+    1956.
+  </biblio>
+  <biblio type="raw" xml:id="Wu1967">
+    H. Wu, \emph{ Holonomy groups of indefinite metrics.}  Pacific J. Math. \textbf{20}(1967),  351--392.
+  </biblio>
+  <biblio type="raw" xml:id="Wu2013">
+    W. Wu, \emph{On the ergodicity of geodesic flows on surfaces of nonpositive curvature}, Ann. Fac. Sci. Toulouse Math. (6) \textbf{24} (2015), 625--639..
+  </biblio>
+  <biblio type="raw" xml:id="Ziller1982">
+    W. Ziller, \emph{
+    Geometry of the Katok examples}. Ergodic Theory Dynam. Systems \textbf{3}(1983),  135--157.
+  </biblio>
+  <biblio type="raw" xml:id="Zoll1903">
+    O. Zoll, \emph{
+    Ueber Fl\"achen mit Scharen von geschlossenen geod\"atischen Linien}. Math. Ann. \textbf{57}(1903), 198--133.
+    \end{thebibliography}
+  </biblio>
+</references>

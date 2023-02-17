@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+  <docinfo>
+<macros>
+\newcommand{\norm}[1]{\left\Vert#1\right\Vert}
+\newcommand{\abs}[1]{\left\vert#1\right\vert}
+\newcommand{\set}[1]{\left\{#1\right\}}
+\newcommand{\Real}{\mathbb R}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\To}{\longrightarrow}
+\newcommand{\BX}{\mathbf{B}(X)}
+\newcommand{\A}{\mathcal{A}}
+\newcommand{\bib}[1]{\bibitem[#1]{#1}}
+\newcommand{\weg}[1]{}
+\newcommand{\margin}[1]{ \vspace{.5cm}  \hspace{-2cm}�\parbox{14cm}{  \texttt{ #1 }}   \vspace{.5cm}}
+</macros>
+<latex-image-preamble>
+\usepackage{tikz}
+\usepackage{tkz-graph}
+\usepackage{tkz-euclide}
+\usetikzlibrary{patterns}
+\usetikzlibrary{positioning}
+\usetikzlibrary{matrix,arrows}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes}
+\usetikzlibrary{through,intersections,decorations,shadows,fadings}
+\usepackage{pgfplots}
+</latex-image-preamble>
+  </docinfo>
+  <article>
+    <title>Open problems and questions about geodesics</title>
+    <frontmatter>
+      <titlepage>
+        <author>
+          <personname>Keith Burns</personname>
+        </author>
+        <author>
+          <personname>Vladimir S. Matveev</personname>
+        </author>
+      </titlepage>
+      <abstract>
+        <p>
+          The paper surveys open problems and questions related to geodesics defined by Riemannian, Finsler,
+          semi Riemannian and magnetic structures on manifolds.
+          It is an extended report on problem sessions held during the International Workshop on Geodesics in August 2010 at the Chern Institute of Mathematics in Tianjin.
+        </p>
+      </abstract>
+    </frontmatter>
+    <xi:include href="./notation.ptx"/>
+    <xi:include href="./closed_geodesics.ptx"/>
+    <xi:include href="./path.ptx"/>
+    <xi:include href="./curvature_conditions.ptx"/>
+    <xi:include href="./negative_curvature.ptx"/>
+    <xi:include href="./nonpositive_curvature.ptx"/>
+    <xi:include href="./without_conjugate.ptx"/>
+    <xi:include href="./beyond_no_conjugate.ptx"/>
+    <xi:include href="./lorentzian.ptx"/>
+    <xi:include href="./integrability.ptx"/>
+    <xi:include href="./stationary.ptx"/>
+    <xi:include href="./reconstruct.ptx"/>
+    <backmatter>
+      <xi:include href="./bibliography.ptx"/>
+    </backmatter>
+  </article>
+</pretext>

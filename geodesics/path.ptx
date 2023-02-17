@@ -1,0 +1,169 @@
+<section xml:id="path">
+  <title>Path and loop spaces</title>
+  <introduction>
+    <p>
+      As noted in the previous section,
+      one of the main approaches to proving the existence of closed geodesics is to use topological complexity of the loop space
+      <m>\Lambda M</m> to force the existence of critical points of the energy functional.
+      Loops with length <m>\leq T</m> correspond to critical points in <m>\Lambda_T M</m>.
+      Similarly geodesics joining two points <m>p</m> and <m>q</m> can be studied by investigating the path spaces
+      <m>\Omega(p,q)</m> or <m>\Omega_T(p,q)</m>.
+      The homology of these spaces have been much studied.
+    </p>
+  </introduction>
+  <subsection>
+    <title>Sums of the Betti numbers</title>
+    <p>
+      Let <m>p, q</m> be points in a Riemannian manifold.
+      The space <m>\Omega_T(p,q)</m> of paths from <m>p</m> to <m>q</m> with length <m>\leq T</m> has the homotopy type of a finite complex
+      (see e.g.
+      <xref ref="Milnor1963"/>),
+      and hence the sum of its Betti numbers is finite for each <m>T</m>.
+      The same is true for the space
+      <m>\Lambda_TM</m> of loops with length at most~<m>T</m>.
+    </p>
+    <openquestion>
+      <title>Paternain</title>
+      <statement>
+        <p>
+          How do the sums of the Betti numbers for <m>\Lambda_TM</m> and
+          <m>\Omega(_T(p,q)</m> grow as <m>T\to \infty</m>?
+          Does the growth depend on the metric?
+        </p>
+      </statement>
+      <status>
+        <p>
+          It was shown by Gromov in<nbsp/><xref ref="Gromov2001"/> that if <m>M</m> is simply connected there is a constant <m>C</m> such that the sum of the Betti numbers of
+          <m>\Lambda_{CN}</m> is at least <m>\sum_{i=0}^N b_{i}(\Lambda)</m>.
+        </p>
+      </status>
+    </openquestion>
+    <openquestion>
+      <title>Gromov</title>
+      <statement>
+        <p>
+          Does the number of closed geodesics with length <m>\leq T</m> grow exponentially as
+          <m>T \to \infty</m> if the Betti numbers of the loop space grow exponentially?
+        </p>
+      </statement>
+      <context>
+        <p>
+          From<nbsp/><xref ref="Gromov1978"/> it follows that the answer is positive for generic metrics.
+        </p>
+      </context>
+      <suggestion>
+        <p>
+          Here is a potentially interesting example.
+          Consider <m>f:S^3\times S^3\to S^3\times S^3</m> such that the induced action on <m>H_3(S^3\times S^3)</m> is hyperbolic.
+          Let <m>M</m> be the mapping torus for <m>f</m>,
+          i.e.~ <m>S^3\times S^3 \times [0,1]</m> with <m>(x,1)</m> identified with
+          <m>(f(x),0)</m> for each <m>x \in S^3 \times S^3</m>.
+          Then <m>\pi_1({M})=Z</m> and the universal cover
+          <m>\widetilde M</m> is homotopy equivalent to <m>S^3\times S^3</m>.
+          Hence the Betti numbers of the loop space grow polynomially.
+          On the other hand,
+          the hyperbolic action of <m>f</m> on <m>H_3</m> gives hope for exponential growth of the sum of the Betti numbers of <m>\Omega_T(p,q)</m>.
+        </p>
+      </suggestion>
+    </openquestion>
+  </subsection>
+  <subsection>
+    <title>Stability of minimax   levels (communicated by Nancy Hingston)</title>
+    <p>
+      Let <m>M</m> be a compact manifold with a Riemannian
+      (or Finsler)
+      metric <m>g</m>. \ Let <m>G</m> be a finitely generated abelian group.
+      Given a non-trivial homology class <m>X \in H_{\ast}(\Lambda M;G)</m>,
+      the critical (minimax) level of <m>X</m> is
+      <md>
+        <mrow>cr\,X \amp   =\inf\{a:X\in\text{ Image } H_{\ast}(\Lambda_a M;G)\}</mrow>
+        <mrow>\amp   =\underset{x\epsilon X}{\inf}\text{ } \underset{\gamma\in\text{ Image } x}{\sup}Length({\gamma})</mrow>
+      </md>
+    </p>
+    <p>
+      Here <m>\Lambda_a M</m> is the subset of the free loop space
+      <m>\Lambda M</m> consisting of loops whose length is at most <m>a</m>.
+      The second definition is the minimax definition:
+      the singular chain <m>x</m> ranges over all representatives of the homology class <m>X</m>,
+      and <m>\gamma</m> over all the points in the image of <m>x</m>,
+      which are loops in <m>M</m>.
+    </p>
+    <openquestion>
+      <title>Hingston</title>
+      <statement>
+        <p>
+          Do there exist a metric on <m>S^{n}</m>\knownterminology{ and a homology class }<m>X \in H_{\ast}(\Lambda M;\mathbb{Z} )</m>\knownterminology{ with }
+          <me>
+            0 \lt  cr(mX) \lt  c r(X)
+          </me>
+        </p>
+        <p>
+          \knownterminology{for some }<m>m \in \mathbb{N}</m>?
+        </p>
+      </statement>
+      <context>
+        <p>
+          The special case of this question,
+          when dimension is two and <m>m</m> is odd,
+          was answered negatively in<nbsp/><xref ref="Cha-Lio2014"/>.
+        </p>
+      </context>
+      <discussion>
+        <p>
+          Given a metric <m>g</m> on <m>M</m> and a finitely generated abelian group <m>G</m>,
+          the \textit{global mean frequency} is defined as
+          <men xml:id="ast">
+            \alpha_{g,G}=\underset{\deg X\rightarrow\infty}{\lim}\frac{\deg X}{crX}
+          </men>,
+          where the limit is taken over all non-trivial homology classes <m>X \in H_{\ast}(\Lambda S^{n};G)</m>.
+        </p>
+        <p>
+          The Resonance Theorem from<nbsp/><xref ref="Hin-Rad2013"/> says that if <m>M</m> is a sphere and <m>G</m> is a field,
+          the limit <xref ref="ast"/> exists.
+          It is clear in this case that
+          <m>\alpha_{g,G}</m> depends on the metric <m>g</m>.
+          But does it really depend on the field <m>G</m>?
+          The degree of <m>X</m> does not depend on anything but <m>X</m>.
+          But what about the critical level <m>cr\,X</m>?
+          Does <m>cr\,X</m> depend on the coefficients? \
+        </p>
+        <p>
+          Let us note that for the spheres the non-trivial homology groups of the free loop space
+          (with integer coefficients)
+          are all <m>\mathbb{Z}</m> or <m>\mathbb{Z} _{2}=:\mathbb{Z} /2\mathbb{Z}</m>.
+          (For odd spheres they are all <m>\mathbb{Z}</m>.)
+          Let us look at the case where <m>X \in H_{k}(\Lambda;\mathbb{Z} )=\mathbb{Z}</m>.
+          For each <m>m \in \mathbb{N}</m> there is a critical level
+          <me>
+            cr(mX)=\inf\{a:mX \in \text{ Image } H_{\ast}(\Lambda_{ a}M)\}
+          </me>.
+        </p>
+        <p>
+          If <m>j,m \in \mathbb{N}</m>,
+          then clearly (since Image <m>H_{\ast}(\Lambda_{a})</m> is an additive subgroup of <m>H_{\ast}(\Lambda)</m>)
+          <me>
+            cr(jmX)\leq cr(mX)\text{.}
+          </me>
+        </p>
+        <p>
+          But can there be strict inequality?
+          Here is a little ``example'' to show how this would affect the global mean frequency : Suppose it were the case that there were real numbers <m>a\lt b\lt c\lt d</m> with
+          <me>
+            cr(mX)=\left\{ \begin{array}{c}d\text{ if } \gcd(m,3)=\gcd(m,7)=1\\ c\text{ if } 3|m\textit{ but }\gcd(m,7)=1\\ b\text{ if } 7|m\textit{ but }\gcd(m,3)=1\\ a\text{ if } 21|m \end{array} \right\}
+          </me>
+        </p>
+      </discussion>
+    </openquestion>
+    <openconjecture>
+      <title>Hingston</title>
+      <statement>
+        <md>
+          <mrow>\alpha_{g,G}  \amp   =a\text{ if } G=\mathbb{Q}</mrow>
+          <mrow>\alpha_{g,G}  \amp   =b\text{ if } G = \mathbb{Z}_{3}</mrow>
+          <mrow>\alpha_{g,G}  \amp   =c\text{ if } G = \mathbb{Z}_{7}</mrow>
+          <mrow>\alpha_{g,G}  \amp   =a\text{ if } G= \mathbb{Z}_{p},p\neq3,7</mrow>
+        </md>.
+      </statement>
+    </openconjecture>
+  </subsection>
+</section>

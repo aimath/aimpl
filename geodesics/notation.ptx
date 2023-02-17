@@ -1,0 +1,35 @@
+<section xml:id="notation">
+  <title>Notation and Definitions</title>
+  <p>
+    In this paper <m>M</m> is a connected <m>C^\infty</m> manifold and
+    <m>\widetilde M</m> is its universal cover.
+    We consider various structures on <m>M</m> that create geodesics: Riemannian
+    (later also semi-Riemannian)
+    metric <m>g</m>, Finsler metric <m>F</m>,
+    magnetic structure~<m>\omega</m>.
+    The unit tangent bundle defined by such a structure is denoted by <m>SM</m> and <m>\phi_t</m> is the geodesic flow on <m>SM</m>.
+    The geodesic defined by a vector
+    <m>v \in SM</m> is denoted by <m>\gamma_v</m>;
+    it is parametrized by arclength unless otherwise specified.
+  </p>
+  <p>
+    The free loop space <m>\Lambda M</m> is the set of all piecewise smooth mappings from the circle <m>S^1</m> to the manifold equipped with the natural topology.
+    When <m>M</m> has a Riemannian metric
+    (or other suitable structure)
+    we can consider the subspace
+    <m>\Lambda_T M</m> of loops with length <m>\leq T</m>.
+    Similarly given two points <m>p,q \in M</m>,
+    we denote by <m>\Omega(p,q)</m> the space of piecewise smooth paths from <m>p</m> to <m>q</m> and by
+    <m>\Omega_T(p,q)</m> the subspace of paths with length at most <m>T</m>.
+  </p>
+  <p>
+    We define the energy functional on <m>\Lambda M</m> by
+    <me>
+      c \mapsto \int_{S^1}\|\dot c(s)\|^2 \,d\lambda(s)
+    </me>,
+    where <m>\|\cdot\|</m> is the norm induced by a Riemannian metric or other suitable structure and <m>\lambda</m> is Lebesgue measure on <m>S^1</m> normalized to be a probability measure.
+    The critical points of this functional are the closed geodesics for the metric (parametrized at the constant speed <m>Length(c))</m>.
+    In the case of <m>\Omega(p,q)</m>,
+    the circle <m>S^1</m> is replaced by the interval <m>[0,1]</m>.
+  </p>
+</section>

@@ -1,0 +1,300 @@
+<section xml:id="without_conjugate">
+  <title>Manifolds without conjugate points (rigidity conjectures)</title>
+  <introduction>
+    <p>
+      There are many rigidity results for manifolds with non-positive curvature that might extend to manifolds with no conjugate points.
+      One still has the basic setting of a universal cover homeomorphic to <m>\Real^n</m> in which any two points are joined by a unique geodesic.
+      However the convexity of the length of Jacobi fields,
+      which is the basis of many arguments used in non-positive curvature,
+      is no longer available.
+    </p>
+    <p>
+      Two major results of this nature are:
+    </p>
+    <theorem xml:id="Hopf">
+      <statement>
+        <p>
+          A Riemannian metric with no conjugate points on a torus is flat.
+        </p>
+      </statement>
+    </theorem>
+    <theorem xml:id="BangEmm">
+      <statement>
+        <p>
+          Let <m>g</m> be a complete Riemannian metric without conjugate points on the plane <m>\Real^2</m>.
+          Then for every point <m>p</m>
+          <me>
+            \liminf_{r \to \infty} \frac{\text{  area } \,B(p,r)}{\pi r^2} \geq 1
+          </me>,
+          with equality if and only if <m>g</m> is flat.
+        </p>
+      </statement>
+    </theorem>
+    <p>
+      <xref ref="Hopf">Theorems</xref> and <xref ref="BangEmm"></xref>
+      are easy for manifolds with non-positive curvature but require subtle arguments in the context of no conjugate points.
+    </p>
+    <p>
+      The two dimensional case of <xref ref="Hopf">Theorem</xref>
+      was proved by E.~Hopf<nbsp/><xref ref="Hopf1948"/> and the general case by Burago and Ivanov<nbsp/><xref ref="Bur-Iva1994"/>.
+      The Lorentzian analogue of <xref ref="Hopf">Theorem</xref> is false;
+      two dimensional counterexamples are constructed in<nbsp/><xref ref="Bav-Mou2013"/>.
+      The Finsler analogue is also false as there are examples of Finsler metrics without conjugate points on the torus that are not the Minkowski metric, see e.g.
+      <xref ref="Busemann1955"/>.
+    </p>
+    <openquestion>
+      <title>Communicated by S. Ivanov</title>
+      <statement>
+        <p>
+          Is the geodesic flow of a Finsler metric on the torus conjugate to that of the (locally) Minkowski metric on the torus?
+        </p>
+      </statement>
+      <suggestion>
+        <p>
+          All smooth examples we are aware of have geodesic flows smoothly conjugate to that of the locally Minkowski metric,
+          but generally it is not even known whether the velocity vectors of geodesics with irrational rotation numbers are dense in the tangent bundle.
+        </p>
+      </suggestion>
+      <discussion>
+        <p>
+          <xref ref="BangEmm">Theorem</xref>
+          is a recent result of Bangert and Emmerich<nbsp/><xref ref="Ban-Emm2013"/>,
+          which greatly improved on earlier results in<nbsp/><xref ref="Bur-Kni1991"/> and<nbsp/><xref ref="Ban-Emm2011"/>.
+        </p>
+      </discussion>
+      <context>
+        <p>
+          Bangert and Emmerich's work was motivated by a question,
+          asked by Bangert and Burns-Knieper,
+          which is answered by the following theorem,
+          whose proof is based on <xref ref="BangEmm">Theorem</xref>.
+        </p>
+      </context>
+    </openquestion>
+    <theorem>
+      <title>\cite{Ban-Emm2013}</title>
+      <statement>
+        <p>
+          Consider a complete Riemannian metric without conjugate points on the cylinder <m>\Real \times S^1</m>.
+          Assume that the ends spread sublinearly, i.e.\
+          <me>
+            \lim_{d(p, p_0)\to \infty } \frac{l(p)}{dist(p, p_0)} = 0
+          </me>,
+          where <m>l(p)</m> is the length of the shortest geodesic loop based at <m>p</m>.
+          Then the metric is flat.
+        </p>
+      </statement>
+    </theorem>
+  </introduction>
+  <subsection>
+    <title>Divergence of geodesics</title>
+    <p>
+      Let <m>\alpha</m> and <m>\beta</m> be two geodesics in a complete simply connected Riemannian manifold without conjugate points.
+    </p>
+    <openquestion>
+      <statement>
+        <p>
+          Suppose <m>\alpha(0)=\beta(0)</m>.
+          Does <m>dist(\alpha(t), \beta(t)) \to \infty</m> as <m>t\to \infty</m>?
+        </p>
+      </statement>
+      <context>
+        <p>
+          The answer is positive in dimension 2<nbsp/><xref ref="Green1954"/>.
+          The question is open in higher dimensions;
+          the proof in<nbsp/><xref ref="Green1956"/> is incorrect.
+          The answer to the corresponding question about Finsler metrics is negative.
+          The Teichm\"uller metric on Teichm\"uller space has no conjugate points,
+          but Masur showed that there exist two rays through the same point which do not diverge<nbsp/><xref ref="Masur1975"/>.
+        </p>
+      </context>
+      <discussion>
+        <p>
+          A closely related question is:
+        </p>
+      </discussion>
+    </openquestion>
+    <openquestion>
+      <statement>
+        <p>
+          Suppose <m>dist(\alpha(t),\beta(t)) \to 0</m> as <m>t \to -\infty</m>.
+          Does <m>dist(\alpha(t), \beta(t)) \to \infty</m> as <m>t\to \infty</m>?
+        </p>
+      </statement>
+      <discussion>
+        <p>
+          Without positive anwers to these questions there would seem to be little hope for a satisfactory analogue of the sphere at infinity,
+          which plays a prominent role in the case of non-positive curvature.
+        </p>
+      </discussion>
+    </openquestion>
+  </subsection>
+  <subsection>
+    <title>Parallel postulate questions</title>
+    <introduction>
+      <p>
+        \ The flat strip theorem is another basic tool in the study of manifolds with non-positive curvature.
+        It states that ``parallel geodesics'' must bound a flat strip.
+        More precisely if if <m>\alpha</m> and <m>\beta</m> are two geodesics in a simply connected manifold with non-positive curvature such that
+        <m>dist(\alpha(t),\beta(t))</m> is bounded for all <m>t \in \Real</m>,
+        then the two geodesics are the edges of a totally geodesic isometric immersion of the Riemannian product of <m>\Real</m> with an interval.
+      </p>
+      <p>
+        The flat strip theorem fails for manifolds with no conjugate points
+        (although it does extend fairly easily to manifolds without focal points).
+        Counter examples have been given in<nbsp/><xref ref="Burns1992"/> and by Kleiner
+        (unpublished).
+        Kleiner's example has a copy of
+        <m>\mathbb{ Z} \times \mathbb{ Z}</m> in its fundamental group,
+        but does not contain a corresponding flat torus.
+        He perturbs the Heintze example (Example 4 in<nbsp/><xref ref="Ba-Br-Eb1985"/>),
+        which we described in <xref ref="relationsbetween">subsection</xref>.
+        The following basic question appears to be open in general
+        (although Proposition 4 in<nbsp/><xref ref="Eschenburg1977"/> suggests an affirmative answer under some extra hypotheses).
+      </p>
+      <openquestion>
+        <statement>
+          <p>
+            Must homotopic closed geodesics in a manifold of dimension <m>\ge 3</m> with no conjugate points be homotopic through closed geodesics?
+          </p>
+        </statement>
+        <context>
+          <p>
+            In dimension 2, the answer is positive.
+            This follows from a modification of the Birkhoff minimax procedure recalled in <xref ref="closed_geodesics">\S</xref>
+            combined with the results/methods of<nbsp/><xref ref="Morse1924"/>, as we now explain.
+          </p>
+        </context>
+        <discussion>
+          <p>
+            Consider two homotopic closed geodesics <m>\gamma_0</m> and <m>\gamma_1</m>.
+            They have the same length by<nbsp/><xref ref="Morse1924"/>,
+            which we denote by <m>L_0</m> and their lifts to the universal cover bound a periodic strip <m>S</m> by<nbsp/><xref ref="Morse1924"/>.
+            Next, take a continuous bijection <m>h:S^1 \times [0,1] \to M</m> such that
+            <m>S^1 \times \{0\} = \gamma_0</m> and <m>h(S^1 \times \{1\}) = \gamma_1</m>.
+            Then apply to each curve <m>h(S^1 \times \{t\})</m> a shortening procedure;
+            in dimension 2 one can organize the shortening procedure such that the lift of the projection to the universal cover does not leave the strip <m>S</m>.
+          </p>
+          <p>
+            The natural modification of the Birkhoff minimax procedure proves then the existence of a closed geodesic homotopic to
+            <m>\gamma_0</m> whose lift to the universal cover lies in the strip <m>S</m>;
+            this geodesic also has length <m>L_0</m>.
+            Arguing as in<nbsp/><xref ref="Morse1924"/>,
+            we obtain that the lift of this geodesic cuts the strip in two substrips,
+            <m>S_1</m> and <m>S_2</m>.
+            Recursively applying the same arguments,
+            we obtain that the strip <m>S</m> has a everywhere dense set of nonintersecting geodesics such that any of them cuts the strip into two substrips.
+            Passing to the limit we get a foliation of the strip by lifts of closed geodesics and hence the desired homotopy of <m>\gamma_0</m> to
+            <m>\gamma_1</m> through closed geodesics.
+          </p>
+          <p>
+            Note that for dimensions <m>\ge 3</m>,
+            part of the argument still works
+            (in particular homotopic closed geodesics in a closed manifold with no conjugate points must have the same length)
+            and one can show that <m>\gamma_0</m> and
+            <m>\gamma_1</m> belong to the same connected component of the set of closed curves of length equal to <m>L_0</m>,
+            but it is not clear why the set of closed geodesics homotopic to <m>\gamma_0</m> is path-connected.
+          </p>
+        </discussion>
+        <suggestion>
+          <p>
+            One can still hope for a version of the flat strip theorem in manifolds with no conjugate points in which there is a large enough family of ``parallel'' geodesics.
+            One would then hope to find a totally geodesic isometric immersion of the Euclidean plane.
+            Rigidity might hold in the large,
+            even though the examples above show that it breaks down locally.
+          </p>
+        </suggestion>
+        <discussion>
+          <p>
+            The simplest question of this type asks if a Riemannian plane satisfying Euclid's 5th postulate must be flat.
+            Consider the plane <m>\Real^2</m> with a complete Riemannian metric.
+            Assume that for every geodesic and for every point not on the geodesic there exists precisely one non-trivial geodesic that passes through the point and does not intersect the geodesic.
+            This assumption implies that the metric has no conjugate points.
+          </p>
+        </discussion>
+      </openquestion>
+      <openquestion>
+        <title>\cite{Bur-Kni1991}</title>
+        <statement>
+          <p>
+            Must a metric satisfying this version of the parallel postulate be flat?
+          </p>
+        </statement>
+        <suggestion>
+          <p>
+            The question looks like a question in the synthetic geometry,
+            but it is not,
+            since we do not require a priori that the other axioms of the Euclidean geometry are fulfilled
+            (for example the congruence axioms).
+          </p>
+        </suggestion>
+      </openquestion>
+    </introduction>
+    <subsubsection>
+      <title>Higher rank rigidity</title>
+      <openconjecture>
+        <title>Spatzier</title>
+        <statement>
+          <p>
+            Let <m>(M,g)</m> be a closed symmetric space of non-compact type and of higher rank.
+            Then the only metrics on <m>M</m> with no conjugate points are homothetic rescalings of <m>g</m>.
+          </p>
+        </statement>
+      </openconjecture>
+    </subsubsection>
+  </subsection>
+  <subsection>
+    <title>Is <m>M\times S</m> with no conjugate points a direct product?</title>
+    <p>
+      Consider the product of a closed surface <m>M^2</m> of genus <m>\ge 2</m> with the circle <m>S</m>.
+      Let <m>g</m> be a Riemannian metric on
+      <m>M\times S</m> with no conjugate points.
+    </p>
+    <openconjecture>
+      <title>Burago-Kleiner</title>
+      <statement>
+        <p>
+          The metric on the <m>\mathbb{Z}</m>-cover corresponding to <m>S^1</m> factor is a direct product:
+          <m>(M\times \Real, g)=(M, g_1)\times (\Real, dt^2)</m>.
+        </p>
+      </statement>
+      <discussion>
+        <p>
+          One can of course make more general conjectures,
+          e.g.\ about metrics without conjugate points on products,
+          or on manifolds which admit non-positively curved metrics with higher rank,
+          but the above conjecture with
+          <m>M \times S^1</m> seems to be the easiest one
+          (and is probably still hard to prove).
+        </p>
+      </discussion>
+    </openconjecture>
+  </subsection>
+  <subsection>
+    <title>Magnetic geodesics without conjugate points</title>
+    <p>
+      One can generalize the notion ``conjugate points'' for magnetic geodesics (even for arbitrary natural Hamiltonian systems.)
+    </p>
+    <openquestion>
+      <title>Paternain</title>
+      <statement>
+        <p>
+          Consider a magnetic flow on a closed surface of genus <m>\ge 2</m> and an energy level such that the topological entropy vanishes.
+          Suppose that the magnetic geodesics on this level do not have conjugate points.
+          Is the system locally symmetric in the sense that the metric has constant curvature and the magnetic form is a constant multiple of the volume form?
+        </p>
+      </statement>
+      <discussion>
+        <p>
+          Many of the earlier questions in this section can also be asked about magnetic geodesics lying on a certain
+          (possibly sufficiently high)
+          energy level.
+          Let us mention<nbsp/><xref ref="Bialy2000"/>,
+          where a natural analog of <xref ref="Hopf">Theorem</xref>
+          was proved under the assumption that the metric is conformally flat,
+          and it was conjectured that this assumption is not essential.
+        </p>
+      </discussion>
+    </openquestion>
+  </subsection>
+</section>

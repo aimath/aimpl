@@ -1,0 +1,382 @@
+<section xml:id="reconstruct">
+  <title>How to reconstruct a metric from its geodesics</title>
+  <introduction>
+    <p>
+      A (Riemannian or semi-Riemannian) metric allows one to construct geodesics.
+      Every non-zero vector at every point is tangent to a unique curve from the family of geodesics.
+      This section is dedicated to open problems related to the following questions:
+      given a family of curves with this property,
+      are they the geodesics for a metric;
+      and, if there is such a metric,
+      is it unique and how can it be reconstructed?
+      These questions can also be posed for Finsler metrics.
+      In this section we assume that the dimension of the manifold is at least two.
+    </p>
+    <p>
+      Let us introduce some notation.
+      By a \knownterminology{path structure} we will understand (following<nbsp/><xref ref="Thomas1925"/>) a family of curves
+      <m>\gamma_{\alpha}(t)</m> such that for any point <m>x</m> and for any vector <m>v\in T_xM</m>,
+      <m>v\ne 0</m>,
+      there exists a unique curve <m>\gamma</m> from this family such that for a certain <m>t</m> we have
+      <m>\gamma(t)= x</m> and <m>\dot\gamma(t) \in \textrm{span} (v)</m>.
+      We think that the curves are smooth and smoothly depend on the parameters <m>\alpha= (\alpha_1,\dots,\alpha_{2n-2})</m>.
+      We may insist that the parametrization of the curves stays fixed,
+      or we may be willing to reparametrize them.
+    </p>
+    <p>
+      The first step is to find an affine connection for which the curves are the geodesics.
+      The problem reduces to a system of linear equations
+      (whether one can actually write down and solve them depends on the form in which the curves are given.)
+      We outline the main ideas.
+    </p>
+    <p>
+      First consider the case in which the parametrization of the curves is fixed.
+      If all the curves <m>\gamma</m> from this path structure are affinely parameterised geodesics of a connection <m>\nabla=\left(\Gamma^i_{jk}\right)</m>,
+      then at any point <m>p\in M</m> the Christoffel symbols satisfy the system of equations
+      <men xml:id="christof">
+        \ddot \gamma(t)^{i} + \Gamma(\gamma(t))_{jk}^i\dot\gamma(t)^j\dot \gamma(t)^k=0
+      </men>
+      for all curves <m>\gamma</m> from the path structure such that <m>\gamma(t)= p</m>.
+      This is a system of <m>n</m> linear equations in the
+      <m>\tfrac{n^2(n+1)}{2}</m> unknowns <m>\Gamma(p)_{jk}^i</m>.
+      Consequently <m>\tfrac{n(n+1)}{2}</m> curves
+      <m>\gamma_\alpha</m> from the path structure give us a system of <m>\tfrac{n^2(n+1)}{2}</m> linear equations in
+      <m>\tfrac{n^2(n+1)}{2}</m> unknowns <m>\Gamma(p)_{jk}^i</m>.
+      It is an easy exercise to see that if the velocity vectors of the curves at the point <m>p</m> are in general position,
+      then this system is uniquely solvable;
+      by solving it we obtain the Christoffel symbols at this point.
+      Clearly, these Christoffel symbols should satisfy the equation <xref ref="christof"/> for all curves <m>\gamma</m> from the path structure
+      (so generic path structures do not come from a connection).
+      It depends on how the curves <m>\gamma</m> are given whether it is possibly to check this.
+      For example,
+      if all the curves are given by explicit formulas that depend algebraically on <m>t</m> and on <m>\alpha</m>,
+      then this is an algorithmically doable but computationally complicated task.
+    </p>
+    <p>
+      Note that the above considerations show that reconstruction of a symmetric affine connection from affinely parameterized geodesics is unique.
+    </p>
+    <p>
+      Let us now deal with the reconstruction of a connection from unparameterized curves.
+      Our goal is to find a connection <m>\nabla=\left(\Gamma^i_{jk}\right)</m> for which each curve
+      <m>\gamma_\alpha</m> from our path structure,
+      after an appropriate reparameterization, is a geodesic.
+      In this case, a similar idea works.
+      The analog of <xref ref="christof"/> is
+      <men xml:id="christof1">
+        \ddot \gamma(t)^{i} + \Gamma(\gamma(t))_{jk}^i\dot\gamma(t)^j\dot \gamma(t)^k= c\dot \gamma^i
+      </men>,
+      where the unknowns are <m>\Gamma(p)_{jk}^i</m> and <m>c</m> (though we are interested only in <m>\Gamma(p)_{jk}^i</m>).
+      For one curve <m>\gamma</m> containing <m>p\in M</m> we have therefore <m>n</m> equations in
+      <m>\tfrac{n^2(n+1)}{2}+ 1</m> unknowns <m>\Gamma(p)_{jk}^i</m> and <m>c</m>.
+      For two curves <m>\gamma_1, \gamma_2</m> we obtain then <m>2n</m> equations in
+      <m>\tfrac{n^2(n+1)}{2}+ 2</m> unknowns <m>\Gamma(p)_{jk}^i, c_1,c_2</m> and so on.
+      We see that for <m>k>  \tfrac{n^2(n+1)}{2(n-1)}</m> curves
+      <m>\gamma_\alpha</m> from the path structure
+      (passing through the point <m>p</m>)
+      we have more equations than unknowns;
+      by solving this system
+      (if it is solvable)
+      we obtain a connection.
+      See<nbsp/><xref ref="Matveev2012a"/> for more details.
+    </p>
+    <p>
+      Note that (as was already known to<nbsp/><xref ref="Levi-Civita1896"/> and<nbsp/><xref ref="Weyl1921"/>) the solution
+      <m>\Gamma_{jk}^i</m> of <xref ref="christof1"/>, if it exists,
+      is not unique:
+      two connections <m>\nabla=\left( \Gamma_{jk}^i\right)</m> and
+      <m>\bar \nabla= \left(\bar \Gamma_{jk}^i\right)</m> have the same unparameterized geodesics,
+      if and only if there exists a <m>(0,1)</m>-tensorfield <m>\phi_i</m> such that
+      <men xml:id="c1">
+        \bar \Gamma_{jk}^i  = \Gamma_{jk}^i + \delta_{\ k}^i\phi_{j} + \delta_{\ j}^i\phi_{k}
+      </men>.
+    </p>
+    <p>
+      Thus, the freedom in reconstructing of a connection is an arbitrary choice of a 1-form <m>\phi_i</m>.
+    </p>
+    <p>
+      Connections <m>\nabla = \left(\Gamma^{i}_{jk}\right)</m> and
+      <m>\bar \nabla = \left(\bar \Gamma^{i}_{jk}\right)</m> related by <xref ref="c1"/> are called \knownterminology{projectively equivalent}; projective equivalence of two connections means that they have the same geodesics considered as unparameterized curves.
+    </p>
+    <p>
+      Let us now touch on the question of whether/how one can reconstruct a metric (Riemannian or of arbitrary signature) from a path structure.
+      As we explained above,
+      it is relatively easy to reconstruct an affine connection (resp.\ a class of projectively equivalent affine connections) from affinely (resp. arbitrary) parameterized geodesics,
+      so the actual question is how to reconstruct a metric from its affine connection (resp.\ a class of projectively equivalent affine connections),
+      when it is possible, and what is the freedom.
+      Let us first discuss how/whether it is possible to reconstruct a metric parallel with respect to a given symmetric affine connection.
+    </p>
+    <p>
+      This question is well-studied;
+      see for example the answers of Bryant and Thurston in<nbsp/><xref ref="Bry-Thu2011"/>.
+      A theoretical answer is as follows:
+      the affine connection determines the holonomy group.
+      The existence of a metric with a given affine connection is equivalent to the existence of a non-degenerate bilinear form preserved by the holonomy group, see e.g.
+      <xref ref="Schmidt1973"/>.
+      A practical test for the existence of the metric is as follows:
+      the connection allows to construct the curvature tensor <m>R^i_{\ jk\ell}</m>,
+      and if the connection is the Levi-Civita connection of a metric,
+      then this metric satisfies the following equations:
+      <men xml:id="c2">
+        R^s_{\ jk\ell}g_{si}= - R^s_{\ ik\ell}g_{sj}, R^s_{\ jk\ell}g_{si}=   R^s_{\ \ell ij}g_{sk}
+      </men>.
+    </p>
+    <p>
+      These equations are essentially the algebraic symmetries of the Riemann curvature tensor:
+      the first one corresponds to <m>R_{ijkm}= - R_{jikm}</m>,
+      and the second corresponds to <m>R_{ijkm}= R_{kmij}</m>.
+      One should view these equations as linear equations in the unknowns <m>g_{ij}</m>;
+      the number of equations is bigger than the number of unknowns so it is expected that the system has no non-zero or non-degenerate solution
+      (and in this case there exists no metric compatible with this connection).
+      In many cases the solution is unique
+      (up to multiplication by a conformal coefficient)
+      and in this case we already have the conformal class of the metrics.
+      Now, having the conformal class of the metric we have the conformal class of the volume form and it is easy to reconstruct the metric using the condition that the volume form is parallel,
+      which immediately reduces to the condition that a certain 1-form is closed;
+      see also<nbsp/><xref ref="Mat-Tra2014"/>.
+    </p>
+    <p>
+      Note that if the equations <xref ref="c2"/> do not give enough information one could consider their ``derivatives''
+      <me>
+        R^s_{\ jk\ell, m}g_{si}= - R^s_{\ ik\ell,m}g_{sj}, R^s_{\ jk\ell,m}g_{si}=   R^s_{\ \ell ij,m}g_{sk}
+      </me>
+      which gives us again a huge system of equations in the same unknowns <m>g_{ij}</m>.
+      If necessary one then considers higher order derivatives until there is enough information.
+      The general theory says that in the analytic category the existence of a non-degenerate solution of the resulting system of equations implies the existence of a metric whose Levi-Civita connection is the given one.
+      In the non-analytic setting,
+      however, there exist <m>C^{\infty}</m> counterexamples.
+    </p>
+    <p>
+      Let us now discuss the uniqueness of the reconstruction of a metric from its affinely parameterized geodesics,
+      modulo the multiplication of the metric by a constant.
+      A generic metric can be reconstructed from its affinely parameterized geodesics;
+      this follows from the observation that for a generic metric <m>g</m> the system <xref ref="c2"/> has only the trivial solutions <m>\textrm{const} \, g</m>.
+      So the question is for which metrics the reconstruction is not unique;
+      i.e.\ which non-proportional metrics have the same Levi-Civita connection.
+      Locally, the answer is known.
+      For Riemannian metrics,
+      it was understood already by Cartan and Eisenhart<nbsp/><xref ref="Eisenhart1923"/>.
+      For metrics of arbitrary signature,
+      the answer is in the recent papers<nbsp/>[<a knowl="Boubel2015a.knowl">Boubel2015a</a>,
+      <a knowl="Boubel2015b.knowl">Boubel2015b</a>]. Both results are a more-or-less explicit local description of all metrics having the same Levi-Civita connection;
+      such metrics are called \knownterminology{affinely equivalent}.
+    </p>
+    <p>
+      In the Riemannian case,
+      a global (i.e., when the manifold is closed or complete) analog of the result of Cartan and Eisenhart is due to<nbsp/><xref ref="DeRham1952"/>,
+      where it was proved that the universal cover is the direct product of Riemannian manifolds.
+    </p>
+    <p>
+      In the pseudo-Riemannian case the situation is more complicated.
+      Consider two affinely equivalent metrics <m>g</m> and
+      <m>\tilde g</m> and the (1,1) tensor <m>A</m> given by the condition <m>\tilde g ( A(\cdot), \cdot) = g(\cdot,\cdot)</m>.
+      It is self-adjoint with respect to both metrics and parallel with respect to the Levi-Civita connection.
+      Its generalized eigenspaces therefore generate mutually orthogonal totally geodesic foliations the sum of whose dimensions is the dimension of the manifold.
+      Under the additional assumption that the manifold is geodesically complete one can show, see e.g.
+      <xref ref="Wu1967"/>, that the universal cover of the manifold splits as the direct product of the
+      (universal covers of the)
+      leaves of these foliations with the restriction of the metrics to them,
+      <me>
+        \tilde M  = M_1\times \dots \times M_k,  g= g_{|M_1}+ \cdots + g_{|M_k},  \tilde g= \tilde g_{|M_1}+ \cdots + \tilde g_{|M_k}
+      </me>.
+    </p>
+    <p>
+      The most interesting case is when <m>A</m> has only one eigenvalue and since it is clearly a constant one can assume that it is zero.
+      In this case,
+      all known examples on closed manifolds are when <m>g</m> admits light-like parallel vector fields,
+      and <m>A</m> is built with the help of these vector fields.
+      We therefore suggest,
+      as an interesting unsolved problem, the following question.
+    </p>
+    <openquestion>
+      <statement>
+        <p>
+          Suppose a closed manifold <m>(M,g)</m> admits a non-zero <m>(1,1)</m>-tensor field that is self-adjoint with respect to <m>g</m>,
+          parallel and nilpotent.
+          Does this manifold or its double cover admit a non-zero light-like parallel vector field?
+        </p>
+      </statement>
+      <discussion>
+        <p>
+          Also in the Finsler case parameterized geodesics determine the connection.
+          Note though that in the Finsler geometry the connection is non-linear and actually there are more than one popular and widely used connections.
+          We will call two Finsler metrics \knownterminology{affinely equivalent} if any geodesic of the first metric
+          (considered as a curved parametrized such that the length of the velocity vector is a constant)
+          is a geodesic of the second metric;
+          this is equivalent to the Berwald connections of the first and the second metric coinciding in the natural sense.
+        </p>
+      </discussion>
+    </openquestion>
+    <openproblem>
+      <statement>
+        <p>
+          Describe all affinely equivalent Finsler metrics.
+        </p>
+      </statement>
+      <suggestion>
+        <p>
+          A standard example of affinely equivalent non-proportional Finsler metrics can be constructed in the class of Berwaldian metrics.
+          One can also construct easy examples on direct product of Finsler manifolds.
+          The simplest version of the above question is to
+          <em>construct non-Berwaldian examples of affinely equivalent non-proportional Finsler metrics which are not product metrics.</em>
+        </p>
+      </suggestion>
+      <context>
+        <p>
+          The ``unparameterized'' versions of these problems for Riemannian and pseudo-Riemannian metrics are the subject of the recent survey<nbsp/><xref ref="Matveev2012a"/>.
+          Roughly speaking,
+          the situation is similar to the one in the ``parameterized'' case:
+          locally, a general strategy for reconstructing a metric is understood:
+          the existence of a metric compatible with a path structure is equivalent to the existence of (non-degenerate) parallel sections of a certain tensor bundle<nbsp/><xref ref="Eas-Mat2008"/>.
+          A connection on this tensor bundle is constructed by the projective structure constructed by the path structure.
+          Thus, a theoretic answer is to see whether the holonomy group of this connection preserves a certain non-degenerate element of the fiber,
+          and a practical method is to construct the curvatures of the connection and look for elements of the fiber compatible with the curvature.
+          As an interesting open problem we suggest:
+        </p>
+      </context>
+    </openproblem>
+    <openproblem xml:id="prob_br">
+      <statement>
+        <p>
+          Construct a system of scalar invariants of a projective structure that vanish if and only if there exists (locally,
+          in a neighborhood of almost every point) a metric compatible with a given projective structure.
+        </p>
+      </statement>
+      <status>
+        <p>
+          In dimension two,
+          the problem was solved in<nbsp/><xref ref="Br-Du-Eas2009"/>,
+          and the system of invariants is quite complicated --- the simplest invariant has degree 5 in derivatives.
+          It is possible that in higher dimensions the system of invariants could be easier in some ways,
+          since in this case the PDE-system corresponding to the existence of a metric for a projective structure has a higher degree of overdeterminacy.
+          In particular fewer differentiations are needed to construct the first obstruction to the existence of a metric class.
+          See the recent paper<nbsp/><xref ref="Dun-Eas2014"/>.
+        </p>
+      </status>
+      <context>
+        <p>
+          This problem is of course much more difficult in the Finslerian case.
+          In dimension <m>\ge 3</m>, not every path structure is metrizable,
+          and actually this result is micro-local,
+          see<nbsp/><xref ref="Douglas1941"/>.
+          This topic is one of the questions studied within the topic called inverse problem of calculus of variations.
+        </p>
+      </context>
+      <discussion>
+        <p>
+          Let us now consider dimension 2.
+          First observe that if the Finsler metric is irreversible,
+          then its forward and backward geodesics do not necessarily coincide.
+          One therefore needs to extend the definition of the path structure:
+          by \knownterminology{irreversible path structure} we will understand a family of curves
+          <m>\gamma_{\alpha}(t)</m> such that for any point <m>x</m> and for any vector <m>v\in T_xM</m>,
+          <m>v\ne 0</m>,
+          there exists a unique curve <m>\gamma</m> from this family such that the for a certain <m>t</m> we have <m>\gamma(t)= x</m> and
+          <m>\dot\gamma(t)</m> is proportional to <m>v</m> with a positive coefficient.
+          Path structures in the sense of the initial definition from the beginning of this section will be called \knownterminology{reversible path structures}.
+        </p>
+      </discussion>
+      <suggestion>
+        <p>
+          An easy example of an irreversible path structure is provided by circles of radius <m>1</m> on the Euclidean plane
+          <m>\mathbb{R}^2</m> with clockwise orientation.
+          This path structure is locally Finsler-metrizable,
+          that is there exists a Finsler metric such that all curves of the path structure are its geodesics.
+        </p>
+      </suggestion>
+      <status>
+        <p>
+          It is known that, in dimension 2, locally,
+          each reversible path structure is metrizable<nbsp/><xref ref="Alv-Ber2010"/>.
+        </p>
+      </status>
+    </openproblem>
+    <openquestion>
+      <statement>
+        <p>
+          In dimension <m>2</m>, is each irreversible path structure metrizable?
+        </p>
+      </statement>
+      <context>
+        <p>
+          We actually ask this question locally.
+          Globally, and on closed manifolds, the answer is negative.
+          A simple example provides the torus
+          <m>\mathbb{R}^2/\mathbb{Z}^2</m> with the irreversible path structure from the example above,
+          when the curves from the path structure are circles of radius <m>1</m>.
+          Indeed, in this case not all pairs of points on the universal cover can be connected by a geodesic.
+        </p>
+      </context>
+      <status>
+        <p>
+          Let us now discuss the freedom in reconstructing the (Riemannian or pseudo-Riemannian) metric from its unparameterized geodesics;
+          an equivalent question is how many different metrics can have the same geodesics considered as unparameterized curves.
+          Of course, the metrics <m>g</m> and
+          <m>\textrm{const} \cdot g</m> have the same geodesics.
+          In<nbsp/><xref ref="Matveev2012a"/> it was shown that,
+          for a <m>k</m> depending on the dimension,
+          a <m>C^k</m>-generic metric has the property that any projectively equivalent metric is proportional to it with a constant coefficient.
+          In fact, as follows from<nbsp/><xref ref="Kru-Mat2016"/>, in all dimensions <m>k=2</m> is enough.
+        </p>
+      </status>
+      <suggestion>
+        <p>
+          There exist local
+          (the first examples are due already to Lagrange, Beltrami and Dini)
+          and global examples of non-proportional projectively equivalent metrics.
+          Locally, in the Riemannian case,
+          a complete description of projectively equivalent metrics is due to Levi-Civita<nbsp/><xref ref="Levi-Civita1896"/> and in arbitrary signature is due to<nbsp/><xref ref="Bol-Mat2015"/>.
+          Globally, in the Riemannian case,
+          the situation is also pretty clear,
+          see e.g. [<a knowl="Mat-Top1998.knowl">Mat-Top1998</a>,
+          <a knowl="Matveev2003a.knowl">Matveev2003a</a>,
+          <a knowl="Matveev2003b.knowl">Matveev2003b</a>], but if the metrics have arbitrary signature,
+          virtually nothing is known.
+          A general problem is to understand the topology of closed manifolds admitting non-proportional projectively equivalent metrics of indefinite signature and as the simplest version of this problem we suggest
+        </p>
+      </suggestion>
+    </openquestion>
+    <openquestion>
+      <statement>
+        <p>
+          Can a 3-dimensional sphere admit two non-proportional projectively equivalent metrics of Lorentzian signature?
+        </p>
+      </statement>
+      <suggestion>
+        <p>
+          In the Finslerian case,
+          the freedom of reconstructing metric from its geodesic can be much higher.
+          For example,
+          adding any sufficiently small closed 1-form to the Finsler metric does not change geodesics of this metric.
+          This transformation of the metric was called a \knownterminology{ trivial projective change} in<nbsp/><xref ref="Matveev2013"/>.
+        </p>
+      </suggestion>
+    </openquestion>
+    <openquestion>
+      <statement>
+        <p>
+          In dimension <m>\ge 3</m>, for a generic Finsler metric <m>F</m>,
+          is any metric projectively equivalent to <m>F</m> locally proportional to a trivial projective change of the metric?
+        </p>
+      </statement>
+      <discussion>
+        <p>
+          In dimension <m>2</m>,
+          generic Finsler metrics admit projectively equivalent metrics which do not come from a trivial projective change.
+        </p>
+      </discussion>
+    </openquestion>
+  </introduction>
+  <subsection>
+    <title>Acknowledgements</title>
+    <p>
+      We thank all the participants,
+      especially Victor Bangert, Charles Boubel, Nancy Hingston, Gerhard Knieper, Yiming Long, Gabriel Paternain, Mark Pollicott, Regina Rotman, St\'ephane Sabourau, Benjamin Schmidt,
+      for active participation in the problem sessions.
+      We also thank non-participants who have helped: Alberto Abbondandolo, Juan-Carlos Alvarez Paiva, Ivan Babenko, Florent Balacheff, Helga Baum, Michael Bialy, Dima Burago, Maciej Dunajski, Misha Gromov, Larry Guth, Sergei Ivanov, Bruce Kleiner, Alan Reid, Stefan Suhr.
+    </p>
+    <p>
+      Most of the writing of the paper was done during four visits by KB to the Friedrich-Schiller-Universit\"at Jena,
+      supported by DFG (SPP 1154 and GK 1523).
+    </p>
+  </subsection>
+</section>
