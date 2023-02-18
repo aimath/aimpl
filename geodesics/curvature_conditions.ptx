@@ -75,14 +75,12 @@
     </p>
     <image source="images/33341199e4fd10aa799470dcce5309ac9770e83a.png"/>
     <p>
-      That Anosov geodesic flow implies no conjugate points is proved in part B of<nbsp/><xref ref="Mane1987"/>.
+      That Anosov geodesic flow implies no conjugate points is proved in part B of \cite{Mane1987}.
     </p>
     <p>
       The class of compact manifolds that support metrics with variable negative curvature is much larger than the class that support hyperbolic metrics
       (of constant negative curvature).
-      The earliest examples of manifolds that support variable but not constant negative curvature were given by Mostow-Siu<nbsp/><xref ref="Mos-Siu1980"/> and Gromov-Thurston<nbsp/><xref ref="Gro-Thu1987"/>.
-      Recent work of Ontaneda has vastly increased the supply of examples<nbsp/>[<a knowl="Ontaneda2011.knowl">Ontaneda2011</a>,
-      <a knowl="Ontaneda2014.knowl">Ontaneda2014</a>].
+      The earliest examples of manifolds that support variable but not constant negative curvature were given by Mostow-Siu \cite{Mos-Siu1980} and Gromov-Thurston \cite{Gro-Thu1987}. Recent work of Ontaneda has vastly increased the supply of examples \cite{Ontaneda2011, Ontaneda2014}.
     </p>
     <openconjecture>
       <title>Klingenberg</title>
@@ -92,20 +90,19 @@
           then it admits a metric with negative sectional curvature.
         </p>
       </statement>
-      <suggestion>
+      <status>
         <p>
           All known examples of metrics with Anosov geodesic flow are perturbations of metrics with negative curvature.
           It is not difficult to show using the uniformization theorem and the Thurston geometerization theorem that conjecture is true in dimensions 2 and 3.
-          Klingenberg<nbsp/><xref ref="Klingenberg1974"/> showed that seven properties of Riemannian manifolds with negative curvature extend to those with Anosov geodesic flow.
-          One of these is Preissman's theorem<nbsp/><xref ref="Preissman1943"/> that the fundamental group of a manifold with negative sectional curvatures cannot contain a copy of <m>{\mathbb Z} \times {\mathbb Z}</m>.
+          Klingenberg \cite{Klingenberg1974} showed that seven properties of Riemannian manifolds with negative curvature extend to those with Anosov geodesic flow.
+          One of these is Preissman's theorem \cite{Preissman1943} that the fundamental group of a manifold with negative sectional curvatures cannot contain a copy of <m>{\mathbb Z} \times {\mathbb Z}</m>.
         </p>
-      </suggestion>
+      </status>
       <context>
         <p>
           Several examples of manifolds that admit metrics of non-positive curvature but cannot support a metric of negative curvature
           (or with Anosov geodesic flow)
-          can be found in the introduction to<nbsp/><xref ref="Ba-Br-Eb1985"/>.
-          These examples have a copy of
+          can be found in the introduction to \cite{Ba-Br-Eb1985}. These examples have a copy of
           <m>{\mathbb Z} \times {\mathbb Z}</m> in their fundamental group.
           The simplest of them is due to Heintze who took two cusped hyperbolic 3-manifolds,
           cut off the cusps,
@@ -126,9 +123,8 @@
         <p>
           Again it is not difficult to use the uniformization theorem to show that the answer is affirmative in dimension 2.
           But the problem is still open even in dimension 3.
-          See<nbsp/><xref ref="Cro-Sch1986"/>,
-          <xref ref="Lebedeva2002"/> and<nbsp/><xref ref="Iva-Kap2014"/> for results of the nature that the fundamental groups of manifolds with no conjugate points share properties with those of non-positive curvature.
-          Section 8 of<nbsp/><xref ref="Iva-Kap2014"/> contains a number of open problems of which we mention:
+          See \cite{Cro-Sch1986}, \cite{Lebedeva2002} and \cite{Iva-Kap2014} for results of the nature that the fundamental groups of manifolds with no conjugate points share properties with those of non-positive curvature.
+          Section 8 of \cite{Iva-Kap2014} contains a number of open problems of which we mention:
         </p>
       </preamble>
       <statement>
@@ -138,7 +134,7 @@
       </statement>
       <discussion>
         <p>
-          Semihyperbolicity is a condition introduced by Alonso and Bridson<nbsp/><xref ref="Alo-Bri1995"/> to describe non-positive curvature in the large for an arbitrary metric space.
+          Semihyperbolicity is a condition introduced by Alonso and Bridson \cite{Alo-Bri1995} to describe non-positive curvature in the large for an arbitrary metric space.
         </p>
         <p>
           The geodesic flow is partially hyperbolic if there are a <m>D\phi_t</m>-invariant splitting
@@ -152,17 +148,16 @@
           </me>.
         </p>
       </discussion>
-      <context>
+      <status>
         <p>
           Anosov geodesic flows are degenerate examples of partially hyperbolic geodesic flows.
           Genuine examples
           (with <m>\dim E^c \geq 2</m>)
           have been constructed by Carneiro and Pujals;
-          see<nbsp/><xref ref="Car-Puj2011"/> and<nbsp/><xref ref="Car-Puj2013"/>.
-          They deformed a higher rank locally symmetric space of non-compact type.
+          see \cite{Car-Puj2011} and \cite{Car-Puj2013}. They deformed a higher rank locally symmetric space of non-compact type.
           This answered a question raised by Herman in emails to many dynamicists.
         </p>
-      </context>
+      </status>
     </openquestion>
   </subsection>
 </section>

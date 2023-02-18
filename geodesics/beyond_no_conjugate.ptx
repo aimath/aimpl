@@ -8,15 +8,11 @@
       admit a metric (Riemannian or Finsler) with ergodic geodesic flow?
     </p>
     <p>
-      This is known for surfaces<nbsp/><xref ref="Donnay1988II"/>,
-      for <m>3</m>-manifolds<nbsp/><xref ref="Katok1994"/>,
-      for product manifolds in which the factors have dimenson <m>\leq 3</m><nbsp/><xref ref="Bur-Ger1994"/>, and for spheres<nbsp/><xref ref="Bur-Ged"/>.
-      Donnay and Pugh have shown that any embedded surface can be perturbed,
-      in the <m>C^0</m> topology to an embedded surface whose geodesic flow is ergodic<nbsp/><xref ref="Don-Pugh2004"/>.
-      These constructions all make essential use of the focusing caps introduced by Donnay in<nbsp/><xref ref="Donnay1988I"/>.
+      This is known for surfaces~\cite{Donnay1988II}, for <m>3</m>-manifolds~\cite{Katok1994}, for product manifolds in which the factors have dimenson <m>\leq 3</m> \cite{Bur-Ger1994}, and for spheres \cite{Bur-Ged}. Donnay and Pugh have shown that any embedded surface can be perturbed,
+      in the <m>C^0</m> topology to an embedded surface whose geodesic flow is ergodic \cite{Don-Pugh2004}. These constructions all make essential use of the focusing caps introduced by Donnay in \cite{Donnay1988I}.
     </p>
     <p>
-      The general problem is still wide open despite some reports of its solution (p.~87 of<nbsp/><xref ref="Berger2000"/> and Section 10.9 of<nbsp/><xref ref="Berger2003"/>).
+      The general problem is still wide open despite some reports of its solution (p.~87 of \cite{Berger2000} and Section 10.9 of \cite{Berger2003}).
     </p>
     <openquestion xml:id="q12">
       <statement>
@@ -27,8 +23,7 @@
       <discussion>
         <p>
           Metrics close to the standard metric on <m>S^2</m> would be especially interesting.
-          The best result in this direction is due to Burago and Ivanov<nbsp/><xref ref="Bur-Iva2016"/>.
-          They exhibit smooth Finsler metrics with positive measure theoretic entropy that are small perturbations of the round metric on <m>S^4</m>.
+          The best result in this direction is due to Burago and Ivanov \cite{Bur-Iva2016}. They exhibit smooth Finsler metrics with positive measure theoretic entropy that are small perturbations of the round metric on <m>S^4</m>.
         </p>
       </discussion>
     </openquestion>
@@ -55,13 +50,13 @@
           Which of these sets has full measure?
         </p>
       </statement>
-      <context>
+      <discussion>
         <p>
           The expected answer depends on the genus of the surface:
           on the torus the set <m>T_{i}</m> should have full measure,
           and on the surfaces of higher genus <m>T_{p}</m> should have full measure.
         </p>
-      </context>
+      </discussion>
       <suggestion>
         <p>
           In this context it is natural to consider only minimizing geodesics:
@@ -82,9 +77,8 @@
     <p>
       We denote by <m>\mathcal G^k(M)</m> the space of all smooth Riemannian metrics on <m>M</m> with the <m>C^k</m>-topology.
       Riemannian metrics are sections of the bundle <m>S^2T^*M</m>.
-      Our topology is the weak <m>C^k</m>-topology on the space of embeddings of <m>M</m> to <m>S^2T^*M</m>, see e.g.
-      <xref ref="Hirsch1976"/>.
-      The definition can be extended to metrics of all signatures and to Finsler metrics.
+      Our topology is the weak <m>C^k</m>-topology on the space of embeddings of <m>M</m> to <m>S^2T^*M</m>,
+      see e.g.\ \cite[Chapter II]{Hirsch1976}. The definition can be extended to metrics of all signatures and to Finsler metrics.
     </p>
     <p>
       We use <m>C^k</m>-topology either locally or on closed manifolds,
@@ -102,14 +96,13 @@
           Do the metrics with positive entropy form a <m>C^k</m>-dense subset of <m>\mathcal G(M)</m>?
         </p>
       </statement>
-      <context>
+      <status>
         <p>
           This question can be asked for any <m>k</m>.
-          For <m>k=2</m> it was recently positively answered in all dimensions in<nbsp/><xref ref="Contreras2010"/>;
-          see also<nbsp/><xref ref="Con-Pat2002"/>.
-          For <m>k = \infty</m> and dimension 2, it was answered positively in<nbsp/><xref ref="Kni-Wei2002"/>.
+          For <m>k=2</m> it was recently positively answered in all dimensions in \cite{Contreras2010}; see also \cite{Con-Pat2002}. For
+          <m>k = \infty</m> and dimension 2, it was answered positively in \cite{Kni-Wei2002}.
         </p>
-      </context>
+      </status>
     </openquestion>
     <openquestion>
       <statement>
@@ -119,14 +112,14 @@
           do the metrics for which the geodesic flow is transitive (i.e.\ has an orbit whose closure is <m>SM</m>) form a dense subset of <m>\mathcal G(M)</m>?
         </p>
       </statement>
-      <context>
+      <status>
         <p>
           This question is closely related to the famous Arnold diffusion conjecture.
           If <m>\dim(M)=2</m> and <m>k</m> is large enough, the answer is negative:
           if we take a metric with integrable geodesic flow such that certain Liouville tori are irrational,
           and any small perturbation of the metric has non-transitive geodesic flow by the KAM theory.
         </p>
-      </context>
+      </status>
     </openquestion>
     <openquestion>
       <statement>
@@ -136,14 +129,13 @@
           <m>\mathcal G</m> for which the tangent vectors to the closed geodesics are dense in <m>SM</m>?
         </p>
       </statement>
-      <opinion>
+      <status>
         <p>
           It is known that this is the case for metrics with non-uniformly hyperbolic geodesic flows.
-          Note that is relatively easy to construct, see e.g.
-          <xref ref="Weinstein1970"/>,
-          a metric on any manifold such that a certain non-empty open subset of <m>SM</m> contains no vectors tangent to a closed geodesic.
+          Note that is relatively easy to construct,
+          see e.g.\ \cite{Weinstein1970}, a metric on any manifold such that a certain non-empty open subset of <m>SM</m> contains no vectors tangent to a closed geodesic.
         </p>
-      </opinion>
+      </status>
     </openquestion>
   </subsection>
   <subsection>
@@ -172,11 +164,11 @@
     <title>Finsler metrics with positive flag curvature</title>
     <p>
       Flag curvature is the Finslerian analogue of sectional curvature.
-      It was shown in<nbsp/><xref ref="Akbar-Zadeh1988"/> that:
+      It was shown in \cite{Akbar-Zadeh1988} that:
       any closed Finsler surface with constant flag curvature zero is locally Minkowskian;
       any sufficiently smooth closed Finsler surface with constant negative curvature is Riemannian (there are non-Riemannian examples which are not sufficiently smooth);
       and any connected closed Finsler surface with constant positive flag curvature is homeomorphic to <m>S^2</m> or <m>\Real P^2</m>.
-      The result for negative flag curvature also follows from<nbsp/><xref ref="Foulon1997"/> and is true in all dimensions.
+      The result for negative flag curvature also follows from \cite{Foulon1997} and is true in all dimensions.
     </p>
     <openproblem>
       <statement>
@@ -187,12 +179,9 @@
       <suggestion>
         <p>
           If such a metric is reversible,
-          then it is the round Riemannian metric<nbsp/><xref ref="Bryant2006"/>.
-          The Katok examples described in <xref ref="exkatok">Section</xref>
+          then it is the round Riemannian metric \cite{Bryant2006}. The Katok examples described in <xref ref="exkatok">Section</xref>
           have constant flag curvature <m>1</m>.
-          All projectively flat metrics of constant flag curvature on <m>S^2</m> are described in<nbsp/><xref ref="Bryant1997"/>.
-          Bryant has also constructed examples that are not projectively flat<nbsp/>[<a knowl="Bryant1996.knowl">Bryant1996</a>,
-          <a knowl="Bryant2002.knowl">Bryant2002</a>]. Unlike Katok's example,
+          All projectively flat metrics of constant flag curvature on <m>S^2</m> are described in \cite{Bryant1997}. Bryant has also constructed examples that are not projectively flat \cite{Bryant1996,Bryant2002}. Unlike Katok's example,
           all of the examples in Bryant's papers are Zoll,
           i.e.\ all of their closed geodesics are closed and of the same length.
         </p>
@@ -201,7 +190,7 @@
         <p>
           Even though the Finsler metrics of constant flag curvature <m>1</m> on <m>S^2</m> are not fully classified,
           the possible behavior of their geodesic flows is understood.
-          It is shown in<nbsp/><xref ref="BFIMZ2019"/> that the geodesic flow of a metric of constant curvature <m>1</m> is conjugated to that of the Katok metric.
+          It is shown in \cite{BFIMZ2019} that the geodesic flow of a metric of constant curvature <m>1</m> is conjugated to that of the Katok metric.
           This implies that one of the following two possibilities must occur:
           <ul>
             <li>
@@ -229,8 +218,7 @@
         <p>
           Moreover, the Finsler metrics satisfying (i) necessary admit a Killing vector field and are quite well understood.
           Applying the Zermelo transformation to such metrics
-          (see e.g.
-          <xref ref="Fou-Mat2018"/>),
+          (see e.g. \cite{Fou-Mat2018}),
           one obtains non-Zoll metrics satisfying
           (ii).
           Moreover, any such metric (of flag curvature <m>1</m> on <m>S^2</m> and satisfying (ii)) admitting a Killing vector field can be obtained by this procedure.
@@ -247,14 +235,14 @@
       </statement>
       <status>
         <p>
-          For recent progress in this direction see<nbsp/><xref ref="Lan-Met2018"/>.
+          For recent progress in this direction see \cite{Lan-Met2018}.
         </p>
       </status>
       <discussion>
         <p>
           In a closed
           (even complete)
-          Riemannian manifold <m>M</m> of positive sectional curvature two closed totally geodesic submanifolds such that the sum of their dimensions is at least the dimension of <m>M</m> must intersect<nbsp/><xref ref="Frankel1961"/>.
+          Riemannian manifold <m>M</m> of positive sectional curvature two closed totally geodesic submanifolds such that the sum of their dimensions is at least the dimension of <m>M</m> must intersect \cite{Frankel1961}.
         </p>
       </discussion>
     </openproblem>
@@ -266,18 +254,15 @@
           must two closed totally geodesic submanifolds of a closed Finsler manifold with positive flag curvature intersect if the sum of their dimensions is at least the dimension of the ambient manifold?
         </p>
       </statement>
-      <context>
+      <status>
         <p>
-          In dimension <m>2</m> the result was established in<nbsp/><xref ref="BFIMZ2019"/>.
-          A positive answer to this question was claimed in<nbsp/><xref ref="Koz-Pet2000"/>, but the proof has a serious flaw,
-          which is explained in<nbsp/><xref ref="BFIMZ2019"/>.
-          Note that there are Finsler surfaces with positive flag curvature that contain non-intersecting closed geodesics,
-          see<nbsp/>[<a knowl="BFIMZ2019.knowl">BFIMZ2019</a>,
-          <a knowl="Rademacher2016.knowl">Rademacher2016</a>] This is possible because a curve must have geodesic parameterizations in <em>both</em>
+          In dimension <m>2</m> the result was established in \cite{BFIMZ2019}. A positive answer to this question was claimed in \cite{Koz-Pet2000}, but the proof has a serious flaw,
+          which is explained in \cite{BFIMZ2019}. Note that there are Finsler surfaces with positive flag curvature that contain non-intersecting closed geodesics,
+          see \cite{BFIMZ2019, Rademacher2016} This is possible because a curve must have geodesic parameterizations in <em>both</em>
           directions in order to be totally geodesic,
           non-reversible Finsler metrics can therefore have simple closed geodesics that are not totally geodesic submanifolds.
         </p>
-      </context>
+      </status>
       <discussion>
         <p>
           The simplest still open version of <xref ref="Fra">Question</xref> is the following question.
@@ -298,11 +283,11 @@
     <p>
       We consider a Riemannian metric on an oriented closed surface <m>M</m> of genus <m>\ge 1</m>.
       Let <m>\Gamma</m> be a non-trivial free homotopy class and <m>p</m> a point in <m>M</m>.
-      A theorem of Gaidukov<nbsp/><xref ref="Gaidukov1966"/> says that there exist a closed geodesic
+      A theorem of Gaidukov \cite{Gaidukov1966} says that there exist a closed geodesic
       <m>\gamma:\Real\to M</m> in <m>\Gamma</m> and a ray
       <m>\beta:[0,\infty)\to M</m> with <m>\beta(0)=p</m> such that
       <m>dist(\beta(t), \gamma(t)) \to 0</m> as <m>t \to \infty</m>.
-      As explained in<nbsp/><xref ref="Bia-Pol1986"/>, Gajdukov's results follow easily from the classical results of<nbsp/><xref ref="Morse1924"/> and<nbsp/><xref ref="Hedlund1932"/>.
+      As explained in \cite{Bia-Pol1986}, Gajdukov's results follow easily from the classical results of \cite{Morse1924} and \cite{Hedlund1932}.
     </p>
     <openproblem xml:id="Sch">
       <title>Benjamin Schmidt</title>
@@ -318,10 +303,7 @@
           are important and plentiful in Aubry-Mather theory and Arnold diffusion.
           Instead of a single closed geodesic one should consider a minimizing set,
           namely the support of a minimal measure.
-          See e.g. [<a knowl="Mather1991.knowl">Mather1991</a>,
-          <a knowl="Con-Itu1999.knowl">Con-Itu1999</a>,
-          <a knowl="Mather2004.knowl">Mather2004</a>,
-          <a knowl="Bernard2010.knowl">Bernard2010</a>].
+          See e.g.\ \cite{Mather1991,Con-Itu1999,Mather2004, Bernard2010}.
         </p>
       </context>
     </openproblem>
@@ -343,20 +325,18 @@
       In case (a), <m>L(M,g)</m> is one definition of the diastole
       <m>\textrm{dias} (M,g)</m> of the Riemannian surface
       (at least two different notions of diastole have been studied;
-      see<nbsp/><xref ref="Bal-Sab2010"/>).
+      see \cite{Bal-Sab2010}).
     </p>
     <p>
-      By a result originally due to<nbsp/><xref ref="Croke1988"/> and later improved in<nbsp/><xref ref="Nab-Rot2002"/>,
-      <xref ref="Sabourau2004"/> and<nbsp/><xref ref="Rotman2006"/>,
-      for every Riemannian metric <m>g</m> on the sphere <m>S^2</m> one has
+      By a result originally due to \cite{Croke1988} and later improved in \cite{Nab-Rot2002}, \cite{Sabourau2004} and \cite{Rotman2006}, for every Riemannian metric <m>g</m> on the sphere <m>S^2</m> one has
       <me>
         \textrm{sys} (S^2, g) \leq \sqrt{ 32} \sqrt{\textrm{area} (S^2, g)}
       </me>.
     </p>
     <p>
-      Actually, in<nbsp/><xref ref="Croke1988"/> it was suggested that the constant
+      Actually, in \cite{Croke1988} it was suggested that the constant
       <m>\sqrt{32}</m> in the above inequality can be replaced by <m>\sqrt{2\sqrt{3}}</m>.
-      The following example due to<nbsp/><xref ref="Croke1988"/> shows that one can not go below <m>\sqrt{2\sqrt{3}}</m>:
+      The following example due to \cite{Croke1988} shows that one can not go below <m>\sqrt{2\sqrt{3}}</m>:
       take two congruent equilateral triangles and glue them along their boundaries.
       The example is not smooth and suggests the study of systolic inequalities on the space of smooth metrics with conical singularities.
       On the space of such metrics,
@@ -368,23 +348,20 @@
     <p>
       This function has many nice properties;
       for example it is Lipschitz with respect to the appropriate distance on the space of metrics.
-      By<nbsp/><xref ref="Croke1988"/>, the function has a positive minimum,
+      By \cite{Croke1988}, the function has a positive minimum,
       and the natural conjecture is that the minimum is attained on the sphere constructed from two equilateral triangles as described above.
     </p>
     <p>
-      Other critical points of this function are also interesting: Balacheff showed that the round metric on the sphere is a critical point<nbsp/><xref ref="Balacheff2006"/>.
-      Moreover, by<nbsp/><xref ref="Alv-Bal2014"/>, Zoll Finsler manifolds <m>(M, F)</m> of all dimension satisfy the following alternative:
+      Other critical points of this function are also interesting: Balacheff showed that the round metric on the sphere is a critical point \cite{Balacheff2006}. Moreover,
+      by \cite{Alv-Bal2014}, Zoll Finsler manifolds <m>(M, F)</m> of all dimension satisfy the following alternative:
       for any Finsler deformation <m>F_t</m> with <m>F_0=F</m> either the function
       <m>t \mapsto \sigma(F_t)</m> has a strict local minimum at <m>t = 0</m>,
       or the family <m>F_t</m> is tangent up to every order to the space of Zoll metrics.
-      In dimension 2, the result is further improved in<nbsp/>[<a knowl="ABHS2017.knowl">ABHS2017</a>,
-      <a knowl="ABHS2018.knowl">ABHS2018</a>], where it is shown that both in the Riemannian and in the Finslerian cases the function
+      In dimension 2, the result is further improved in \cite{ABHS2017,ABHS2018}, where it is shown that both in the Riemannian and in the Finslerian cases the function
       <m>\sigma(F_t)</m> defined above has a strict local minimum at <m>t = 0</m> if <m>F</m> is a Zoll metric.
     </p>
     <p>
-      Note though that in the papers<nbsp/>[<a knowl="Alv-Bal2014.knowl">\'Alv-Bal2014</a>,
-      <a knowl="ABHS2017.knowl">ABHS2017</a>,
-      <a knowl="ABHS2018.knowl">ABHS2018</a>] the metrics and the deformation are assumed to be smooth
+      Note though that in the papers \cite{Alv-Bal2014,ABHS2017,ABHS2018} the metrics and the deformation are assumed to be smooth
       (at least <m>C^3</m>).
       In view of the Croke's example,
       it may be natural to consider also non-smooth metrics and non-smooth deformations.
@@ -393,41 +370,40 @@
       <title>Babenko</title>
       <statement>
         <p>
-          \knownterminology{ Does there exist,
+          Does there exist,
           in the space of metrics with conical singularities, a
           (continuous or smooth)
           family of metrics <m>g_t</m> such that <m>g_0</m> is the round metric of the sphere,
           <m>g_1</m> is the metric from the example above,
-          and <m>\sigma(g_t)</m> is a decreasing function of <m>t</m>.}
+          and <m>\sigma(g_t)</m> is a decreasing function of <m>t</m>.
         </p>
       </statement>
-      <discussion>
+    </openquestion>
+    <openquestion xml:id="babenko1">
+      <preamble>
         <p>
           A simpler version of this question is
         </p>
-      </discussion>
-    </openquestion>
-    <openquestion xml:id="babenko1">
+      </preamble>
       <title>Babenko</title>
       <statement>
         <p>
-          \knownterminology{ Does every Riemannian metric on <m>S^2</m> with area <m>4\pi</m> that is close enough to the round metric have a closed geodesic with length <m>\leq 2\pi</m>?
+          Does every Riemannian metric on <m>S^2</m> with area <m>4\pi</m> that is close enough to the round metric have a closed geodesic with length <m>\leq 2\pi</m>?
           In other words, is it true that
-          <m>\sigma \ge 1/\pi</m> for metrics close to the round metric? }
+          <m>\sigma \ge 1/\pi</m> for metrics close to the round metric?
         </p>
       </statement>
-      <context>
+      <status>
         <p>
           The answer depends on what is meant by ``close''. If ``close'' means <m>C^2</m>-close,
-          then the positive answer follows from<nbsp/><xref ref="ABHS2017"/>.
-          In that paper the condition ``close'' is given explicitly in terms of a pinching condition on the curvature.
+          then the positive answer follows from \cite{ABHS2017}. In that paper the condition ``close'' is given explicitly in terms of a pinching condition on the curvature.
           It is proved that in the neighborhood of a Zoll metric consisting of metrics such that this pinching condition is satisfied,
           the equality <m>\sigma = 1/\pi</m> holds if and only if the metric is Zoll.
         </p>
-      </context>
+      </status>
       <discussion>
         <p>
-          A corollary of one of the main results in<nbsp/><xref ref="ABHS2018"/> generalizes this to Finsler metrics and a <m>C^3</m>-neighborhood of the Zoll metrics : more precisely,
+          A corollary of one of the main results in \cite{ABHS2018} generalizes this to Finsler metrics and a <m>C^3</m>-neighborhood of the Zoll metrics : more precisely,
           <m>\sigma \ge 1/\pi</m> in a small <m>C^3</m>-neighbourhood of all Zoll Finsler metrics on <m>S^2</m>,
           with equality if and only if the metric is Zoll.
         </p>
@@ -445,12 +421,12 @@
             \textrm{sys} (M,g) \leq C \frac{\log( \textrm{genus} (M))}{ \sqrt{\textrm{genus} (M)}}{\textrm{area} (M, g)};
           </men>
           the dependence on the genus of <m>M</m> in this inequality is sharp.
-          In<nbsp/><xref ref="Berger2003"/> inequality <xref ref="gr"/> is attributed to Gromov and it is explained from what papers,
+          In \cite[Note 7.2.12]{Berger2003} inequality <xref ref="gr"/> is attributed to Gromov and it is explained from what papers,
           results and ideas of Gromov <xref ref="gr"/> follows.
-          Section 7.2.1 of<nbsp/><xref ref="Berger2003"/> is a very nice survey on systolic inequalities for surfaces.
+          Section 7.2.1 of \cite{Berger2003} is a very nice survey on systolic inequalities for surfaces.
         </p>
         <p>
-          For the diastole defined by (a), Balacheff and Sabourau showed in<nbsp/><xref ref="Bal-Sab2010"/> that there is a constant <m>C</m> such that
+          For the diastole defined by (a), Balacheff and Sabourau showed in \cite{Bal-Sab2010} that there is a constant <m>C</m> such that
           <me>
             \textrm{dias} (M,g) \leq C\sqrt{\textrm{genus} (M)}\sqrt{\textrm{area} (M, g)};
           </me>
@@ -465,7 +441,7 @@
           Is there a constant <m>C</m> such that the invariant defined by (b) above is bounded from above by <m>C\sqrt{\textrm{area} (M,g)}</m>?
         </p>
       </statement>
-      <context>
+      <status>
         <p>
           An affirmative answer to Guth's question would mean that the three quantities under consideration all depend on the genus in different ways,
           and are therefore measuring different features of the surface.
@@ -473,9 +449,9 @@
           This would precisely give the optimal Bers' constant for a genus <m>g</m> surface.
           Even for hyperbolic surfaces,
           this question is still open
-          (see<nbsp/><xref ref="Buser1992"/> for partial results).
+          (see \cite{Buser1992} for partial results).
         </p>
-      </context>
+      </status>
       <discussion>
         <p>
           The question above also makes sense in higher dimensions.
@@ -489,28 +465,28 @@
   <subsection>
     <title>Questions related to the systole   in higher dimensions</title>
     <openquestion>
-      <title>Question 4.11 of<nbsp/><xref ref="Gromov2001"/></title>
+      <title>Question 4.11 of \cite{Gromov2001}</title>
       <statement>
         <p>
-          \knownterminology{Does a Riemannian metric on a real projective space with the same volume as the canonical metric have a closed geodesic with length <m>\leq \pi</m>?}
+          Does a Riemannian metric on a real projective space with the same volume as the canonical metric have a closed geodesic with length <m>\leq \pi</m>?
         </p>
       </statement>
-      <context>
+      <status>
         <p>
           In dimension two,
-          an affirmative answer is in<nbsp/><xref ref="Gromov2001"/>.
+          an affirmative answer is in \cite[Proposition 4.10]{Gromov2001}.
         </p>
-      </context>
+      </status>
     </openquestion>
     <openquestion>
       <title>&#xc1;lvarez Paiva</title>
       <statement>
         <p>
-          \knownterminology{Can there be Riemannian metrics on <m>S^3</m> or
+          Can there be Riemannian metrics on <m>S^3</m> or
           <m>S^2 \times S^1</m> with unit volume all of whose closed geodesics are long?
           More specifically,
           does every metric on these spaces have a closed geodesic with length
-          <m>\leq 10^{24}</m> if the volume is <m>1</m>?}
+          <m>\leq 10^{24}</m> if the volume is <m>1</m>?
         </p>
       </statement>
     </openquestion>
@@ -520,9 +496,8 @@
     <openquestion>
       <preamble>
         <p>
-          This is a classical topic --- the first examples go back at least to<nbsp/><xref ref="Zoll1903"/>;
-          see<nbsp/><xref ref="Besse1978"/> for details.
-          The book<nbsp/><xref ref="Besse1978"/> is still up to date,
+          This is a classical topic --- the first examples go back at least to \cite{Zoll1903}; see \cite{Besse1978} for details.
+          The book \cite{Besse1978} is still up to date,
           and many problems/questions listed in it
           (in particular in Chapter 0 \S D)
           are still open.
@@ -536,22 +511,19 @@
           Is <m>(M,g)</m> a CROSS (=compact rank one symmetric) manifold (with the standard metric)?
         </p>
       </statement>
-      <context>
+      <discussion>
         <p>
           Of course, variants of this question can be asked about Finsler and Lorentzian metrics.
           In the Finsler setting,
           one may ask for example to describe all Finsler metrics on <m>CP(n)</m> such that their geodesics are geodesics of the standard (Fubini-Study) metric on <m>CP(n)</m>.
           Of course, the answer in the Finslerian case is expected to be much more difficult;
-          for example by<nbsp/><xref ref="Bryant1996"/> on the 2-sphere there exists a two-parameter family of projectively flat Finsler metrics on the sphere,
+          for example by \cite{Bryant1996} on the 2-sphere there exists a two-parameter family of projectively flat Finsler metrics on the sphere,
           such that the flag curvature is <m>+1</m>.
         </p>
-      </context>
-      <discussion>
         <p>
           In the Lorenzian setting,
           one can ask to construct all manifolds such that all light-like geodesics are closed,
-          see e.g. [<a knowl="Mou-Suh2013.knowl">Mou-Suh2013</a>,
-          <a knowl="Suhr2013b.knowl">Suhr2013b</a>].
+          see e.g.\ \cite{Mou-Suh2013, Suhr2013b}.
         </p>
       </discussion>
     </openquestion>
@@ -567,12 +539,11 @@
           Then all geodesics have the same length.
         </p>
       </statement>
-      <discussion>
+      <status>
         <p>
-          The conjecture is proved when <m>M</m> is the sphere of dimension <m>\ne 3</m> in<nbsp/>[<a knowl="Gro-Gro1981.knowl">Gro-Gro1981</a>,
-          <a knowl="Rad-Wil2015.knowl">Rad-Wil2015</a>].
+          The conjecture is proved when <m>M</m> is the sphere of dimension <m>\ne 3</m> in \cite{Gro-Gro1981, Rad-Wil2015}.
         </p>
-      </discussion>
+      </status>
     </openconjecture>
   </subsection>
 </section>

@@ -14,7 +14,7 @@
     </p>
     <p>
       Let us introduce some notation.
-      By a \knownterminology{path structure} we will understand (following<nbsp/><xref ref="Thomas1925"/>) a family of curves
+      By a \knownterminology{path structure} we will understand (following \cite{Thomas1925}) a family of curves
       <m>\gamma_{\alpha}(t)</m> such that for any point <m>x</m> and for any vector <m>v\in T_xM</m>,
       <m>v\ne 0</m>,
       there exists a unique curve <m>\gamma</m> from this family such that for a certain <m>t</m> we have
@@ -77,10 +77,10 @@
       by solving this system
       (if it is solvable)
       we obtain a connection.
-      See<nbsp/><xref ref="Matveev2012a"/> for more details.
+      See \cite[\S 2.1]{Matveev2012a} for more details.
     </p>
     <p>
-      Note that (as was already known to<nbsp/><xref ref="Levi-Civita1896"/> and<nbsp/><xref ref="Weyl1921"/>) the solution
+      Note that (as was already known to \cite{Levi-Civita1896} and \cite{Weyl1921}) the solution
       <m>\Gamma_{jk}^i</m> of <xref ref="christof1"/>, if it exists,
       is not unique:
       two connections <m>\nabla=\left( \Gamma_{jk}^i\right)</m> and
@@ -107,12 +107,10 @@
     </p>
     <p>
       This question is well-studied;
-      see for example the answers of Bryant and Thurston in<nbsp/><xref ref="Bry-Thu2011"/>.
-      A theoretical answer is as follows:
+      see for example the answers of Bryant and Thurston in \cite{Bry-Thu2011}. A theoretical answer is as follows:
       the affine connection determines the holonomy group.
-      The existence of a metric with a given affine connection is equivalent to the existence of a non-degenerate bilinear form preserved by the holonomy group, see e.g.
-      <xref ref="Schmidt1973"/>.
-      A practical test for the existence of the metric is as follows:
+      The existence of a metric with a given affine connection is equivalent to the existence of a non-degenerate bilinear form preserved by the holonomy group,
+      see e.g.\ \cite{Schmidt1973}. A practical test for the existence of the metric is as follows:
       the connection allows to construct the curvature tensor <m>R^i_{\ jk\ell}</m>,
       and if the connection is the Levi-Civita connection of a metric,
       then this metric satisfies the following equations:
@@ -132,7 +130,7 @@
       and in this case we already have the conformal class of the metrics.
       Now, having the conformal class of the metric we have the conformal class of the volume form and it is easy to reconstruct the metric using the condition that the volume form is parallel,
       which immediately reduces to the condition that a certain 1-form is closed;
-      see also<nbsp/><xref ref="Mat-Tra2014"/>.
+      see also \cite{Mat-Tra2014}.
     </p>
     <p>
       Note that if the equations <xref ref="c2"/> do not give enough information one could consider their ``derivatives''
@@ -154,16 +152,13 @@
       i.e.\ which non-proportional metrics have the same Levi-Civita connection.
       Locally, the answer is known.
       For Riemannian metrics,
-      it was understood already by Cartan and Eisenhart<nbsp/><xref ref="Eisenhart1923"/>.
-      For metrics of arbitrary signature,
-      the answer is in the recent papers<nbsp/>[<a knowl="Boubel2015a.knowl">Boubel2015a</a>,
-      <a knowl="Boubel2015b.knowl">Boubel2015b</a>]. Both results are a more-or-less explicit local description of all metrics having the same Levi-Civita connection;
+      it was understood already by Cartan and Eisenhart \cite{Eisenhart1923}. For metrics of arbitrary signature,
+      the answer is in the recent papers \cite{Boubel2015a,Boubel2015b}. Both results are a more-or-less explicit local description of all metrics having the same Levi-Civita connection;
       such metrics are called \knownterminology{affinely equivalent}.
     </p>
     <p>
       In the Riemannian case,
-      a global (i.e., when the manifold is closed or complete) analog of the result of Cartan and Eisenhart is due to<nbsp/><xref ref="DeRham1952"/>,
-      where it was proved that the universal cover is the direct product of Riemannian manifolds.
+      a global (i.e., when the manifold is closed or complete) analog of the result of Cartan and Eisenhart is due to \cite{DeRham1952}, where it was proved that the universal cover is the direct product of Riemannian manifolds.
     </p>
     <p>
       In the pseudo-Riemannian case the situation is more complicated.
@@ -171,23 +166,25 @@
       <m>\tilde g</m> and the (1,1) tensor <m>A</m> given by the condition <m>\tilde g ( A(\cdot), \cdot) = g(\cdot,\cdot)</m>.
       It is self-adjoint with respect to both metrics and parallel with respect to the Levi-Civita connection.
       Its generalized eigenspaces therefore generate mutually orthogonal totally geodesic foliations the sum of whose dimensions is the dimension of the manifold.
-      Under the additional assumption that the manifold is geodesically complete one can show, see e.g.
-      <xref ref="Wu1967"/>, that the universal cover of the manifold splits as the direct product of the
+      Under the additional assumption that the manifold is geodesically complete one can show,
+      see e.g.\ \cite{Wu1967}, that the universal cover of the manifold splits as the direct product of the
       (universal covers of the)
       leaves of these foliations with the restriction of the metrics to them,
       <me>
         \tilde M  = M_1\times \dots \times M_k,  g= g_{|M_1}+ \cdots + g_{|M_k},  \tilde g= \tilde g_{|M_1}+ \cdots + \tilde g_{|M_k}
       </me>.
     </p>
-    <p>
-      The most interesting case is when <m>A</m> has only one eigenvalue and since it is clearly a constant one can assume that it is zero.
-      In this case,
-      all known examples on closed manifolds are when <m>g</m> admits light-like parallel vector fields,
-      and <m>A</m> is built with the help of these vector fields.
-      We therefore suggest,
-      as an interesting unsolved problem, the following question.
-    </p>
     <openquestion>
+      <preamble>
+        <p>
+          The most interesting case is when <m>A</m> has only one eigenvalue and since it is clearly a constant one can assume that it is zero.
+          In this case,
+          all known examples on closed manifolds are when <m>g</m> admits light-like parallel vector fields,
+          and <m>A</m> is built with the help of these vector fields.
+          We therefore suggest,
+          as an interesting unsolved problem, the following question.
+        </p>
+      </preamble>
       <statement>
         <p>
           Suppose a closed manifold <m>(M,g)</m> admits a non-zero <m>(1,1)</m>-tensor field that is self-adjoint with respect to <m>g</m>,
@@ -220,21 +217,19 @@
           <em>construct non-Berwaldian examples of affinely equivalent non-proportional Finsler metrics which are not product metrics.</em>
         </p>
       </suggestion>
-      <context>
+    </openproblem>
+    <openproblem xml:id="prob_br">
+      <preamble>
         <p>
-          The ``unparameterized'' versions of these problems for Riemannian and pseudo-Riemannian metrics are the subject of the recent survey<nbsp/><xref ref="Matveev2012a"/>.
-          Roughly speaking,
+          The ``unparameterized'' versions of these problems for Riemannian and pseudo-Riemannian metrics are the subject of the recent survey \cite{Matveev2012a}. Roughly speaking,
           the situation is similar to the one in the ``parameterized'' case:
           locally, a general strategy for reconstructing a metric is understood:
-          the existence of a metric compatible with a path structure is equivalent to the existence of (non-degenerate) parallel sections of a certain tensor bundle<nbsp/><xref ref="Eas-Mat2008"/>.
-          A connection on this tensor bundle is constructed by the projective structure constructed by the path structure.
+          the existence of a metric compatible with a path structure is equivalent to the existence of (non-degenerate) parallel sections of a certain tensor bundle \cite{Eas-Mat2008}. A connection on this tensor bundle is constructed by the projective structure constructed by the path structure.
           Thus, a theoretic answer is to see whether the holonomy group of this connection preserves a certain non-degenerate element of the fiber,
           and a practical method is to construct the curvatures of the connection and look for elements of the fiber compatible with the curvature.
           As an interesting open problem we suggest:
         </p>
-      </context>
-    </openproblem>
-    <openproblem xml:id="prob_br">
+      </preamble>
       <statement>
         <p>
           Construct a system of scalar invariants of a projective structure that vanish if and only if there exists (locally,
@@ -244,21 +239,20 @@
       <status>
         <p>
           In dimension two,
-          the problem was solved in<nbsp/><xref ref="Br-Du-Eas2009"/>,
-          and the system of invariants is quite complicated --- the simplest invariant has degree 5 in derivatives.
+          the problem was solved in \cite{Br-Du-Eas2009}, and the system of invariants is quite complicated --- the simplest invariant has degree 5 in derivatives.
           It is possible that in higher dimensions the system of invariants could be easier in some ways,
           since in this case the PDE-system corresponding to the existence of a metric for a projective structure has a higher degree of overdeterminacy.
           In particular fewer differentiations are needed to construct the first obstruction to the existence of a metric class.
-          See the recent paper<nbsp/><xref ref="Dun-Eas2014"/>.
+          See the recent paper \cite{Dun-Eas2014}.
         </p>
       </status>
       <context>
         <p>
           This problem is of course much more difficult in the Finslerian case.
-          In dimension <m>\ge 3</m>, not every path structure is metrizable,
+          In dimension <m>\ge 3</m>,
+          not every path structure is metrizable,
           and actually this result is micro-local,
-          see<nbsp/><xref ref="Douglas1941"/>.
-          This topic is one of the questions studied within the topic called inverse problem of calculus of variations.
+          see \cite{Douglas1941}. This topic is one of the questions studied within the topic called inverse problem of calculus of variations.
         </p>
       </context>
       <discussion>
@@ -286,7 +280,7 @@
       <status>
         <p>
           It is known that, in dimension 2, locally,
-          each reversible path structure is metrizable<nbsp/><xref ref="Alv-Ber2010"/>.
+          each reversible path structure is metrizable \cite[Theorem B]{Alv-Ber2010}.
         </p>
       </status>
     </openproblem>
@@ -296,7 +290,7 @@
           In dimension <m>2</m>, is each irreversible path structure metrizable?
         </p>
       </statement>
-      <context>
+      <status>
         <p>
           We actually ask this question locally.
           Globally, and on closed manifolds, the answer is negative.
@@ -305,37 +299,32 @@
           when the curves from the path structure are circles of radius <m>1</m>.
           Indeed, in this case not all pairs of points on the universal cover can be connected by a geodesic.
         </p>
-      </context>
-      <status>
         <p>
           Let us now discuss the freedom in reconstructing the (Riemannian or pseudo-Riemannian) metric from its unparameterized geodesics;
           an equivalent question is how many different metrics can have the same geodesics considered as unparameterized curves.
           Of course, the metrics <m>g</m> and
           <m>\textrm{const} \cdot g</m> have the same geodesics.
-          In<nbsp/><xref ref="Matveev2012a"/> it was shown that,
+          In \cite{Matveev2012a} it was shown that,
           for a <m>k</m> depending on the dimension,
           a <m>C^k</m>-generic metric has the property that any projectively equivalent metric is proportional to it with a constant coefficient.
-          In fact, as follows from<nbsp/><xref ref="Kru-Mat2016"/>, in all dimensions <m>k=2</m> is enough.
+          In fact, as follows from \cite{Kru-Mat2016}, in all dimensions <m>k=2</m> is enough.
         </p>
       </status>
-      <suggestion>
+    </openquestion>
+    <openquestion>
+      <preamble>
         <p>
           There exist local
           (the first examples are due already to Lagrange, Beltrami and Dini)
           and global examples of non-proportional projectively equivalent metrics.
           Locally, in the Riemannian case,
-          a complete description of projectively equivalent metrics is due to Levi-Civita<nbsp/><xref ref="Levi-Civita1896"/> and in arbitrary signature is due to<nbsp/><xref ref="Bol-Mat2015"/>.
-          Globally, in the Riemannian case,
-          the situation is also pretty clear,
-          see e.g. [<a knowl="Mat-Top1998.knowl">Mat-Top1998</a>,
-          <a knowl="Matveev2003a.knowl">Matveev2003a</a>,
-          <a knowl="Matveev2003b.knowl">Matveev2003b</a>], but if the metrics have arbitrary signature,
+          a complete description of projectively equivalent metrics is due to Levi-Civita \cite{Levi-Civita1896} and in arbitrary signature is due to \cite{Bol-Mat2015}. Globally,
+          in the Riemannian case, the situation is also pretty clear,
+          see e.g.\ \cite{Mat-Top1998,Matveev2003a,Matveev2003b}, but if the metrics have arbitrary signature,
           virtually nothing is known.
           A general problem is to understand the topology of closed manifolds admitting non-proportional projectively equivalent metrics of indefinite signature and as the simplest version of this problem we suggest
         </p>
-      </suggestion>
-    </openquestion>
-    <openquestion>
+      </preamble>
       <statement>
         <p>
           Can a 3-dimensional sphere admit two non-proportional projectively equivalent metrics of Lorentzian signature?
@@ -347,7 +336,7 @@
           the freedom of reconstructing metric from its geodesic can be much higher.
           For example,
           adding any sufficiently small closed 1-form to the Finsler metric does not change geodesics of this metric.
-          This transformation of the metric was called a \knownterminology{ trivial projective change} in<nbsp/><xref ref="Matveev2013"/>.
+          This transformation of the metric was called a \knownterminology{ trivial projective change} in \cite{Matveev2013}.
         </p>
       </suggestion>
     </openquestion>

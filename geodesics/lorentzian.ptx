@@ -36,15 +36,16 @@
       To the best of our knowledge,
       the existence of a closed geodesic on a Lorentzian manifold is a quite complicated problem and nothing is known in dimensions <m>\ge 3</m>.
       In dimension 2, a closed orientable manifold with a metric of signature <m>(+,-)</m> is homeomorphic to the torus.
-      By<nbsp/><xref ref="Suhr2013a"/>,
-      every Lorentzian 2-dimensional torus has at least two simple closed geodesics one of which is definite,
+      By \cite{Suhr2013a}, every Lorentzian 2-dimensional torus has at least two simple closed geodesics one of which is definite,
       i.e. timelike or spacelike.
       Moreover, explicit examples show the optimality of this claim.
     </p>
-    <p>
-      We therefore ask the following
-    </p>
     <openquestion>
+      <preamble>
+        <p>
+          We therefore ask the following
+        </p>
+      </preamble>
       <statement>
         <p>
           Does every closed Lorentzian manifold have at least one closed geodesic?
@@ -59,7 +60,7 @@
       </discussion>
       <status>
         <p>
-          See the introduction to the paper<nbsp/><xref ref="Fl-Ja-Pi2011"/> for a list of known results about the existence of closed time-like geodesics under additional assumptions.
+          See the introduction to the paper \cite{Fl-Ja-Pi2011} for a list of known results about the existence of closed time-like geodesics under additional assumptions.
         </p>
       </status>
     </openquestion>
@@ -78,11 +79,11 @@
           <m>C_1 \neq 0, C_2</m> such that <m>\eta(\dot\gamma(t))= C_1\cdot t + C_2</m>?
         </p>
       </statement>
-      <context>
+      <status>
         <p>
           A negative answer to this question would give an easy proof of the semi-Riemannian version of the projective Lichnerowicz-Obata conjecture:
         </p>
-      </context>
+      </status>
       <discussion>
         <p>
           Let a connected Lie group <m>G</m> act on a closed manifold
@@ -93,27 +94,22 @@
           or <m>g</m> has constant sectional curvature.
         </p>
       </discussion>
-      <context>
+      <status>
         <p>
           If <m>g</m> is Riemannian,
-          the conjecture was proved in<nbsp/>[<a knowl="Matveev2005.knowl">Matveev2005</a>,
-          <a knowl="Matveev2007.knowl">Matveev2007</a>]. For metrics of Lorentzian signature,
-          the conjecture was proved in dimension 2 in<nbsp/><xref ref="Matveev2012b"/> and for all other dimensions in<nbsp/><xref ref="Bo-Ma-Ro2015"/>.
-          The proof is complicated, and does not generalize for other signatures.
+          the conjecture was proved in \cite{Matveev2005,Matveev2007}. For metrics of Lorentzian signature,
+          the conjecture was proved in dimension 2 in \cite{Matveev2012b} and for all other dimensions in \cite{Bo-Ma-Ro2015}. The proof is complicated,
+          and does not generalize for other signatures.
           In the semi-Riemannian case the following argument gives a proof for closed manifolds provided that the answer to the <xref ref="qst_ab">Question</xref> above is positive.
         </p>
-      </context>
-      <suggestion>
         <p>
-          It is known (see, for example,
-          <xref ref="Matveev2007"/>) that a 1-form <m>\eta_i</m> generates a one-parameter group of projective transformations,
+          It is known (see,
+          for example, \cite{Matveev2007}) that a 1-form <m>\eta_i</m> generates a one-parameter group of projective transformations,
           if and only if
           <me>
             \eta_{i,jk}+ \eta_{j,ik} - \frac{2}{(n+1)} \eta^\ell_{\ ,\ell k} g_{ij}   = \lambda_i g_{jk} + \lambda_j g_{ik}
           </me>
         </p>
-      </suggestion>
-      <context>
         <p>
           (for a certain 1-form <m>\lambda_i</m>).
           We take a light line geodesic <m>\gamma(t)</m>,
@@ -127,7 +123,7 @@
           which in turn implies that
           <m>\eta_{i,j}+ \eta_{j,i}</m> is proportional to <m>g_{ij}</m>.
           Then the covector field <m>\eta_i</m> generates a one-parameter group of conformal transformations.
-          Finally, the proof of the conjecture follows from a classical observation of H. Weyl<nbsp/><xref ref="Weyl1921"/> that every transformation that is projective and conformal is a homothety.
+          Finally, the proof of the conjecture follows from a classical observation of H. Weyl \cite{Weyl1921} that every transformation that is projective and conformal is a homothety.
         </p>
         <p>
           A version of the question above is whether,
@@ -136,7 +132,7 @@
           A positive answer to this question immediately implies that the answer to the initial question is negative,
           thereby proving the projective Lichnerowicz-Obata conjecture on closed manifolds.
         </p>
-      </context>
+      </status>
     </openquestion>
   </subsection>
   <subsection>
@@ -160,22 +156,21 @@
           We of course are interested in geometric assumptions that are easy to check or which are fulfilled for many interesting metrics.
         </p>
       </opinion>
-      <discussion>
+      <status>
         <p>
           Let us mention a few classical results.
           For compact homogeneous manifolds,
-          geodesic completeness was established in<nbsp/><xref ref="Marsden1972"/>.
-          For compact Lorentz manifolds of constant curvature geodesic completeness was proved in<nbsp/><xref ref="Carriere1989"/>
+          geodesic completeness was established in \cite{Marsden1972}. For compact Lorentz manifolds of constant curvature geodesic completeness was proved in \cite{Carriere1989}
           (flat case)
-          and<nbsp/><xref ref="Klingler1996"/>
+          and \cite{Klingler1996}
           (general case).
         </p>
-      </discussion>
+      </status>
     </openquestion>
     <openquestion>
       <preamble>
         <p>
-          We refer to the paper<nbsp/><xref ref="Sanchez2015"/> for a list of interesting results on this topic and for a list of open questions from which we repeat here only:
+          We refer to the paper \cite{Sanchez2015} for a list of interesting results on this topic and for a list of open questions from which we repeat here only:
         </p>
       </preamble>
       <title>\cite{Sanchez2015}</title>
@@ -188,8 +183,7 @@
       <suggestion>
         <p>
           Note also that in the non-compact case homogeneous manifolds of indefinite signature are not necessary geodesically complete;
-          see for example<nbsp/><xref ref="Sanchez2015"/>.
-          It is interesting to understand whether completeness of a homogeneous manifold can follow from algebraic properties of the isometry group.
+          see for example \cite[Example 2 in \S 4]{Sanchez2015}. It is interesting to understand whether completeness of a homogeneous manifold can follow from algebraic properties of the isometry group.
         </p>
       </suggestion>
     </openquestion>

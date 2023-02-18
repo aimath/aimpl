@@ -36,11 +36,9 @@
     </p>
     <p>
       The two dimensional case of <xref ref="Hopf">Theorem</xref>
-      was proved by E.~Hopf<nbsp/><xref ref="Hopf1948"/> and the general case by Burago and Ivanov<nbsp/><xref ref="Bur-Iva1994"/>.
-      The Lorentzian analogue of <xref ref="Hopf">Theorem</xref> is false;
-      two dimensional counterexamples are constructed in<nbsp/><xref ref="Bav-Mou2013"/>.
-      The Finsler analogue is also false as there are examples of Finsler metrics without conjugate points on the torus that are not the Minkowski metric, see e.g.
-      <xref ref="Busemann1955"/>.
+      was proved by E.~Hopf \cite{Hopf1948} and the general case by Burago and Ivanov \cite{Bur-Iva1994}. The Lorentzian analogue of <xref ref="Hopf">Theorem</xref> is false;
+      two dimensional counterexamples are constructed in \cite{Bav-Mou2013}. The Finsler analogue is also false as there are examples of Finsler metrics without conjugate points on the torus that are not the Minkowski metric,
+      see e.g. \cite[\S 33]{Busemann1955}.
     </p>
     <openquestion>
       <title>Communicated by S. Ivanov</title>
@@ -49,27 +47,26 @@
           Is the geodesic flow of a Finsler metric on the torus conjugate to that of the (locally) Minkowski metric on the torus?
         </p>
       </statement>
-      <suggestion>
+      <status>
         <p>
           All smooth examples we are aware of have geodesic flows smoothly conjugate to that of the locally Minkowski metric,
           but generally it is not even known whether the velocity vectors of geodesics with irrational rotation numbers are dense in the tangent bundle.
         </p>
-      </suggestion>
+      </status>
       <discussion>
         <p>
           <xref ref="BangEmm">Theorem</xref>
-          is a recent result of Bangert and Emmerich<nbsp/><xref ref="Ban-Emm2013"/>,
-          which greatly improved on earlier results in<nbsp/><xref ref="Bur-Kni1991"/> and<nbsp/><xref ref="Ban-Emm2011"/>.
+          is a recent result of Bangert and Emmerich \cite{Ban-Emm2013}, which greatly improved on earlier results in \cite{Bur-Kni1991} and \cite{Ban-Emm2011}.
         </p>
       </discussion>
-      <context>
+      <status>
         <p>
           Bangert and Emmerich's work was motivated by a question,
           asked by Bangert and Burns-Knieper,
           which is answered by the following theorem,
           whose proof is based on <xref ref="BangEmm">Theorem</xref>.
         </p>
-      </context>
+      </status>
     </openquestion>
     <theorem>
       <title>\cite{Ban-Emm2013}</title>
@@ -98,23 +95,22 @@
           Does <m>dist(\alpha(t), \beta(t)) \to \infty</m> as <m>t\to \infty</m>?
         </p>
       </statement>
-      <context>
+      <status>
         <p>
-          The answer is positive in dimension 2<nbsp/><xref ref="Green1954"/>.
-          The question is open in higher dimensions;
-          the proof in<nbsp/><xref ref="Green1956"/> is incorrect.
+          The answer is positive in dimension 2 \cite{Green1954}. The question is open in higher dimensions;
+          the proof in \cite{Green1956} is incorrect.
           The answer to the corresponding question about Finsler metrics is negative.
           The Teichm\"uller metric on Teichm\"uller space has no conjugate points,
-          but Masur showed that there exist two rays through the same point which do not diverge<nbsp/><xref ref="Masur1975"/>.
+          but Masur showed that there exist two rays through the same point which do not diverge \cite{Masur1975}.
         </p>
-      </context>
-      <discussion>
+      </status>
+    </openquestion>
+    <openquestion>
+      <preamble>
         <p>
           A closely related question is:
         </p>
-      </discussion>
-    </openquestion>
-    <openquestion>
+      </preamble>
       <statement>
         <p>
           Suppose <m>dist(\alpha(t),\beta(t)) \to 0</m> as <m>t \to -\infty</m>.
@@ -142,15 +138,14 @@
       <p>
         The flat strip theorem fails for manifolds with no conjugate points
         (although it does extend fairly easily to manifolds without focal points).
-        Counter examples have been given in<nbsp/><xref ref="Burns1992"/> and by Kleiner
+        Counter examples have been given in ~\cite{Burns1992} and by Kleiner
         (unpublished).
         Kleiner's example has a copy of
         <m>\mathbb{ Z} \times \mathbb{ Z}</m> in its fundamental group,
         but does not contain a corresponding flat torus.
-        He perturbs the Heintze example (Example 4 in<nbsp/><xref ref="Ba-Br-Eb1985"/>),
-        which we described in <xref ref="relationsbetween">subsection</xref>.
+        He perturbs the Heintze example (Example 4 in \cite{Ba-Br-Eb1985}), which we described in <xref ref="relationsbetween">subsection</xref>.
         The following basic question appears to be open in general
-        (although Proposition 4 in<nbsp/><xref ref="Eschenburg1977"/> suggests an affirmative answer under some extra hypotheses).
+        (although Proposition 4 in \cite{Eschenburg1977} suggests an affirmative answer under some extra hypotheses).
       </p>
       <openquestion>
         <statement>
@@ -158,19 +153,18 @@
             Must homotopic closed geodesics in a manifold of dimension <m>\ge 3</m> with no conjugate points be homotopic through closed geodesics?
           </p>
         </statement>
-        <context>
+        <status>
           <p>
             In dimension 2, the answer is positive.
             This follows from a modification of the Birkhoff minimax procedure recalled in <xref ref="closed_geodesics">\S</xref>
-            combined with the results/methods of<nbsp/><xref ref="Morse1924"/>, as we now explain.
+            combined with the results/methods of \cite{Morse1924}, as we now explain.
           </p>
-        </context>
+        </status>
         <discussion>
           <p>
             Consider two homotopic closed geodesics <m>\gamma_0</m> and <m>\gamma_1</m>.
-            They have the same length by<nbsp/><xref ref="Morse1924"/>,
-            which we denote by <m>L_0</m> and their lifts to the universal cover bound a periodic strip <m>S</m> by<nbsp/><xref ref="Morse1924"/>.
-            Next, take a continuous bijection <m>h:S^1 \times [0,1] \to M</m> such that
+            They have the same length by \cite[Theorem 12]{Morse1924}, which we denote by <m>L_0</m> and their lifts to the universal cover bound a periodic strip <m>S</m> by \cite[\S 19]{Morse1924}. Next,
+            take a continuous bijection <m>h:S^1 \times [0,1] \to M</m> such that
             <m>S^1 \times \{0\} = \gamma_0</m> and <m>h(S^1 \times \{1\}) = \gamma_1</m>.
             Then apply to each curve <m>h(S^1 \times \{t\})</m> a shortening procedure;
             in dimension 2 one can organize the shortening procedure such that the lift of the projection to the universal cover does not leave the strip <m>S</m>.
@@ -179,8 +173,7 @@
             The natural modification of the Birkhoff minimax procedure proves then the existence of a closed geodesic homotopic to
             <m>\gamma_0</m> whose lift to the universal cover lies in the strip <m>S</m>;
             this geodesic also has length <m>L_0</m>.
-            Arguing as in<nbsp/><xref ref="Morse1924"/>,
-            we obtain that the lift of this geodesic cuts the strip in two substrips,
+            Arguing as in \cite[\S 19]{Morse1924}, we obtain that the lift of this geodesic cuts the strip in two substrips,
             <m>S_1</m> and <m>S_2</m>.
             Recursively applying the same arguments,
             we obtain that the strip <m>S</m> has a everywhere dense set of nonintersecting geodesics such that any of them cuts the strip into two substrips.
@@ -272,10 +265,12 @@
   </subsection>
   <subsection>
     <title>Magnetic geodesics without conjugate points</title>
-    <p>
-      One can generalize the notion ``conjugate points'' for magnetic geodesics (even for arbitrary natural Hamiltonian systems.)
-    </p>
     <openquestion>
+      <preamble>
+        <p>
+          One can generalize the notion ``conjugate points'' for magnetic geodesics (even for arbitrary natural Hamiltonian systems.)
+        </p>
+      </preamble>
       <title>Paternain</title>
       <statement>
         <p>
@@ -284,17 +279,16 @@
           Is the system locally symmetric in the sense that the metric has constant curvature and the magnetic form is a constant multiple of the volume form?
         </p>
       </statement>
-      <discussion>
+      <status>
         <p>
           Many of the earlier questions in this section can also be asked about magnetic geodesics lying on a certain
           (possibly sufficiently high)
           energy level.
-          Let us mention<nbsp/><xref ref="Bialy2000"/>,
-          where a natural analog of <xref ref="Hopf">Theorem</xref>
+          Let us mention \cite{Bialy2000}, where a natural analog of <xref ref="Hopf">Theorem</xref>
           was proved under the assumption that the metric is conformally flat,
           and it was conjectured that this assumption is not essential.
         </p>
-      </discussion>
+      </status>
     </openquestion>
   </subsection>
 </section>

@@ -15,13 +15,11 @@
       </statement>
       <status>
         <p>
-          Croke and Otal showed that this conjecture is true for metrics on surfaces<nbsp/>[<a knowl="Otal1990.knowl">Otal1990</a>,
-          <a knowl="Croke1990.knowl">Croke1990</a>]. Indeed it is enough to assume that the metrics have non-positive curvature.
+          Croke and Otal showed that this conjecture is true for metrics on surfaces \cite{Otal1990,Croke1990}. Indeed it is enough to assume that the metrics have non-positive curvature.
           The problem is open in higher dimensions.
           Hamenst\"adt showed that the geodesic flows of the two metrics must be <m>C^0</m>-conjugate,
           thereby reducing the problem to <xref ref="conjcon">Conjecture</xref>
-          in the next subsection<nbsp/><xref ref="Hamenstadt1991"/>.
-          Guillarmou and Lefeuvre<nbsp/><xref ref="Gui-Lef2018"/> have shown that the conjecture is locally true in sense that two close enough metrics with Anosov geodesic flow and the same length spectrum are isometric.
+          in the next subsection \cite{Hamenstadt1991}. Guillarmou and Lefeuvre \cite{Gui-Lef2018} have shown that the conjecture is locally true in sense that two close enough metrics with Anosov geodesic flow and the same length spectrum are isometric.
         </p>
       </status>
       <suggestion>
@@ -29,7 +27,7 @@
           One obtains a natural interesting modification of this conjecture by replacing negative curvature by non-existence of conjugate points.
           On the other hand some restriction on the metrics is necessary as the examples of Croke and Kleiner which we describe in the next subsection provide non-isometric metrics with the same marked length spectrum.
           It is also necessary to consider the marked length spectrum rather than the length spectrum.
-          Vign\'eras gave examples of non-isometric hyperbolic surfaces that have the same set of lengths for their closed geodesics<nbsp/><xref ref="Vigneras1980"/>.
+          Vign\'eras gave examples of non-isometric hyperbolic surfaces that have the same set of lengths for their closed geodesics \cite{Vigneras1980}.
         </p>
       </suggestion>
       <discussion>
@@ -48,14 +46,13 @@
           or in the class of all 2-dimensional (metrical) simplicial complexes with the above properties homeomorphic to the given complex)?
         </p>
       </statement>
-      <context>
+      <status>
         <p>
           If the simplicial complex is (topologically) a manifold,
-          the answer is positive and is due to<nbsp/><xref ref="Her-Pau1997"/>.
-          One can also ask the question in higher dimensions.
+          the answer is positive and is due to \cite{Her-Pau1997}. One can also ask the question in higher dimensions.
           An easier, but still interesting version of the question is when we assume that every edge is contained in at least three simplices.
         </p>
-      </context>
+      </status>
       <discussion>
         <p>
           The questions above are closely related to the boundary rigidity problem,
@@ -77,44 +74,38 @@
       </statement>
       <status>
         <p>
-          Michel conjectured in<nbsp/><xref ref="Michel1981"/> that <m>(M,g)</m> should be boundary rigid if it is <em>simple</em>.
+          Michel conjectured in \cite{Michel1981} that <m>(M,g)</m> should be boundary rigid if it is <em>simple</em>.
           Simplicity means that <m>M</m> is simply connected and any two points of <m>M</m> are connected by a unique geodesic segment
           <m>\gamma_{p,q}:[0,1] \to M</m> and this unique geodesic has the property that
           <m>\gamma_{p,q}(t) \notin N</m> if <m>0 \lt t \lt 1</m>.
-          Michel's conjecture is known to be true when <m>(M,g)</m> is a simple subspace of a Euclidean space<nbsp/><xref ref="Gromov1983"/>,
-          when <m>(M.g)</m> is a simple subspace of a symmetric space with negative curvature<nbsp/><xref ref="Be-Co-Ga1995"/>,
-          and when <m>M</m> is two dimensional<nbsp/><xref ref="Pes-Uhl2005"/>.
+          Michel's conjecture is known to be true when <m>(M,g)</m> is a simple subspace of a Euclidean space \cite{Gromov1983}, when <m>(M.g)</m> is a simple subspace of a symmetric space with negative curvature \cite{Be-Co-Ga1995}, and when <m>M</m> is two dimensional \cite{Pes-Uhl2005}.
         </p>
-      </status>
-      <context>
         <p>
           One can modify <xref ref="brquest">Question</xref>
           by requiring that the other Riemannian metric <m>g'</m> in the definition of boundary rigid manifolds above also satisfies some additional assumption.
-          Special cases of the last question were answered in<nbsp/>[<a knowl="Croke1990.knowl">Croke1990</a>,
-          <a knowl="Cr-Da-Sh2000.knowl">Cr-Da-Sh2000</a>,
-          <a knowl="Sha-Uhl2000.knowl">Sha-Uhl2000</a>,
-          <a knowl="Bur-Iva2013.knowl">Bur-Iva2013</a>].
+          Special cases of the last question were answered in \cite{Croke1990,Cr-Da-Sh2000,Sha-Uhl2000,Bur-Iva2013}.
         </p>
-      </context>
+      </status>
       <discussion>
         <p>
           One can also ask the boundary rigidity question for Finsler metrics;
-          recent references with non-trivial results include<nbsp/>[<a knowl="Coo-Del2010.knowl">Coo-Del2010</a>,
-          <a knowl="Bur-Iva2010.knowl">Bur-Iva2010</a>].
+          recent references with non-trivial results include \cite{Coo-Del2010, Bur-Iva2010}.
         </p>
       </discussion>
     </openquestion>
   </subsection>
   <subsection>
     <title>The conjugacy problem</title>
-    <p>
-      Two Riemannian manifolds <m>(M_1,g_1)</m> and
-      <m>(M_2,g_2)</m> have <m>C^k</m>-conjugate geodesic flows if there is an invertible map
-      <m>h: S^M_1 \to S^M_2</m> such that <m>h</m> and <m>h^{-1}</m> are <m>C^k</m> and <m>h \circ \phi^1_t = \phi^2_t \circ h</m> for all <m>t</m>.
-      Here <m>\phi^i_t</m> is the geodesic flow for the metric <m>g_i</m>.
-      A long standing conjecture is
-    </p>
     <openconjecture xml:id="conjcon">
+      <preamble>
+        <p>
+          Two Riemannian manifolds <m>(M_1,g_1)</m> and
+          <m>(M_2,g_2)</m> have <m>C^k</m>-conjugate geodesic flows if there is an invertible map
+          <m>h: S^M_1 \to S^M_2</m> such that <m>h</m> and <m>h^{-1}</m> are <m>C^k</m> and <m>h \circ \phi^1_t = \phi^2_t \circ h</m> for all <m>t</m>.
+          Here <m>\phi^i_t</m> is the geodesic flow for the metric <m>g_i</m>.
+          A long standing conjecture is
+        </p>
+      </preamble>
       <statement>
         <p>
           Compact Riemannian manifolds with negative curvature must be isometric if they have <m>C^0</m>-conjugate geodesic flows.
@@ -126,16 +117,17 @@
           it may be possible to relax the hypothesis of negative curvature to no conjugate points,
           but some restriction on the metrics is required.
           Weinstein pointed out that all of the Zoll metrics on <m>S^2</m> have conjugate geodesic flows.
-          Using the explicit rotationally-symmetric examples of Zoll metrics (Tannery metrics in the terminology of<nbsp/><xref ref="Besse1978"/>) Croke and Kleiner constructed examples of different metrics on an arbitrary closed manifold such that their geodesic flows are conjugate and their marked length spectra coincide,
-          see<nbsp/><xref ref="Cro-Klei1994"/>.
+          Using the explicit rotationally-symmetric examples of Zoll metrics (Tannery metrics in the terminology of \cite[Chapter 4]{Besse1978}) Croke and Kleiner constructed examples of different metrics on an arbitrary closed manifold such that their geodesic flows are conjugate and their marked length spectra coincide,
+          see \cite{Cro-Klei1994}.
         </p>
       </suggestion>
       <discussion>
         <p>
           The conjecture is true in dimension two;
-          indeed it is enough to assume that one of the manifolds has non-positive curvature<nbsp/><xref ref="Cr-Fa-Fe1992"/>.
-          It follows from the theorem of Besson-Courtois-Gallot discussed in the next subsection that the conjecture holds if one of the metrics is locally symmetric.
-          Croke and Kleiner showed that <m>C^1</m> conjugacy implies that the volumes of the manifolds are the same with no restrictions on the metrics and implies isometry of the metrics if one of them has a global parallel vector (as is the case in a Riemannian product)<nbsp/><xref ref="Cro-Klei1994"/>.
+          indeed it is enough to assume that one of the manifolds has non-positive curvature \cite{Cr-Fa-Fe1992}. It follows from the theorem of Besson-Courtois-Gallot discussed in the next subsection that the conjecture holds if one of the metrics is locally symmetric.
+          Croke and Kleiner showed that <m>C^1</m> conjugacy implies that the volumes of the manifolds are the same with no restrictions on the metrics and implies isometry of the metrics if one of them has a global parallel vector
+          (as is the case in a Riemannian product)
+          \cite{Cro-Klei1994}.
         </p>
       </discussion>
     </openconjecture>
@@ -150,12 +142,11 @@
       </me>,
       where <m>B_{\widetilde M}(p,r)</m> is the ball of radius <m>r</m> around a point <m>p</m> in the universal cover <m>\widetilde M</m>.
       It is always true that <m>h_{vol} \leq h_{top}</m> and they are equal if there are no conjugate points,
-      in particular if the curvature is negative<nbsp/>[<a knowl="Manning1979.knowl">Manning1979</a>,
-      <a knowl="Fre-Man1982.knowl">Fre-Ma\~n1982</a>]. By the variational principle for entropy <m>h_{Liou} \leq h_{top}</m> for any metric;
+      in particular if the curvature is negative \cite{Manning1979, Fre-Man1982}. By the variational principle for entropy <m>h_{Liou} \leq h_{top}</m> for any metric;
       these entropies are equal for a locally symmetric metric.
     </p>
     <p>
-      Katok<nbsp/><xref ref="Katok1982"/> showed that if <m>g</m> is an arbitrary metric and <m>g_0</m> a metric of constant negative curvature on a surface of genus <m>\geq 2</m> such that <m>\text{ area } (g) = \text{ area } (g_0)</m>, then
+      Katok \cite{Katok1982} showed that if <m>g</m> is an arbitrary metric and <m>g_0</m> a metric of constant negative curvature on a surface of genus <m>\geq 2</m> such that <m>\text{ area } (g) = \text{ area } (g_0)</m>, then
       <me>
         h_{Liou}(g) \leq h_{Liou}(g_0) =h_{top}(g_0) \leq h_{top}(g)
       </me>
@@ -173,7 +164,7 @@
         <p>
           Katok's arguments extend to higher dimensions provided the two metrics are conformally equivalent.
           Flaminio showed that <xref ref="Katokentropycon">Conjecture</xref>
-          holds for deformations of constant curvature metrics<nbsp/><xref ref="Flaminio1995"/>.
+          holds for deformations of constant curvature metrics \cite{Flaminio1995}.
         </p>
       </discussion>
       <status>
@@ -181,15 +172,14 @@
           Katok's paper implicitly raised the questions of whether in higher dimensions <m>h_{top}</m> is minimized and <m>h_{Liou}</m> maximized
           (among metrics of negative curvature of fixed volume on a given manifold)
           by the locally symmetric metrics.
-          It is now known that the locally symmetric metrics are critical points for both entropies<nbsp/><xref ref="Ka-Kn-We1991"/>,
-          but the locally symmetric spaces do not maximize
-          <m>h_{Liou}</m> except in the two dimensional case<nbsp/><xref ref="Flaminio1995"/>.
-          The topological entropy, however, is minimized.
+          It is now known that the locally symmetric metrics are critical points for both entropies \cite{Ka-Kn-We1991}, but the locally symmetric spaces do not maximize
+          <m>h_{Liou}</m> except in the two dimensional case \cite{Flaminio1995}. The topological entropy, however,
+          is minimized.
         </p>
       </status>
       <discussion>
         <p>
-          Gromov<nbsp/><xref ref="Gromov1983"/> conjectured that if
+          Gromov \cite{Gromov1983} conjectured that if
           <m>f: (M,g) \to (M_0,g_0)</m> is a continuous map of degree
           <m>d \neq 0</m> between compact connected oriented <m>n</m>-dimensional Riemannian manifolds and <m>M_0</m> has constant negative curvature, then
           <me>
@@ -211,7 +201,7 @@
       </statement>
     </theorem>
     <p>
-      We refer the reader to Section 9 of<nbsp/><xref ref="Be-Co-Ga1995"/> and the survey<nbsp/><xref ref="Eberlein2001"/> for a list of the many corollaries of this remarkable theorem.
+      We refer the reader to Section 9 of \cite{Be-Co-Ga1995} and the survey \cite{Eberlein2001} for a list of the many corollaries of this remarkable theorem.
     </p>
   </subsection>
   <subsection>
@@ -221,8 +211,8 @@
         <p>
           An extensive list of results about the regularity of the Anosov splitting for the geodesic flow in negative curvature
           (and for other Anosov systems)
-          can be found in the introduction to<nbsp/><xref ref="Hasselblatt1994"/>.
-          In dimension two, or if the curvature is <m>1/4</m>-pinched,
+          can be found in the introduction to \cite{Hasselblatt1994}. In dimension two,
+          or if the curvature is <m>1/4</m>-pinched,
           the splitting is always at least <m>C^1</m>.
           In higher dimensions it is always H\"older continuous but typically not <m>C^1</m>.
           It is natural to ask:
@@ -239,17 +229,15 @@
           Another motivation for this question is the question of Pollicott in the next subsection.
         </p>
       </discussion>
-      <suggestion>
+      <status>
         <p>
-          A program to construct open sets of metrics whose geodesic flows have Anosov splitting that have low regularity of the Anosov splitting on large subsets of the unit tangent bundle is explained in section 4 of<nbsp/><xref ref="Has-Wil1999"/>;
-          see in particular Proposition 12.
+          A program to construct open sets of metrics whose geodesic flows have Anosov splitting that have low regularity of the Anosov splitting on large subsets of the unit tangent bundle is explained in section 4 of \cite{Has-Wil1999}; see in particular Proposition 12.
           The idea is to perturb a suitable base example.
           This base example must have directions in its unstable manifolds with widely different expansion rates.
           Unfortunately there are no known examples of geodesic flows that are suitable bases for the perturbation argument;
-          see the discussion at the end of section 4 in<nbsp/><xref ref="Has-Wil1999"/>.
-          Along all geodesics in complex hyperbolic space one has Lyapunov exponents of 1 and 2 corresponding to parallel families of planes with curvature <m>-1</m> and <m>-4</m> respectively.
+          see the discussion at the end of section 4 in \cite{Has-Wil1999}. Along all geodesics in complex hyperbolic space one has Lyapunov exponents of 1 and 2 corresponding to parallel families of planes with curvature <m>-1</m> and <m>-4</m> respectively.
         </p>
-      </suggestion>
+      </status>
     </openquestion>
     <openquestion>
       <statement>
@@ -260,8 +248,7 @@
       <discussion>
         <p>
           The Anosov splitting is <m>C^\infty</m> only if and only the metric is locally symmetric.
-          This follows from<nbsp/><xref ref="Be-Fo-La1992"/> and<nbsp/><xref ref="Be-Co-Ga1995"/>.
-          For surfaces Hurder and Katok<nbsp/><xref ref="Hur-Kat1990"/> showed that the splitting must be
+          This follows from \cite{Be-Fo-La1992} and \cite{Be-Co-Ga1995}. For surfaces Hurder and Katok \cite{Hur-Kat1990} showed that the splitting must be
           <m>C^\infty</m> if one of the stable or unstable foliations is <m>C^{1+o(x\log|x|)}</m>.
           In higher dimensions it is expected that the splitting must be <m>C^\infty</m> if it is <m>C^2</m>,
           but this question still seems to be open.
@@ -273,7 +260,7 @@
     <title>How many   closed geodesics  of length <m>\le T</m> exist? (Communicated by Pollicott)</title>
     <p>
       Let <m>(M, g)</m> be a closed Riemannian manifold with negative sectional curvatures.
-      It is known<nbsp/><xref ref="Margulis2004"/> that the number <m>N(T)</m> of closed geodesics of length <m>\le T</m> grows asymptotically as <m>{e^{hT}}/{hT}</m>.
+      It is known \cite{Margulis2004} that the number <m>N(T)</m> of closed geodesics of length <m>\le T</m> grows asymptotically as <m>{e^{hT}}/{hT}</m>.
     </p>
     <openconjecture>
       <statement>
@@ -294,22 +281,21 @@
   <subsection>
     <title>Infinitely many simple closed geodesics</title>
     <openquestion>
-      <title>Miller<nbsp/><xref ref="Miller2001"/>, Reid</title>
+      <title>Miller \cite{Miller2001}, Reid</title>
       <statement>
         <p>
           Are there infinitely many simple closed geodesics in every hyperbolic complete three-manifold of finite volume?
         </p>
       </statement>
-      <context>
+      <status>
         <p>
-          The answer is positive for surfaces and estimates for the growth of the number of simple closed geodesics with length <m>\le L</m> are in<nbsp/>[<a knowl="Rivin2001.knowl">Rivin2001</a>,
-          <a knowl="Mirzakhani2008.knowl">Mirzakhani2008</a>]. One can ask the same question for manifolds of variable negative curvature in any dimension.
+          The answer is positive for surfaces and estimates for the growth of the number of simple closed geodesics with length <m>\le L</m> are in \cite{Rivin2001,Mirzakhani2008}. One can ask the same question for manifolds of variable negative curvature in any dimension.
           The answer is positive for generic metrics of negative curvature.
         </p>
-      </context>
+      </status>
       <suggestion>
         <p>
-          Reid<nbsp/><xref ref="Reid1993"/> has examples of (arithmetic) hyperbolic manifolds of finite volume in which every closed geodesic is simple.
+          Reid \cite{Reid1993} has examples of (arithmetic) hyperbolic manifolds of finite volume in which every closed geodesic is simple.
         </p>
       </suggestion>
     </openquestion>

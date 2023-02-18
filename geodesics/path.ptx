@@ -16,8 +16,7 @@
     <p>
       Let <m>p, q</m> be points in a Riemannian manifold.
       The space <m>\Omega_T(p,q)</m> of paths from <m>p</m> to <m>q</m> with length <m>\leq T</m> has the homotopy type of a finite complex
-      (see e.g.
-      <xref ref="Milnor1963"/>),
+      (see e.g.\ \cite{Milnor1963}),
       and hence the sum of its Betti numbers is finite for each <m>T</m>.
       The same is true for the space
       <m>\Lambda_TM</m> of loops with length at most~<m>T</m>.
@@ -33,7 +32,7 @@
       </statement>
       <status>
         <p>
-          It was shown by Gromov in<nbsp/><xref ref="Gromov2001"/> that if <m>M</m> is simply connected there is a constant <m>C</m> such that the sum of the Betti numbers of
+          It was shown by Gromov in \cite{Gromov2001} that if <m>M</m> is simply connected there is a constant <m>C</m> such that the sum of the Betti numbers of
           <m>\Lambda_{CN}</m> is at least <m>\sum_{i=0}^N b_{i}(\Lambda)</m>.
         </p>
       </status>
@@ -46,11 +45,11 @@
           <m>T \to \infty</m> if the Betti numbers of the loop space grow exponentially?
         </p>
       </statement>
-      <context>
+      <status>
         <p>
-          From<nbsp/><xref ref="Gromov1978"/> it follows that the answer is positive for generic metrics.
+          From \cite{Gromov1978} it follows that the answer is positive for generic metrics.
         </p>
-      </context>
+      </status>
       <suggestion>
         <p>
           Here is a potentially interesting example.
@@ -101,13 +100,13 @@
           \knownterminology{for some }<m>m \in \mathbb{N}</m>?
         </p>
       </statement>
-      <context>
+      <status>
         <p>
           The special case of this question,
           when dimension is two and <m>m</m> is odd,
-          was answered negatively in<nbsp/><xref ref="Cha-Lio2014"/>.
+          was answered negatively in \cite[Corollary 1.3]{Cha-Lio2014}.
         </p>
-      </context>
+      </status>
       <discussion>
         <p>
           Given a metric <m>g</m> on <m>M</m> and a finitely generated abelian group <m>G</m>,
@@ -118,7 +117,7 @@
           where the limit is taken over all non-trivial homology classes <m>X \in H_{\ast}(\Lambda S^{n};G)</m>.
         </p>
         <p>
-          The Resonance Theorem from<nbsp/><xref ref="Hin-Rad2013"/> says that if <m>M</m> is a sphere and <m>G</m> is a field,
+          The Resonance Theorem from \cite{Hin-Rad2013} says that if <m>M</m> is a sphere and <m>G</m> is a field,
           the limit <xref ref="ast"/> exists.
           It is clear in this case that
           <m>\alpha_{g,G}</m> depends on the metric <m>g</m>.

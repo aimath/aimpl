@@ -24,8 +24,7 @@
       </statement>
       <discussion>
         <p>
-          Partial results in this direction were obtained in<nbsp/><xref ref="Has-Mor1996"/>:
-          they showed that on every sphere of positive curvature there exists a stationary <m>\Theta</m>-net,
+          Partial results in this direction were obtained in \cite{Has-Mor1996}: they showed that on every sphere of positive curvature there exists a stationary <m>\Theta</m>-net,
           or a stationary {eight curve} net,
           or a stationary eyeglasses net.
         </p>
@@ -50,14 +49,14 @@
           is there a stationary net intersecting <m>U</m>?
         </p>
       </statement>
-      <context>
+      <status>
         <p>
           The answer is evidently positive for every surface of constant curvature.
           Indeed, in this case tangent vectors to closed geodesics are dense in the unit tangent bundle and we can take a finite union of closed intersecting geodesics as a stationary net.
           On other manifolds, the answer is less trivial,
           for example because in higher dimensions periodic geodesics may not intersect.
         </p>
-      </context>
+      </status>
     </openquestion>
   </subsection>
 </section>

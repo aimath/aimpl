@@ -9,20 +9,19 @@
           Does there exist a Riemannian metric on a closed surface of genus <m>\ge 2</m> whose geodesic flow is completely integrable?
         </p>
       </statement>
-      <context>
+      <status>
         <p>
           The answer may depend on the smoothness of the metric and on what we understand by ``completely integrable'': whether the integral is functionally independent of the Hamiltonian on an open everywhere dense subset,
           or we additionally assume that the subset has full measure.
         </p>
-      </context>
-      <discussion>
-        <p>
-          Ma\~n\'e showed that a Hamiltonian flow on surfaces is generically Anosov or has zero Liouville exponents<nbsp/><xref ref="Mane1996"/>.
-          This suggests that an easier version of the above question would be the following
-        </p>
-      </discussion>
+      </status>
     </openquestion>
     <openquestion>
+      <preamble>
+        <p>
+          Ma\~n\'e showed that a Hamiltonian flow on surfaces is generically Anosov or has zero Liouville exponents \cite{Mane1996}. This suggests that an easier version of the above question would be the following
+        </p>
+      </preamble>
       <title>Paternain</title>
       <statement>
         <p>
@@ -34,12 +33,14 @@
           Bangert and Paternain have outlined some ideas about what a Finsler metric with this property might look like;
           finding a Riemannian metric is certainly harder.
         </p>
-        <p>
-          A special case of the Finsler version of the question above would be:
-        </p>
       </discussion>
     </openquestion>
     <openquestion xml:id="question_lang">
+      <preamble>
+        <p>
+          A special case of the Finsler version of the question above would be:
+        </p>
+      </preamble>
       <statement>
         <p>
           Let <m>F_1</m>,
@@ -48,22 +49,22 @@
           Must <m>F_1</m> be obtained from <m>F_2</m> by multiplication by a constant and adding a closed form?
         </p>
       </statement>
-      <context>
+      <status>
         <p>
           One can also ask this question for arbitrary closed manifolds that can carry a hyperbolic metric
           (if <m>F_1</m>, <m>F_2</m> are Riemannian,
-          the answer is affirmative<nbsp/><xref ref="Matveev2003a"/>).
+          the answer is affirmative \cite{Matveev2003a}).
         </p>
-        <p>
-          The previous question is related to the other questions in this section because of the following observation from<nbsp/><xref ref="Mat-Top1998"/>:
-          one can use the second metric to construct an integral of the geodesic flow of the first one.
-          If both metrics are Riemannian,
-          the integral is quadratic in velocities and the affirmative answer follows from<nbsp/><xref ref="Kolokoltsov1983"/>;
-          see<nbsp/><xref ref="Mat-Top2000"/>.
-        </p>
-      </context>
+      </status>
     </openquestion>
     <openquestion xml:id="question_landsberg">
+      <preamble>
+        <p>
+          The previous question is related to the other questions in this section because of the following observation from \cite{Mat-Top1998}: one can use the second metric to construct an integral of the geodesic flow of the first one.
+          If both metrics are Riemannian,
+          the integral is quadratic in velocities and the affirmative answer follows from \cite{Kolokoltsov1983}; see \cite{Mat-Top2000}.
+        </p>
+      </preamble>
       <statement>
         <p>
           Does there exist a non-Riemannian Finsler metric satisfying the Landsberg condition on a surface of genus <m>\ge 2</m>?
@@ -71,25 +72,23 @@
       </statement>
       <discussion>
         <p>
-          The Landsberg condition is defined in<nbsp/><xref ref="Bao2007"/>.
-          It implies the existence of an integral for the geodesic flow of the metric,
+          The Landsberg condition is defined in \cite{Bao2007}. It implies the existence of an integral for the geodesic flow of the metric,
           which is the relation of this question with the present section.
-          See<nbsp/><xref ref="Gom-Rug2013"/> for a negative answer to the question assuming non-existence of conjugate points.
+          See \cite{Gom-Rug2013} for a negative answer to the question assuming non-existence of conjugate points.
           Note that the natural analog of <xref ref="question_landsberg">Question</xref>
           is completely open in all settings:
           locally, globally, in all dimensions,
-          and is one of the most important problems in the Finsler geometry, see e.g.
-          <xref ref="Bao2007"/>.
+          and is one of the most important problems in the Finsler geometry,
+          see e.g.\ \cite{Bao2007}.
         </p>
       </discussion>
-      <context>
+      <status>
         <p>
           In the class of real-analytic metrics,
-          the papers<nbsp/>[<a knowl="Lang2019.knowl">Lang2019</a>,
-          <a knowl="Paternain1997.knowl">Paternain1997</a>] answer positively the <xref ref="question_lang">Questions</xref>
+          the papers \cite{Lang2019, Paternain1997} answer positively the <xref ref="question_lang">Questions</xref>
           and <xref ref="question_landsberg"></xref>.
         </p>
-      </context>
+      </status>
     </openquestion>
   </subsection>
   <subsection>
@@ -118,8 +117,7 @@
           The natural idea is then to study the integrals that are polynomial in velocities of low degree.
         </p>
         <p>
-          By the result of Kolokoltsov<nbsp/><xref ref="Kolokoltsov1983"/>,
-          no metric on a surface of genus <m>\ge 2</m> admits an integral that is polynomial in velocities and is functionally independent of the energy integral.
+          By the result of Kolokoltsov \cite{Kolokoltsov1983}, no metric on a surface of genus <m>\ge 2</m> admits an integral that is polynomial in velocities and is functionally independent of the energy integral.
           The state of the art if the surface is the sphere or the torus can be explained by the following table:
         </p>
       </discussion>
@@ -194,17 +192,15 @@
     </tabular>
     <p>
       In the table, ``Degree'' means the smallest degree of a non-trivial integral polynomial in velocities. ``All is known'' means that there exists an effective description and classification
-      (which can be found in<nbsp/><xref ref="Bo-Ma-Fo1998"/>).
+      (which can be found in \cite{Bo-Ma-Fo1998}).
     </p>
     <p>
       A simpler version of the question is when we replace the geodesic flow in the question above by a Lagrangian system with the Lagrangian of the form <m>L(x, \xi):=K + U=\sum g_{ij}\xi^i \xi^j + U(x)</m>.
       In this case we assume that the integral is a sum of polynomials of degrees 3 and 1 in velocities.
       The ``partial negative results'' in the table above correspond to this case;
       moreover, in most cases it is assumed that the metric <m>g_{ij}</m> is flat,
-      see for example<nbsp/>[<a knowl="Bialy1987.knowl">Bialy1987</a>,
-      <a knowl="Mironov2010.knowl">Mironov2010</a>,
-      <a knowl="De-Ko-Tr2012.knowl">De-Ko-Tr2012</a>]
-      (and<nbsp/><xref ref="Bialy2010"/> for results that do not require this assumption).
+      see for example \cite{Bialy1987,Mironov2010,De-Ko-Tr2012}
+      (and \cite{Bialy2010} for results that do not require this assumption).
     </p>
     <p>
       Similar conjectures could be posed for integrals of every degree.
@@ -214,10 +210,10 @@
       the conjecture is that the existence of an integral that is polynomial of the degree <m>d</m> in velocities implies the existence of an integral quadratic in velocities and not proportional to the energy integral.
     </p>
     <p>
-      Note also that by<nbsp/><xref ref="Kru-Mat2016"/> a <m>C^2</m>-generic metric does not admit a non-trivial integral which is polynomial in velocities.
+      Note also that by \cite{Kru-Mat2016} a <m>C^2</m>-generic metric does not admit a non-trivial integral which is polynomial in velocities.
     </p>
     <p>
-      Further open problems on integrable systems and integrable geodesic flows can be found in the recent survey<nbsp/><xref ref="BMMT2018"/>.
+      Further open problems on integrable systems and integrable geodesic flows can be found in the recent survey \cite{BMMT2018}.
     </p>
   </subsection>
   <subsection>
@@ -232,8 +228,8 @@
     </p>
     <p>
       We ask whether there exists a non-constant smooth function on the tangent bundle which is constant along every trajectory.
-      It is well known, see e.g.
-      <xref ref="Tabachnikov2005"/>, that a billiard in an ellipse is integrable.
+      It is well known,
+      see e.g.\ \cite{Tabachnikov2005}, that a billiard in an ellipse is integrable.
     </p>
     <openconjecture>
       <statement>
@@ -244,19 +240,17 @@
       </statement>
       <status>
         <p>
-          The special case of the conjecture in which the caustics of the billiard trajectories are assumed to foliate the whole of <m>\Omega</m> except for one point was proved in<nbsp/><xref ref="Bialy1993"/>.
-          Recently, essential progress is due to<nbsp/><xref ref="Av-Si-Ka2016"/>,
-          where the conjecture was proved for tables bounded by small perturbations of ellipses of small eccentricity.
+          The special case of the conjecture in which the caustics of the billiard trajectories are assumed to foliate the whole of <m>\Omega</m> except for one point was proved in \cite{Bialy1993}. Recently,
+          essential progress is due to \cite{Av-Si-Ka2016}, where the conjecture was proved for tables bounded by small perturbations of ellipses of small eccentricity.
         </p>
       </status>
       <discussion>
         <p>
           One can also assume that the integral is polynomial in velocities;
-          non-trivial results in this direction include<nbsp/>[<a knowl="Bolotin1990.knowl">Bolotin1990</a>,
-          <a knowl="Bia-Mir2017.knowl">Bia-Mir2017</a>].
+          non-trivial results in this direction include \cite{Bolotin1990, Bia-Mir2017}.
         </p>
         <p>
-          See also<nbsp/><xref ref="Gutkin2012"/> for generalizations and other problems related to billiards.
+          See also \cite{Gutkin2012} for generalizations and other problems related to billiards.
         </p>
       </discussion>
     </openconjecture>
@@ -268,10 +262,10 @@
       <m>\nabla_{\dot \gamma} \dot \gamma=0</m> which can not be explicitly solved in most cases.
       There are only a few examples of 2-dimensional metrics for which one can explicitly find all geodesics using elementary functions:
       they are metrics of constant curvature and Darboux-superintegrable metrics
-      (see<nbsp/><xref ref="Br-Ma-Ma2008"/> for definition).
+      (see \cite{Br-Ma-Ma2008} for definition).
       An interesting problem is to construct other examples of metrics such that all geodesics are explicitly known.
       A related problem
-      (asked recently in<nbsp/><xref ref="Tao2010"/>)
+      (asked recently in \cite{Tao2010})
       is to construct metrics with an explicitly given distance function.
     </p>
   </subsection>

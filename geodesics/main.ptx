@@ -26,6 +26,9 @@
 \usetikzlibrary{through,intersections,decorations,shadows,fadings}
 \usepackage{pgfplots}
 </latex-image-preamble>
+    <rename element="openproblem">Problem</rename>
+    <rename element="openquestion">Question</rename>
+    <rename element="openconjecture">Conjecture</rename>
   </docinfo>
   <article>
     <title>Open problems and questions about geodesics</title>

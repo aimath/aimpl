@@ -8,8 +8,7 @@
       All vectors have rank <m>\geq 1</m>,
       since the velocity vector field is a covariantly constant Jacobi field.
       The rank of the manifold is the minimum rank of a vector.
-      The set of vectors of minimum rank is obviously open and is known to be dense<nbsp/><xref ref="Ballmann1982"/>.
-      The definitions generalize the classical notion of rank for locally symmetric spaces of non-compact type.
+      The set of vectors of minimum rank is obviously open and is known to be dense \cite{Ballmann1982}. The definitions generalize the classical notion of rank for locally symmetric spaces of non-compact type.
     </p>
   </introduction>
   <subsection>
@@ -22,31 +21,26 @@
       </statement>
       <status>
         <p>
-          It is known that the flow is ergodic on the set of geodesics passing through points where the curvature is negative<nbsp/><xref ref="Pesin1977"/>.
-          The complement of this set consists of vectors tangent to zero curvature geodesics,
+          It is known that the flow is ergodic on the set of geodesics passing through points where the curvature is negative \cite{Pesin1977}. The complement of this set consists of vectors tangent to zero curvature geodesics,
           i.e. geodesics along which the Gaussian curvature is always zero.
           It is not known whether this set must have measure zero.
           There is an analogous question in higher dimensions:
           <em>is the geodesic flow of a closed rank one manifold of non-positive curvature ergodic</em>?
-          Here it is known that the flow is ergodic on the set of rank one vectors<nbsp/>[<a knowl="Bal-Bri1982.knowl">Bal-Bri1982</a>,
-          <a knowl="Burns1983.knowl">Burns1983</a>], but it is not known if the complementary set
+          Here it is known that the flow is ergodic on the set of rank one vectors \cite{Bal-Bri1982, Burns1983}, but it is not known if the complementary set
           (of higher rank vectors)
           must have measure zero.
         </p>
         <p>
-          Several papers published in the 1980s (notably<nbsp/><xref ref="Burns1983"/>, <xref ref="Bal-Bri1982"/>,
-          and<nbsp/><xref ref="Ba-Br-Eb1985"/>) stated that this problem had been solved.
+          Several papers published in the 1980s (notably \cite{Burns1983}, \cite{Bal-Bri1982}, and \cite{Ba-Br-Eb1985}) stated that this problem had been solved.
           These claims were based on an incorrect proof that the set of higher rank vectors must have measure zero.
         </p>
-      </status>
-      <discussion>
         <p>
           The measure considered above is the Liouville measure.
           There is a (unique) measure of maximal entropy for the geodesic flow of a rank one manifold.
           It was constructed by Knieper,
-          who proved that it is ergodic<nbsp/><xref ref="Knieper1998"/>.
+          who proved that it is ergodic \cite{Knieper1998}.
         </p>
-      </discussion>
+      </status>
     </openquestion>
   </subsection>
   <subsection>
@@ -61,7 +55,7 @@
           <m>C^k, \ k\ge 3)</m> metric for which there exists a non-closed geodesic along which the Gaussian curvature is everywhere zero?
         </p>
       </statement>
-      <context>
+      <status>
         <p>
           The question is of particular interest when the metric has non-positive curvature,
           since a negative answer in this case would give a positive answer to <xref ref="ergquest">Question</xref>.
@@ -71,11 +65,10 @@
           then a metric with such a geodesic can be constructed.
           Each end of the geodesic is asymptotic to a closed geodesic.
           But a geodesic along which the curvature is zero cannot spiral into a closed geodesic if the curvature is <m>C^2</m>;
-          see<nbsp/><xref ref="Ruggiero1998"/>.
-          Wu<nbsp/><xref ref="Wu2013"/> has recently given a negative answer to the question under the assumption that the subset of the surface where the curvature is negative has finitely many components;
+          see \cite{Ruggiero1998}. Wu \cite{Wu2013} has recently given a negative answer to the question under the assumption that the subset of the surface where the curvature is negative has finitely many components;
           he also shows under this hypothesis that only finitely many free homotopy classes can contain zero curvature closed geodesics.
         </p>
-      </context>
+      </status>
       <discussion>
         <p>
           In a translation surface,
@@ -96,13 +89,11 @@
           </me>
         </p>
       </statement>
-      <context>
+      <status>
         <p>
           A negative answer to <xref ref="flatgeoquest">Question</xref>
           in the case of non-positive curvature would imply that <m>Z(L)</m> is bounded.
         </p>
-      </context>
-      <status>
         <p>
           A flat strip is a totally geodesic isometric immersion of the Riemannian product of <m>\Real</m> with an interval.
           Zero curvature geodesics can be viewed as flat strips with infinitesimal width.
@@ -111,16 +102,14 @@
           in compact surfaces with non-positive curvature must close up in the <m>\Real</m>-direction;
           in other words they are really immersions of the product of <m>S^1</m> with an interval.
           Furthermore for each <m>\delta > 0</m> there are only finitely many flat strips with width <m>\geq \delta</m>.
-          Proofs can be found in a preprint of Cao and Xavier<nbsp/><xref ref="Cao-Xav"/>.
-          The main idea is that if two flat strips of width <m>\delta</m> cross each other at a very shallow angle,
+          Proofs can be found in a preprint of Cao and Xavier \cite{Cao-Xav}. The main idea is that if two flat strips of width <m>\delta</m> cross each other at a very shallow angle,
           then their intersection contains a long rectangle with width close to <m>2\delta</m>.
         </p>
       </status>
       <discussion>
         <p>
           It is possible that there are only finitely many flat strips.
-          This is true when the set where the curvature is negative has finitely many components<nbsp/><xref ref="Wu2013"/>,
-          but the only effort to prove it in general<nbsp/><xref ref="Rodriguez_Hertz2003"/> was unsuccessful.
+          This is true when the set where the curvature is negative has finitely many components \cite{Wu2013}, but the only effort to prove it in general \cite{Rodriguez Hertz2003} was unsuccessful.
         </p>
         <p>
           <xref ref="flatgeoquest">Question</xref>
@@ -139,25 +128,22 @@
       in other words a totally geodesic isometric immersion of the Euclidean plane.
       Eberlein asked whether a compact rank one manifold that contains a flat must contain a closed flat,
       i.e.~ a totally geodesic isometric immersion of a flat torus.
-      Bangert and Schroeder gave an affirmative answer for real analytic metrics<nbsp/><xref ref="Ban-Sch1991"/>.
-      The problem is open for <m>C^\infty</m> metrics.
+      Bangert and Schroeder gave an affirmative answer for real analytic metrics \cite{Ban-Sch1991}. The problem is open for <m>C^\infty</m> metrics.
     </p>
   </subsection>
   <subsection>
     <title>Besson-Courtois-Gallot</title>
     <p>
-      Does their rigidity theorem from<nbsp/><xref ref="Be-Co-Ga1995"/>, <xref ref="BCGthm">Theorem</xref> in this paper,
+      Does their rigidity theorem from \cite{Be-Co-Ga1995}, <xref ref="BCGthm">Theorem</xref> in this paper,
       generalize to higher rank symmetric spaces of non-compact type?
     </p>
     <p>
-      Connell and Farb<nbsp/>[<a knowl="Con-Far2003a.knowl">Con-Far2003a</a>,
-      <a knowl="Con-Far2003b.knowl">Con-Far2003b</a>] extended the barycenter method,
-      which plays a vital role in<nbsp/><xref ref="Be-Co-Ga1995"/>,
-      and proved that the theorem holds for a product in which each factor is a symmetric space with negative curvature and dimension <m>\geq 3</m>.
-      We also refer the reader to their extensive survey in<nbsp/><xref ref="Con-Far2003c"/>.
+      Connell and Farb \cite{Con-Far2003a, Con-Far2003b} extended the barycenter method,
+      which plays a vital role in \cite{Be-Co-Ga1995}, and proved that the theorem holds for a product in which each factor is a symmetric space with negative curvature and dimension <m>\geq 3</m>.
+      We also refer the reader to their extensive survey in \cite{Con-Far2003c}.
     </p>
     <p>
-      A recent preprint of Merlin<nbsp/><xref ref="Merlin2016"/> uses a calibration argument to show that
+      A recent preprint of Merlin \cite{Merlin2016} uses a calibration argument to show that
       <m>h_{vol}^4</m>Vol is minimized by the locally symmetric metric on a compact quotient of the product of two hyperbolic planes.
     </p>
   </subsection>
