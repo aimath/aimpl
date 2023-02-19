@@ -2,7 +2,8 @@
   <title>Stationary  nets (Communicated by Rotman)</title>
   <introduction>
     <p>
-      A graph <m>G</m> in a Riemannian surface <m>(S,g)</m> is called a \knownterminology{ stationary net,} if every edge is a geodesic and if at every vertex the sum of diverging unit vectors is zero.
+      A graph <m>G</m> in a Riemannian surface <m>(S,g)</m> is called a stationary net,
+      if every edge is a geodesic and if at every vertex the sum of diverging unit vectors is zero.
       Vertices must have valence at least <m>3</m>.
     </p>
     <p>
@@ -12,8 +13,8 @@
   <subsection>
     <title>Stationary <m>\Theta</m>-nets</title>
     <p>
-      A <m>\Theta</m>-graph is a graph that looks like the Greek letter ``Theta'': two vertices connected by three edges,
-      see the picture below.
+      A <m>\Theta</m>-graph is a graph that looks like the Greek letter
+      <q>Theta</q>: two vertices connected by three edges, see the picture below.
     </p>
     <openquestion>
       <title>\cite{Has-Mor1996}</title>

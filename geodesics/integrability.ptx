@@ -11,17 +11,18 @@
       </statement>
       <status>
         <p>
-          The answer may depend on the smoothness of the metric and on what we understand by ``completely integrable'': whether the integral is functionally independent of the Hamiltonian on an open everywhere dense subset,
+          The answer may depend on the smoothness of the metric and on what we understand by
+          <q>completely integrable</q>: whether the integral is functionally independent of the Hamiltonian on an open everywhere dense subset,
           or we additionally assume that the subset has full measure.
         </p>
       </status>
     </openquestion>
     <openquestion>
-      <preamble>
+      <prelude>
         <p>
-          Ma\~n\'e showed that a Hamiltonian flow on surfaces is generically Anosov or has zero Liouville exponents \cite{Mane1996}. This suggests that an easier version of the above question would be the following
+          Ma&#xf1;&#xe9; showed that a Hamiltonian flow on surfaces is generically Anosov or has zero Liouville exponents \cite{Mane1996}. This suggests that an easier version of the above question would be the following
         </p>
-      </preamble>
+      </prelude>
       <title>Paternain</title>
       <statement>
         <p>
@@ -36,11 +37,11 @@
       </discussion>
     </openquestion>
     <openquestion xml:id="question_lang">
-      <preamble>
+      <prelude>
         <p>
           A special case of the Finsler version of the question above would be:
         </p>
-      </preamble>
+      </prelude>
       <statement>
         <p>
           Let <m>F_1</m>,
@@ -58,13 +59,13 @@
       </status>
     </openquestion>
     <openquestion xml:id="question_landsberg">
-      <preamble>
+      <prelude>
         <p>
           The previous question is related to the other questions in this section because of the following observation from \cite{Mat-Top1998}: one can use the second metric to construct an integral of the geodesic flow of the first one.
           If both metrics are Riemannian,
           the integral is quadratic in velocities and the affirmative answer follows from \cite{Kolokoltsov1983}; see \cite{Mat-Top2000}.
         </p>
-      </preamble>
+      </prelude>
       <statement>
         <p>
           Does there exist a non-Riemannian Finsler metric satisfying the Landsberg condition on a surface of genus <m>\ge 2</m>?
@@ -79,7 +80,7 @@
           is completely open in all settings:
           locally, globally, in all dimensions,
           and is one of the most important problems in the Finsler geometry,
-          see e.g.\ \cite{Bao2007}.
+          see e.g.<nbsp/>\cite{Bao2007}.
         </p>
       </discussion>
       <status>
@@ -191,13 +192,19 @@
       </row>
     </tabular>
     <p>
-      In the table, ``Degree'' means the smallest degree of a non-trivial integral polynomial in velocities. ``All is known'' means that there exists an effective description and classification
+      In the table,
+      <q>Degree</q>
+      means the smallest degree of a non-trivial integral polynomial in velocities.
+      <q>All is known</q>
+      means that there exists an effective description and classification
       (which can be found in \cite{Bo-Ma-Fo1998}).
     </p>
     <p>
       A simpler version of the question is when we replace the geodesic flow in the question above by a Lagrangian system with the Lagrangian of the form <m>L(x, \xi):=K + U=\sum g_{ij}\xi^i \xi^j + U(x)</m>.
       In this case we assume that the integral is a sum of polynomials of degrees 3 and 1 in velocities.
-      The ``partial negative results'' in the table above correspond to this case;
+      The
+      <q>partial negative results</q>
+      in the table above correspond to this case;
       moreover, in most cases it is assumed that the metric <m>g_{ij}</m> is flat,
       see for example \cite{Bialy1987,Mironov2010,De-Ko-Tr2012}
       (and \cite{Bialy2010} for results that do not require this assumption).
@@ -229,7 +236,7 @@
     <p>
       We ask whether there exists a non-constant smooth function on the tangent bundle which is constant along every trajectory.
       It is well known,
-      see e.g.\ \cite{Tabachnikov2005}, that a billiard in an ellipse is integrable.
+      see e.g.<nbsp/>\cite{Tabachnikov2005}, that a billiard in an ellipse is integrable.
     </p>
     <openconjecture>
       <statement>

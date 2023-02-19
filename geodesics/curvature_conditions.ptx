@@ -52,7 +52,7 @@
     </p>
     <p>
       (Here we have in mind the usual Sasaki metric;
-      the same property would also hold for any equivalent metric with different constants <m>C</m> and <m>\lambda</m>.) This splitting is H\"older-continuous,
+      the same property would also hold for any equivalent metric with different constants <m>C</m> and <m>\lambda</m>.) This splitting is H&#xf6;lder-continuous,
       but usually not smooth.
     </p>
     <p>
@@ -119,14 +119,14 @@
       </statement>
     </openquestion>
     <openquestion>
-      <preamble>
+      <prelude>
         <p>
           Again it is not difficult to use the uniformization theorem to show that the answer is affirmative in dimension 2.
           But the problem is still open even in dimension 3.
           See \cite{Cro-Sch1986}, \cite{Lebedeva2002} and \cite{Iva-Kap2014} for results of the nature that the fundamental groups of manifolds with no conjugate points share properties with those of non-positive curvature.
           Section 8 of \cite{Iva-Kap2014} contains a number of open problems of which we mention:
         </p>
-      </preamble>
+      </prelude>
       <statement>
         <p>
           Is the fundamental group of a closed manifold without conjugate points semihyperbolic?

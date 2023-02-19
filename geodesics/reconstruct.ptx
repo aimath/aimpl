@@ -14,7 +14,7 @@
     </p>
     <p>
       Let us introduce some notation.
-      By a \knownterminology{path structure} we will understand (following \cite{Thomas1925}) a family of curves
+      By a path structure we will understand (following \cite{Thomas1925}) a family of curves
       <m>\gamma_{\alpha}(t)</m> such that for any point <m>x</m> and for any vector <m>v\in T_xM</m>,
       <m>v\ne 0</m>,
       there exists a unique curve <m>\gamma</m> from this family such that for a certain <m>t</m> we have
@@ -77,7 +77,7 @@
       by solving this system
       (if it is solvable)
       we obtain a connection.
-      See \cite[\S 2.1]{Matveev2012a} for more details.
+      See \cite[&#xa7;2.1]{Matveev2012a} for more details.
     </p>
     <p>
       Note that (as was already known to \cite{Levi-Civita1896} and \cite{Weyl1921}) the solution
@@ -95,13 +95,14 @@
     </p>
     <p>
       Connections <m>\nabla = \left(\Gamma^{i}_{jk}\right)</m> and
-      <m>\bar \nabla = \left(\bar \Gamma^{i}_{jk}\right)</m> related by <xref ref="c1"/> are called \knownterminology{projectively equivalent}; projective equivalence of two connections means that they have the same geodesics considered as unparameterized curves.
+      <m>\bar \nabla = \left(\bar \Gamma^{i}_{jk}\right)</m> related by <xref ref="c1"/> are called projectively equivalent;
+      projective equivalence of two connections means that they have the same geodesics considered as unparameterized curves.
     </p>
     <p>
       Let us now touch on the question of whether/how one can reconstruct a metric (Riemannian or of arbitrary signature) from a path structure.
       As we explained above,
       it is relatively easy to reconstruct an affine connection (resp.\ a class of projectively equivalent affine connections) from affinely (resp. arbitrary) parameterized geodesics,
-      so the actual question is how to reconstruct a metric from its affine connection (resp.\ a class of projectively equivalent affine connections),
+      so the actual question is how to reconstruct a metric from its affine connection (resp.<nbsp/>a class of projectively equivalent affine connections),
       when it is possible, and what is the freedom.
       Let us first discuss how/whether it is possible to reconstruct a metric parallel with respect to a given symmetric affine connection.
     </p>
@@ -110,7 +111,7 @@
       see for example the answers of Bryant and Thurston in \cite{Bry-Thu2011}. A theoretical answer is as follows:
       the affine connection determines the holonomy group.
       The existence of a metric with a given affine connection is equivalent to the existence of a non-degenerate bilinear form preserved by the holonomy group,
-      see e.g.\ \cite{Schmidt1973}. A practical test for the existence of the metric is as follows:
+      see e.g.<nbsp/>\cite{Schmidt1973}. A practical test for the existence of the metric is as follows:
       the connection allows to construct the curvature tensor <m>R^i_{\ jk\ell}</m>,
       and if the connection is the Levi-Civita connection of a metric,
       then this metric satisfies the following equations:
@@ -133,7 +134,8 @@
       see also \cite{Mat-Tra2014}.
     </p>
     <p>
-      Note that if the equations <xref ref="c2"/> do not give enough information one could consider their ``derivatives''
+      Note that if the equations <xref ref="c2"/> do not give enough information one could consider their
+      <q>derivatives</q>
       <me>
         R^s_{\ jk\ell, m}g_{si}= - R^s_{\ ik\ell,m}g_{sj}, R^s_{\ jk\ell,m}g_{si}=   R^s_{\ \ell ij,m}g_{sk}
       </me>
@@ -149,12 +151,12 @@
       A generic metric can be reconstructed from its affinely parameterized geodesics;
       this follows from the observation that for a generic metric <m>g</m> the system <xref ref="c2"/> has only the trivial solutions <m>\textrm{const} \, g</m>.
       So the question is for which metrics the reconstruction is not unique;
-      i.e.\ which non-proportional metrics have the same Levi-Civita connection.
+      i.e.<nbsp/>which non-proportional metrics have the same Levi-Civita connection.
       Locally, the answer is known.
       For Riemannian metrics,
       it was understood already by Cartan and Eisenhart \cite{Eisenhart1923}. For metrics of arbitrary signature,
       the answer is in the recent papers \cite{Boubel2015a,Boubel2015b}. Both results are a more-or-less explicit local description of all metrics having the same Levi-Civita connection;
-      such metrics are called \knownterminology{affinely equivalent}.
+      such metrics are called affinely equivalent.
     </p>
     <p>
       In the Riemannian case,
@@ -167,7 +169,7 @@
       It is self-adjoint with respect to both metrics and parallel with respect to the Levi-Civita connection.
       Its generalized eigenspaces therefore generate mutually orthogonal totally geodesic foliations the sum of whose dimensions is the dimension of the manifold.
       Under the additional assumption that the manifold is geodesically complete one can show,
-      see e.g.\ \cite{Wu1967}, that the universal cover of the manifold splits as the direct product of the
+      see e.g.<nbsp/>\cite{Wu1967}, that the universal cover of the manifold splits as the direct product of the
       (universal covers of the)
       leaves of these foliations with the restriction of the metrics to them,
       <me>
@@ -175,7 +177,7 @@
       </me>.
     </p>
     <openquestion>
-      <preamble>
+      <prelude>
         <p>
           The most interesting case is when <m>A</m> has only one eigenvalue and since it is clearly a constant one can assume that it is zero.
           In this case,
@@ -184,7 +186,7 @@
           We therefore suggest,
           as an interesting unsolved problem, the following question.
         </p>
-      </preamble>
+      </prelude>
       <statement>
         <p>
           Suppose a closed manifold <m>(M,g)</m> admits a non-zero <m>(1,1)</m>-tensor field that is self-adjoint with respect to <m>g</m>,
@@ -196,7 +198,7 @@
         <p>
           Also in the Finsler case parameterized geodesics determine the connection.
           Note though that in the Finsler geometry the connection is non-linear and actually there are more than one popular and widely used connections.
-          We will call two Finsler metrics \knownterminology{affinely equivalent} if any geodesic of the first metric
+          We will call two Finsler metrics affinely equivalent if any geodesic of the first metric
           (considered as a curved parametrized such that the length of the velocity vector is a constant)
           is a geodesic of the second metric;
           this is equivalent to the Berwald connections of the first and the second metric coinciding in the natural sense.
@@ -217,19 +219,23 @@
           <em>construct non-Berwaldian examples of affinely equivalent non-proportional Finsler metrics which are not product metrics.</em>
         </p>
       </suggestion>
-    </openproblem>
-    <openproblem xml:id="prob_br">
-      <preamble>
+      <status>
         <p>
-          The ``unparameterized'' versions of these problems for Riemannian and pseudo-Riemannian metrics are the subject of the recent survey \cite{Matveev2012a}. Roughly speaking,
-          the situation is similar to the one in the ``parameterized'' case:
-          locally, a general strategy for reconstructing a metric is understood:
+          The
+          <q>unparameterized</q>
+          versions of these problems for Riemannian and pseudo-Riemannian metrics are the subject of the recent survey \cite{Matveev2012a}. Roughly speaking,
+          the situation is similar to the one in the
+          <q>parameterized</q>
+          case: locally,
+          a general strategy for reconstructing a metric is understood:
           the existence of a metric compatible with a path structure is equivalent to the existence of (non-degenerate) parallel sections of a certain tensor bundle \cite{Eas-Mat2008}. A connection on this tensor bundle is constructed by the projective structure constructed by the path structure.
           Thus, a theoretic answer is to see whether the holonomy group of this connection preserves a certain non-degenerate element of the fiber,
           and a practical method is to construct the curvatures of the connection and look for elements of the fiber compatible with the curvature.
           As an interesting open problem we suggest:
         </p>
-      </preamble>
+      </status>
+    </openproblem>
+    <openproblem xml:id="prob_br">
       <statement>
         <p>
           Construct a system of scalar invariants of a projective structure that vanish if and only if there exists (locally,
@@ -239,7 +245,7 @@
       <status>
         <p>
           In dimension two,
-          the problem was solved in \cite{Br-Du-Eas2009}, and the system of invariants is quite complicated --- the simplest invariant has degree 5 in derivatives.
+          the problem was solved in \cite{Br-Du-Eas2009}, and the system of invariants is quite complicated <mdash/> the simplest invariant has degree 5 in derivatives.
           It is possible that in higher dimensions the system of invariants could be easier in some ways,
           since in this case the PDE-system corresponding to the existence of a metric for a projective structure has a higher degree of overdeterminacy.
           In particular fewer differentiations are needed to construct the first obstruction to the existence of a metric class.
@@ -261,12 +267,12 @@
           First observe that if the Finsler metric is irreversible,
           then its forward and backward geodesics do not necessarily coincide.
           One therefore needs to extend the definition of the path structure:
-          by \knownterminology{irreversible path structure} we will understand a family of curves
+          by irreversible path structure we will understand a family of curves
           <m>\gamma_{\alpha}(t)</m> such that for any point <m>x</m> and for any vector <m>v\in T_xM</m>,
           <m>v\ne 0</m>,
           there exists a unique curve <m>\gamma</m> from this family such that the for a certain <m>t</m> we have <m>\gamma(t)= x</m> and
           <m>\dot\gamma(t)</m> is proportional to <m>v</m> with a positive coefficient.
-          Path structures in the sense of the initial definition from the beginning of this section will be called \knownterminology{reversible path structures}.
+          Path structures in the sense of the initial definition from the beginning of this section will be called reversible path structures.
         </p>
       </discussion>
       <suggestion>
@@ -312,7 +318,7 @@
       </status>
     </openquestion>
     <openquestion>
-      <preamble>
+      <prelude>
         <p>
           There exist local
           (the first examples are due already to Lagrange, Beltrami and Dini)
@@ -320,11 +326,11 @@
           Locally, in the Riemannian case,
           a complete description of projectively equivalent metrics is due to Levi-Civita \cite{Levi-Civita1896} and in arbitrary signature is due to \cite{Bol-Mat2015}. Globally,
           in the Riemannian case, the situation is also pretty clear,
-          see e.g.\ \cite{Mat-Top1998,Matveev2003a,Matveev2003b}, but if the metrics have arbitrary signature,
+          see e.g.<nbsp/>\cite{Mat-Top1998,Matveev2003a,Matveev2003b}, but if the metrics have arbitrary signature,
           virtually nothing is known.
           A general problem is to understand the topology of closed manifolds admitting non-proportional projectively equivalent metrics of indefinite signature and as the simplest version of this problem we suggest
         </p>
-      </preamble>
+      </prelude>
       <statement>
         <p>
           Can a 3-dimensional sphere admit two non-proportional projectively equivalent metrics of Lorentzian signature?
@@ -336,7 +342,7 @@
           the freedom of reconstructing metric from its geodesic can be much higher.
           For example,
           adding any sufficiently small closed 1-form to the Finsler metric does not change geodesics of this metric.
-          This transformation of the metric was called a \knownterminology{ trivial projective change} in \cite{Matveev2013}.
+          This transformation of the metric was called a trivial projective change in \cite{Matveev2013}.
         </p>
       </suggestion>
     </openquestion>
@@ -359,12 +365,12 @@
     <title>Acknowledgements</title>
     <p>
       We thank all the participants,
-      especially Victor Bangert, Charles Boubel, Nancy Hingston, Gerhard Knieper, Yiming Long, Gabriel Paternain, Mark Pollicott, Regina Rotman, St\'ephane Sabourau, Benjamin Schmidt,
+      especially Victor Bangert, Charles Boubel, Nancy Hingston, Gerhard Knieper, Yiming Long, Gabriel Paternain, Mark Pollicott, Regina Rotman, St&#xe9;phane Sabourau, Benjamin Schmidt,
       for active participation in the problem sessions.
       We also thank non-participants who have helped: Alberto Abbondandolo, Juan-Carlos Alvarez Paiva, Ivan Babenko, Florent Balacheff, Helga Baum, Michael Bialy, Dima Burago, Maciej Dunajski, Misha Gromov, Larry Guth, Sergei Ivanov, Bruce Kleiner, Alan Reid, Stefan Suhr.
     </p>
     <p>
-      Most of the writing of the paper was done during four visits by KB to the Friedrich-Schiller-Universit\"at Jena,
+      Most of the writing of the paper was done during four visits by KB to the Friedrich-Schiller-Universit&#xe4;t Jena,
       supported by DFG (SPP 1154 and GK 1523).
     </p>
   </subsection>

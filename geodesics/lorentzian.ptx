@@ -3,7 +3,7 @@
   <subsection>
     <title>Closed geodesics</title>
     <p>
-      Most of the questions we asked about the Riemannian and Finsler metric can be modified such that they are also interesting in the semi-Riemannian metrics (i.e.~of arbitrary signature) and in particular when the signature is Lorentzian.
+      Most of the questions we asked about the Riemannian and Finsler metric can be modified such that they are also interesting in the semi-Riemannian metrics (i.e.<nbsp/>of arbitrary signature) and in particular when the signature is Lorentzian.
       It appears though that the answers in the Lorentzian case are sometimes very different from those in the Riemannian case.
       Many methods that were effectively used in the Riemannian case,
       for example the variational methods,
@@ -21,7 +21,8 @@
     </p>
     <p>
       In the Riemannian case, these definitions are essentially equivalent,
-      since this reparameterization can always be made ``global''. If the signature is indefinite,
+      since this reparameterization can always be made
+      <q>global</q>. If the signature is indefinite,
       it is easy to construct examples of an embedding
       <m>\gamma:S^1 \to M</m> such that locally <m>\gamma</m> can be reparameterized so that it becomes an affinely-parameterized geodesic,
       but globally such reparameterization is impossible:
@@ -41,11 +42,11 @@
       Moreover, explicit examples show the optimality of this claim.
     </p>
     <openquestion>
-      <preamble>
+      <prelude>
         <p>
           We therefore ask the following
         </p>
-      </preamble>
+      </prelude>
       <statement>
         <p>
           Does every closed Lorentzian manifold have at least one closed geodesic?
@@ -75,7 +76,7 @@
         <p>
           Can there exist a complete semi-Riemannian metric <m>g</m> and a non-trivial 1-form <m>\eta</m> on a closed manifold such that for every light-like geodesic <m>\gamma(t)</m> the function
           <m>\eta(\dot\gamma(t))</m> grows linearly in both directions:
-          i.e.~ for every light-like geodesic there exist
+          i.e.<nbsp/> for every light-like geodesic there exist
           <m>C_1 \neq 0, C_2</m> such that <m>\eta(\dot\gamma(t))= C_1\cdot t + C_2</m>?
         </p>
       </statement>
@@ -168,11 +169,11 @@
       </status>
     </openquestion>
     <openquestion>
-      <preamble>
+      <prelude>
         <p>
           We refer to the paper \cite{Sanchez2015} for a list of interesting results on this topic and for a list of open questions from which we repeat here only:
         </p>
-      </preamble>
+      </prelude>
       <title>\cite{Sanchez2015}</title>
       <statement>
         <p>
@@ -183,7 +184,7 @@
       <suggestion>
         <p>
           Note also that in the non-compact case homogeneous manifolds of indefinite signature are not necessary geodesically complete;
-          see for example \cite[Example 2 in \S 4]{Sanchez2015}. It is interesting to understand whether completeness of a homogeneous manifold can follow from algebraic properties of the isometry group.
+          see for example \cite[Example 2 in &#xa7;4]{Sanchez2015}. It is interesting to understand whether completeness of a homogeneous manifold can follow from algebraic properties of the isometry group.
         </p>
       </suggestion>
     </openquestion>

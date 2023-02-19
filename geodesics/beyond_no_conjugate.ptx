@@ -8,11 +8,11 @@
       admit a metric (Riemannian or Finsler) with ergodic geodesic flow?
     </p>
     <p>
-      This is known for surfaces~\cite{Donnay1988II}, for <m>3</m>-manifolds~\cite{Katok1994}, for product manifolds in which the factors have dimenson <m>\leq 3</m> \cite{Bur-Ger1994}, and for spheres \cite{Bur-Ged}. Donnay and Pugh have shown that any embedded surface can be perturbed,
+      This is known for surfaces<nbsp/>\cite{Donnay1988II}, for <m>3</m>-manifolds<nbsp/>\cite{Katok1994}, for product manifolds in which the factors have dimenson <m>\leq 3</m> \cite{Bur-Ger1994}, and for spheres \cite{Bur-Ged}. Donnay and Pugh have shown that any embedded surface can be perturbed,
       in the <m>C^0</m> topology to an embedded surface whose geodesic flow is ergodic \cite{Don-Pugh2004}. These constructions all make essential use of the focusing caps introduced by Donnay in \cite{Donnay1988I}.
     </p>
     <p>
-      The general problem is still wide open despite some reports of its solution (p.~87 of \cite{Berger2000} and Section 10.9 of \cite{Berger2003}).
+      The general problem is still wide open despite some reports of its solution (p.<nbsp/>87 of \cite{Berger2000} and Section 10.9 of \cite{Berger2003}).
     </p>
     <openquestion xml:id="q12">
       <statement>
@@ -78,7 +78,7 @@
       We denote by <m>\mathcal G^k(M)</m> the space of all smooth Riemannian metrics on <m>M</m> with the <m>C^k</m>-topology.
       Riemannian metrics are sections of the bundle <m>S^2T^*M</m>.
       Our topology is the weak <m>C^k</m>-topology on the space of embeddings of <m>M</m> to <m>S^2T^*M</m>,
-      see e.g.\ \cite[Chapter II]{Hirsch1976}. The definition can be extended to metrics of all signatures and to Finsler metrics.
+      see e.g.<nbsp/>\cite[Chapter II]{Hirsch1976}. The definition can be extended to metrics of all signatures and to Finsler metrics.
     </p>
     <p>
       We use <m>C^k</m>-topology either locally or on closed manifolds,
@@ -109,7 +109,7 @@
         <p>
           Assume <m>M</m> is closed.
           If <m>\dim(M)\ge 3</m>,
-          do the metrics for which the geodesic flow is transitive (i.e.\ has an orbit whose closure is <m>SM</m>) form a dense subset of <m>\mathcal G(M)</m>?
+          do the metrics for which the geodesic flow is transitive (i.e.<nbsp/>has an orbit whose closure is <m>SM</m>) form a dense subset of <m>\mathcal G(M)</m>?
         </p>
       </statement>
       <status>
@@ -133,7 +133,7 @@
         <p>
           It is known that this is the case for metrics with non-uniformly hyperbolic geodesic flows.
           Note that is relatively easy to construct,
-          see e.g.\ \cite{Weinstein1970}, a metric on any manifold such that a certain non-empty open subset of <m>SM</m> contains no vectors tangent to a closed geodesic.
+          see e.g.<nbsp/>\cite{Weinstein1970}, a metric on any manifold such that a certain non-empty open subset of <m>SM</m> contains no vectors tangent to a closed geodesic.
         </p>
       </status>
     </openquestion>
@@ -183,7 +183,7 @@
           have constant flag curvature <m>1</m>.
           All projectively flat metrics of constant flag curvature on <m>S^2</m> are described in \cite{Bryant1997}. Bryant has also constructed examples that are not projectively flat \cite{Bryant1996,Bryant2002}. Unlike Katok's example,
           all of the examples in Bryant's papers are Zoll,
-          i.e.\ all of their closed geodesics are closed and of the same length.
+          i.e.<nbsp/>all of their closed geodesics are closed and of the same length.
         </p>
       </suggestion>
       <status>
@@ -303,7 +303,7 @@
           are important and plentiful in Aubry-Mather theory and Arnold diffusion.
           Instead of a single closed geodesic one should consider a minimizing set,
           namely the support of a minimal measure.
-          See e.g.\ \cite{Mather1991,Con-Itu1999,Mather2004, Bernard2010}.
+          See e.g.<nbsp/>\cite{Mather1991,Con-Itu1999,Mather2004, Bernard2010}.
         </p>
       </context>
     </openproblem>
@@ -380,11 +380,11 @@
       </statement>
     </openquestion>
     <openquestion xml:id="babenko1">
-      <preamble>
+      <prelude>
         <p>
           A simpler version of this question is
         </p>
-      </preamble>
+      </prelude>
       <title>Babenko</title>
       <statement>
         <p>
@@ -395,8 +395,13 @@
       </statement>
       <status>
         <p>
-          The answer depends on what is meant by ``close''. If ``close'' means <m>C^2</m>-close,
-          then the positive answer follows from \cite{ABHS2017}. In that paper the condition ``close'' is given explicitly in terms of a pinching condition on the curvature.
+          The answer depends on what is meant by
+          <q>close</q>. If
+          <q>close</q>
+          means <m>C^2</m>-close,
+          then the positive answer follows from \cite{ABHS2017}. In that paper the condition
+          <q>close</q>
+          is given explicitly in terms of a pinching condition on the curvature.
           It is proved that in the neighborhood of a Zoll metric consisting of metrics such that this pinching condition is satisfied,
           the equality <m>\sigma = 1/\pi</m> holds if and only if the metric is Zoll.
         </p>
@@ -412,7 +417,7 @@
           under which topologies is the round metric a local minimizer of
           <m>\sigma(F_t)</m> or <m>\sigma(g_t)</m>?
           Does this remain true for weaker topologies than <m>C^2</m>,
-          e.g.\ <m>C^1</m> or Gromov-Hausdorff?
+          e.g.<nbsp/><m>C^1</m> or Gromov-Hausdorff?
         </p>
         <p>
           For surfaces of higher genus,
@@ -494,16 +499,16 @@
   <subsection>
     <title>Metrics such that all geodesics are closed</title>
     <openquestion>
-      <preamble>
+      <prelude>
         <p>
-          This is a classical topic --- the first examples go back at least to \cite{Zoll1903}; see \cite{Besse1978} for details.
+          This is a classical topic <mdash/> the first examples go back at least to \cite{Zoll1903}; see \cite{Besse1978} for details.
           The book \cite{Besse1978} is still up to date,
           and many problems/questions listed in it
-          (in particular in Chapter 0 \S D)
+          (in particular in Chapter 0 &#xa7;D)
           are still open.
           As the most interesting question from their list we suggest:
         </p>
-      </preamble>
+      </prelude>
       <statement>
         <p>
           Let <m>M</m> be a closed manifold not covered by a sphere.
@@ -523,16 +528,16 @@
         <p>
           In the Lorenzian setting,
           one can ask to construct all manifolds such that all light-like geodesics are closed,
-          see e.g.\ \cite{Mou-Suh2013, Suhr2013b}.
+          see e.g.<nbsp/>\cite{Mou-Suh2013, Suhr2013b}.
         </p>
       </discussion>
     </openquestion>
     <openconjecture>
-      <preamble>
+      <prelude>
         <p>
           An easier version of the question above is the following conjecture sometimes attributed to Berger:
         </p>
-      </preamble>
+      </prelude>
       <statement>
         <p>
           Let <m>(M,g)</m> be a closed simply connected manifold such that all geodesics are closed.

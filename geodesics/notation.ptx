@@ -6,7 +6,7 @@
     We consider various structures on <m>M</m> that create geodesics: Riemannian
     (later also semi-Riemannian)
     metric <m>g</m>, Finsler metric <m>F</m>,
-    magnetic structure~<m>\omega</m>.
+    magnetic structure<nbsp/><m>\omega</m>.
     The unit tangent bundle defined by such a structure is denoted by <m>SM</m> and <m>\phi_t</m> is the geodesic flow on <m>SM</m>.
     The geodesic defined by a vector
     <m>v \in SM</m> is denoted by <m>\gamma_v</m>;

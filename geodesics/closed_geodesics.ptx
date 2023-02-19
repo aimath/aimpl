@@ -8,14 +8,14 @@
       closed geodesics must exist?
       Existence is known if the manifold is closed.
       For surfaces
-      (and certain manifolds of higher dimension, e.g.\ <m>S^n</m>),
-      the result is essentially due to Birkhoff ~\cite[Chap.~V]{Birkhoff1927}. He used two arguments.
+      (and certain manifolds of higher dimension, e.g.<nbsp/><m>S^n</m>),
+      the result is essentially due to Birkhoff <nbsp/>\cite[Chap.<nbsp/>V]{Birkhoff1927}. He used two arguments.
       The first is a variational argument in the free loop space <m>\Lambda M</m>.
       From the subspace of <m>\Lambda M</m> consisting of all loops homotopic to a given loop,
       one selects a sequence of loops whose lengths converge to the infimum of the length function on the subspace.
       If the loops from this sequence lie in a compact region of the manifold
       (for example, if the manifold itself is compact),
-      then by the Arzel\`a-Ascoli theorem there exists a loop where the infimum is achieved;
+      then by the Arzel&#xe0;-Ascoli theorem there exists a loop where the infimum is achieved;
       if the infimum is not zero,
       this loop is automatically a non-trivial closed geodesic.
       These arguments show the existence of closed geodesics in many cases,
@@ -24,8 +24,9 @@
     <p>
       If the infimum of the length of the loops homotopic to a given loop is zero, Birkhoff suggested another procedure (actually,
       a trick) to prove the existence of closed geodesics,
-      which is explained for example in \cite[\S\S 6,7 of Chap.
-      V]{Birkhoff1927}. This trick is nowadays called the \knownterminology{Birkhoff minimax procedure}, and was used for example to show the existence of closed geodesics on any Riemannian sphere with dimension <m>\ge 2</m>.
+      which is explained for example in \cite[&#xa7;&#xa7;6,7 of Chap.
+      V]{Birkhoff1927}. This trick is nowadays called the Birkhoff minimax procedure,
+      and was used for example to show the existence of closed geodesics on any Riemannian sphere with dimension <m>\ge 2</m>.
     </p>
     <p>
       Let us recall this procedure in the simplest case,
@@ -48,7 +49,7 @@
       let <m>\gamma_i</m> be a leaf of maximal length.
       Because of topology, the lengths of the circles
       <m>\gamma_i</m> are bounded from below by a certain positive number.
-      By the Arzel\`a-Ascoli theorem,
+      By the Arzel&#xe0;-Ascoli theorem,
       the sequence of curves <m>\gamma_i</m> has a convergent subsequence.
       The limit of this subsequence is a stable point of the shortening procedure,
       and is therefore a geodesic.
@@ -104,7 +105,7 @@
       one can show the existence of infinitely many geometrically different closed geodesics.
     </p>
     <p>
-      The following example constructed in \cite{Katok1973} shows that the number of closed geodesics on a 2-sphere with an irreversible metric can be~<m>2</m>.
+      The following example constructed in \cite{Katok1973} shows that the number of closed geodesics on a 2-sphere with an irreversible metric can be<nbsp/><m>2</m>.
     </p>
     <p>
       Consider the sphere <m>S^2</m> with the standard metric <m>g_0</m> of constant curvature <m>1</m> and the Killing field <m>V</m> induced by the one parameter group of rotations about the north and south poles.
@@ -133,7 +134,7 @@
       see \cite{Katok1973}.
     </p>
     <p>
-      V.~Bangert and Y.~Long in \cite{Ban-Lon2010} and \cite{Long2006} proved that there are always at least 2 distinct prime closed geodesics for every irreversible Finsler metric on <m>S^2</m>.
+      V.<nbsp/>Bangert and Y.<nbsp/>Long in \cite{Ban-Lon2010} and \cite{Long2006} proved that there are always at least 2 distinct prime closed geodesics for every irreversible Finsler metric on <m>S^2</m>.
     </p>
     <openconjecture>
       <title>Long, Bangert,   Problem 15 from \cite{Alvarez2006}</title>
@@ -145,7 +146,7 @@
       <context>
         <p>
           There exist results supporting this conjecture.
-          In particular, H.~Hofer, K.~Wysocki and E.~Zehnder in \cite{Ho-Wy-Ze2003} studied Reeb orbits on contact <m>S^3</m>.
+          In particular, H.<nbsp/>Hofer, K.<nbsp/>Wysocki and E.<nbsp/>Zehnder in \cite{Ho-Wy-Ze2003} studied Reeb orbits on contact <m>S^3</m>.
           Their result can be projected down to <m>S^2</m>,
           and implies that the total number of distinct prime closed geodesics for a bumpy Finsler metric on <m>S^2</m> is either 2 or infinite,
           provided the stable and unstable manifolds of every hyperbolic closed geodesics intersect transversally.
@@ -175,8 +176,8 @@
       </statement>
       <status>
         <p>
-          The conjecture agrees with a result of Y.~Long and W.~Wang who proved that there are always at least 2 elliptic prime closed geodesics on every irreversible Finsler <m>S^2</m>,
-          if the total number of prime closed geodesics is finite~ \cite{Lon-Wan2008}. The conjecture does not contradict \cite{Grjuntal1979} where an example of a metric such that all closed simple geodesics are hyperbolic is constructed.
+          The conjecture agrees with a result of Y.<nbsp/>Long and W.<nbsp/>Wang who proved that there are always at least 2 elliptic prime closed geodesics on every irreversible Finsler <m>S^2</m>,
+          if the total number of prime closed geodesics is finite<nbsp/> \cite{Lon-Wan2008}. The conjecture does not contradict \cite{Grjuntal1979} where an example of a metric such that all closed simple geodesics are hyperbolic is constructed.
           Indeed, for certain metrics on the sphere
           (and even for the metric of certain ellipsoids)
           most prime closed geodesics are not simple.
@@ -196,7 +197,7 @@
       <status>
         <p>
           The question was answered affirmatively for dimension 2.
-          Moreover, in dimension 2 a complete Riemannian manifold of finite volume even has infinitely many geometrically different geodesics \cite{Bangert1980}. The argument that was used in the proof is based on the Birkhoff minimax procedure we recalled in the beginning of <xref ref="closed_geodesics">\S</xref>,
+          Moreover, in dimension 2 a complete Riemannian manifold of finite volume even has infinitely many geometrically different geodesics \cite{Bangert1980}. The argument that was used in the proof is based on the Birkhoff minimax procedure we recalled in the beginning of <xref ref="closed_geodesics">&#xa7;</xref>,
           and does not work in dimensions <m>\ge 3</m>.
           One can even hope to construct counterexamples in the class of Liouville-integrable geodesic flows.
           In this case,
@@ -218,7 +219,7 @@
       </context>
     </openquestion>
     <openquestion>
-      <preamble>
+      <prelude>
         <p>
           Questions of this nature are also interesting in the realm of Finsler geometry.
           One would expect the results for reversible Finsler metrics to be very similar to those for Riemannian metrics.
@@ -226,7 +227,7 @@
           but it is still possible that all non-compact Finsler manifolds with finite volume might have infinitely many closed geodesics.
           On the other hand, the following question is completely open:
         </p>
-      </preamble>
+      </prelude>
       <title>Bangert</title>
       <statement>
         <p>
@@ -239,8 +240,11 @@
   <subsection>
     <title>Of  magnetic flows  on closed surfaces</title>
     <p>
-      It is known that the trajectory of a charged particle in the presence of magnetic forces (=``magnetic geodesic'') is described by a Hamiltonian system with the ``kinetic'' Hamiltonian of the form
-      <m>\sum_{i,j} p_ip_jg^{ij}</m> on <m>T^*M</m> with the symplectic form <m>dp\wedge dx +\pi^* \omega</m>,
+      It is known that the trajectory of a charged particle in the presence of magnetic forces (=
+      <q>magnetic geodesic</q>
+      ) is described by a Hamiltonian system with the
+      <q>kinetic</q>
+      Hamiltonian of the form <m>\sum_{i,j} p_ip_jg^{ij}</m> on <m>T^*M</m> with the symplectic form <m>dp\wedge dx +\pi^* \omega</m>,
       where <m>\omega</m> is a closed
       (but not necessarily exact)
       form on <m>M</m> and <m>\pi:T^*M\to M</m> is the canonical projection.
@@ -269,7 +273,7 @@
       </status>
       <suggestion>
         <p>
-          If the energy is greater than Ma\~n\'e's critical value <m>c_u</m>,
+          If the energy is greater than Ma&#xf1;&#xe9;'s critical value <m>c_u</m>,
           then the magnetic flow is conjugate to a Finsler geodesic flow,
           which has <m>\geq 2</m> closed orbits in the case of <m>S^2</m> (by \cite{Ban-Lon2010}) and infinitely many closed orbits if the genus of the surface is positive
           (at least two for each free homotopy class).
@@ -286,7 +290,7 @@
       </discussion>
       <status>
         <p>
-          In the case of magnetic monopoles (i.e.\ when <m>\omega</m> is not exact),
+          In the case of magnetic monopoles (i.e.<nbsp/>when <m>\omega</m> is not exact),
           the answer is affirmative if the energy level is contact;
           this is an immediate corollary of the proof of the Weinstein conjecture in dimension 3 by Taubes \cite{Taubes2007}. On the other hand, Benedetti has given examples of magnetic monopoles on <m>S^2</m> with energy levels that are not contact;
           see Proposition 4.9 in \cite{Benedetti2016}. On <m>S^2</m>,

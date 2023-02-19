@@ -83,7 +83,7 @@
           Consider a closed surface of genus <m>\geq 2</m> with a metric of non-positive curvature.
           Let <m>Z(L)</m> be the number of free homotopy classes containing closed geodesics with length <m>\leq L</m> along which the curvature is everywhere zero.
           Is there a quadratic upper bound for <m>Z(L)</m>,
-          i.e.\ is there a constant <m>C \geq 0</m> such that
+          i.e.<nbsp/>is there a constant <m>C \geq 0</m> such that
           <me>
             Z(L) \leq C \cdot L^2?
           </me>
@@ -127,7 +127,7 @@
       A flat is a flat strip of infinite width,
       in other words a totally geodesic isometric immersion of the Euclidean plane.
       Eberlein asked whether a compact rank one manifold that contains a flat must contain a closed flat,
-      i.e.~ a totally geodesic isometric immersion of a flat torus.
+      i.e.<nbsp/> a totally geodesic isometric immersion of a flat torus.
       Bangert and Schroeder gave an affirmative answer for real analytic metrics \cite{Ban-Sch1991}. The problem is open for <m>C^\infty</m> metrics.
     </p>
   </subsection>
