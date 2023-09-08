@@ -400,7 +400,11 @@ def mytransform_probhtml(text):
     thebody = re.sub(r"^ +", "", thebody, 0, re.M)
     # remove comments
     thebody = re.sub("<!--.*?-->", "", thebody, 0, re.DOTALL)
-    thebody = re.sub(r"<br />", "\n\n", thebody)
+
+    # this is dangerous because it can give invalid xml:
+    thebody = re.sub(r"<br */>\s*<br */>", "\n</p>\n<p>\n", thebody)
+
+    thebody = re.sub(r"<br */>", "\n\n", thebody)
     # remove functionality markup
     thebody = re.sub('<a class="edit.*?</a>', "", thebody, 0, re.DOTALL)
     thebody = re.sub('<span class="edit.*?</span>', "", thebody, 0, re.DOTALL)
@@ -501,6 +505,90 @@ def mytransform_probhtmlsection(text):
 #--------------------------------#
 
 def outputprob(prob):
+
+    thetag = "openquestion"
+    if "?" not in prob['statement']: thetag="openproblem"
+
+    theproblem = '<' + thetag
+    if 'number' in prob and prob['number'].strip():
+        theproblem += ' xml:id="' + component.aimplid + utilities.numbertostring(prob['number']) + '"'
+    theproblem += '>\n'
+
+    thetitle = ""
+    if 'title' in prob and prob['title'].strip():
+        thetitle += '<title>'
+        thetitle += prob['title']
+        thetitle += '</title>\n'
+
+    theoriginator = ""
+    if 'originator' in prob and prob['originator'].strip():
+        theoriginator += '<originator>'
+        theoriginator += '<personname>' + prob['originator'] + '</personname>'
+        theoriginator += '</originator>\n'
+
+    theprelude = ""
+    if 'prelude' in prob and prob['prelude'].strip():
+        theprelude += '<prelude>\n'
+        theprelude += '\n<p>\n'
+        theprelude += prob['prelude']
+        theprelude += '\n</p>\n'
+        theprelude += '\n</prelude>\n'
+
+    thestatement = ""
+    thestatement += '<statement>\n'
+    thestatement += '<p>\n'
+    thestatement += prob['statement']
+    thestatement += '\n</p>\n'
+    thestatement += '\n</statement>\n'
+
+#    if 'status' in prob and prob['status'].strip():
+#        theproblem += '<status>\n'
+#        theproblem += prob['status']
+#        theproblem += '\n</status>\n'
+
+
+    allremarks = ""
+    theremarks = prob['remarks']
+    for rem in theremarks:
+        allremarks += '<' + rem['tag'] + '>\n'
+        if 'originator' in rem and rem['originator'].strip():
+            allremarks += '<originator>' + '\n'
+#  use once the preprocessor can handle it
+#            theproblem += '<person aimplid="' + rem['originator'] + '"/>'
+            allremarks += '<personname>aimplid ' + rem['originator'] + '</personname>'
+            allremarks += '\n</originator>\n'
+
+        allremarks += '<p>\n'
+     # missing poser, intro?
+        allremarks += rem['statement']
+        allremarks += '</p>\n'
+        allremarks += '\n</' + rem['tag'] + '>\n'
+
+    if thetitle and theprelude:
+        thefullproblem = '<paragraphs>' + '\n'
+        thefullproblem += thetitle
+        thefullproblem += theproblem
+        thefullproblem += theoriginator
+        thefullproblem += theprelude
+        thefullproblem += thestatement
+        thefullproblem += allremarks
+        thefullproblem += '\n</' + thetag + '>\n'
+        thefullproblem += '\n' + '</paragraphs>' + '\n'
+    else:
+        thefullproblem = theproblem
+        thefullproblem += thetitle
+        thefullproblem += theoriginator
+        thefullproblem += theprelude
+        thefullproblem += thestatement
+        thefullproblem += allremarks
+        thefullproblem += '\n</' + thetag + '>\n'
+
+    return thefullproblem
+
+#-----------#
+#--------------------------------#
+
+def OLDoutputprob(prob):
 
     thetag = "openquestion"
     if "?" not in prob['statement']: thetag="openproblem"
@@ -2941,6 +3029,7 @@ def texmathtopretext(text):
 
     thetext=text
 
+    thetext = re.sub(r"(\$\$)([^\$]*?)(\$\$)", texmathtoptx,thetext,0,re.DOTALL)
     thetext = re.sub(r"(\$)(.*?)(\$)", texmathtoptx,thetext,0,re.DOTALL)
     thetext = re.sub(r"(\\\[)(.*?)(\\\])", texmathtoptx,thetext,0,re.DOTALL)
 
@@ -2955,7 +3044,7 @@ def texmathtoptx(txt):
 
     if mathmarker == "$":
         mathtag = "m"
-    elif mathmarker == "\\[":
+    elif mathmarker in ("\\[", "$$"):
         mathtag = "men"
 
     if "<" in thetext:
